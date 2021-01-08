@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap');
+
+#logo {
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+#top-section {
+	overflow: hidden;
+	position: relative;
+}
+#home-cover-image {
+	width: 100%;
+	background-image: url("https://alandoherty95.github.io/MilestoneProjectOne/assets/images/steps.jpg");
+	animation-name: hero-zoom;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+    position: absolute;
+}
+@keyframes hero-zoom {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.08);
+	}
+}
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+#map {
+    height: 100%;
+    min-height: 360px;
+}
+
