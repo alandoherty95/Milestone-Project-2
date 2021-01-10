@@ -1,24 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text&display=swap');
-
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+hr {
+	height: 1px;
+	background-color: #ffffff;
+	border: none;
+}
+header {
+    width: 100%;
+    background-color: #9b9e9d;
+}
+body {
+	font-family: 'Fjalla One', sans-serif;
+	color: #ffffff;
+	font-size: 16px;
+}
+h1 {
+	text-transform: uppercase;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+	font-size: 68px;
+	letter-spacing: 4px;
+}
+header h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+h2 {
+	text-transform: uppercase;
+	color: #ffffff;
+}
+p {
+	font-size: 22px;
+    text-align: left;
+}
 #logo {
     font-family: 'Big Shoulders Stencil Text', cursive;
+    padding-left: 1em;
     text-transform: uppercase;
     color: #ffffff;
+    font-size: 4em;
+    background-color: #9b9e9d;
+    float: right;
+    letter-spacing: 0.3em;
 }
+#navigate {
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    padding-left: 1em;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #9b9e9d;
+    float: left;
+}
+#navigate li {
+	list-style: none;
+	margin: 0.1em;
+	padding: 0.1em;
+	letter-spacing: 0.2em;
+	font-size: 1.5em;
+	list-style-type: none;
+}
+/*-- link
+#logo a {
+    text-decoration: none;
+}
+#logo a:link {
+    text-decoration: none;
+}
+#logo a:visited {
+    color: #ffffff;
+}
+#logo a:hover { 
+    color: #1abc9c;
+}
+--*/
 #top-section {
 	overflow: hidden;
-	position: relative;
+    position: relative;
+    height: 45em;
+	width: 100%;
 }
 #home-cover-image {
+	height: 45em;
 	width: 100%;
-	background-image: url("https://alandoherty95.github.io/MilestoneProjectOne/assets/images/steps.jpg");
+	background-image: url("/assets/images/king-johns-castle-home.jpg");
 	animation-name: hero-zoom;
 	animation-duration: 4s;
 	animation-fill-mode: forwards;
 	background-repeat: no-repeat;
 	background-size: cover;
-    background-position: center;
-    position: absolute;
+	background-position: center;
+	position: relative;
 }
 @keyframes hero-zoom {
 	from {
@@ -30,8 +105,71 @@
 }
 /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
+#map-section {
+    margin: 1em;
+}
 #map {
     height: 100%;
     min-height: 360px;
 }
-
+.footer {
+	width: 100%;
+    padding-bottom: 1em;
+}
+.row {
+	padding-bottom: 1em;
+	text-align: center;
+}
+.col-sm-8 h2 {
+	padding-top: 1em;
+	font-size: 2em;
+}
+.col-sm-8 h3 {
+	font-size: 1em;
+}
+#footer-links {
+	font-size: 2em;
+	padding: 0.25em;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #9b9e9d;
+}
+#footer-links li {
+	padding: 1em;
+}
+#footer-links a {
+	text-decoration: none;
+}
+#footer-links li a:visited {
+	text-decoration: none;
+}
+.col-sm-4 {
+	text-decoration: none;
+	text-align: center;
+}
+.col-sm-4 h4 {
+	font-size: 1.2em;
+	padding: 0.5em;
+}
+.col-sm-4 a {
+	border: 0.2em solid #ffffff;
+	border-radius: 1em;
+	padding: 0.25em;
+	margin-top: 1em;
+}
+.back-to-top, .back-to-home {
+	margin: 1em;
+	border: 0.25em solid #ffffff;
+	border-radius: 1em;
+	padding: 1em;
+	color: #1985A1;
+}
+.back-to-top a, .back-to-home a {
+	border: 0.2em solid #ffffff;
+	border-radius: 1em;
+}
+.back-to-top a:hover, .back-to-home a:hover {
+	border: 0.2em solid #ffffff;
+	border-radius: 1em;
+	text-decoration: none;
+}
