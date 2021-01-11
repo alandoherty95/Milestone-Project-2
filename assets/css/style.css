@@ -11,7 +11,7 @@ hr {
 }
 header {
     width: 100%;
-    background-color: #9b9e9d;
+    background-color: #808080;
 }
 body {
 	font-family: 'Fjalla One', sans-serif;
@@ -21,7 +21,6 @@ body {
 h1 {
 	text-transform: uppercase;
     font-family: 'Big Shoulders Stencil Display', cursive;
-	font-size: 68px;
 	letter-spacing: 4px;
 }
 header h2 {
@@ -39,29 +38,33 @@ p {
 }
 #logo {
     font-family: 'Big Shoulders Stencil Text', cursive;
-    padding-left: 1em;
+    padding: 0.8em 2.6em 1.1em 2.5em;
     text-transform: uppercase;
     color: #ffffff;
-    font-size: 4em;
-    background-color: #9b9e9d;
+    font-size: 5.2em;
+    background-color: #808080;
     float: right;
     letter-spacing: 0.3em;
+    margin: 0em;
+}
+#logo h1 i {
+    color: #ffffff;
+    margin: 0em;
+	font-size: 100%;
 }
 #navigate {
     font-family: 'Big Shoulders Stencil Text', cursive;
-    padding-left: 1em;
+    padding: 0.2em 2.2em 0.2em 2.2em;
     text-transform: uppercase;
     color: #ffffff;
-    background-color: #9b9e9d;
+    background-color: #808080;
     float: left;
 }
 #navigate li {
-	list-style: none;
-	margin: 0.1em;
 	padding: 0.1em;
 	letter-spacing: 0.2em;
-	font-size: 1.5em;
-	list-style-type: none;
+    font-size: 1.5em;
+    list-style: none;
 }
 /*-- link
 #logo a {
@@ -107,15 +110,36 @@ p {
        * element that contains the map. */
 #map-section {
     margin: 1em;
+    overflow: hidden;
+    position: relative;
+}
+#map-section .row {
+    text-align: center;
+}
+#map-section .row .col-sm-6 {
+    color: #ffffff;
+    margin: 0.25em;
+    background-color: #808080;
 }
 #map {
     height: 80vh;
     width: 80vh;
     min-height: 360px;
 }
-.footer {
+#options { 
+    height: 80vh;
+    width: 80vh;
+    float: right;
+	background-image: url("/assets/images/hook-and-ladder.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+footer {
 	width: 100%;
     padding-bottom: 1em;
+    background-color: #808080;
 }
 .row {
 	padding-bottom: 1em;
@@ -133,13 +157,18 @@ p {
 	padding: 0.25em;
     text-decoration: none;
     color: #ffffff;
-    background-color: #9b9e9d;
+    background-color: #808080;
+    display: inline;
 }
 #footer-links li {
-	padding: 1em;
+    padding-left: 2em;
+    list-style-type: none;
+    display: inline;
+    float: left;
 }
 #footer-links a {
-	text-decoration: none;
+    text-decoration: none;
+    color: #ffffff;
 }
 #footer-links li a:visited {
 	text-decoration: none;
@@ -156,11 +185,12 @@ p {
 	border: 0.2em solid #ffffff;
 	border-radius: 1em;
 	padding: 0.25em;
-	margin-top: 1em;
+    margin-top: 1em;
+    color: #ffffff;
 }
 .back-to-top, .back-to-home {
 	margin: 1em;
-	border: 0.25em solid #ffffff;
+	border: 0.2em solid #ffffff;
 	border-radius: 1em;
 	padding: 1em;
 	color: #1985A1;
