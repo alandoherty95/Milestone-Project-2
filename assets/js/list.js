@@ -85,16 +85,6 @@ let selectionJSON = {
 		Id: "18",
 		info: ``
 	},
-	// ACTIVITY 9:
-	A9: {
-		Id: "19",
-		info: ``
-	},
-	// ACTIVITY 10:
-	A10: {
-		Id: "20",
-		info: ``
-	},
 
 	//-=-=-=-=-=--=-=-=-COFFEE =-=-=--=-=-=--=-=
 
@@ -138,14 +128,4 @@ let selectionJSON = {
 		Id: "28",
 		info: `Cafe & bistro in the heart of Limerick city serving modern cuisine.`
 	},
-	// COFFEE 9: Sodalicious
-	SO: {
-		Id: "29",
-		info: `Sodalicious bread prides itself on celebrating our wonderful indigenous soda bread by reinventing it with many fresh flavours without destroying the integrity of this original Irish staple.`
-    },
-    // COFFEE 10: Aroma Coffee House
-	ACH: {
-		Id: "30",
-		info: `A cosy coffee shop located on Roches Street`
-	}
 };

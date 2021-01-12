@@ -1,3 +1,23 @@
+$(document).ready($('body').animate({scrollTop: '95px'}, 700));
+$(document).scroll(scrollByClass);
+
+function scrollByClass(){
+  
+  var main_nav = $('nav');
+  
+  if($(document).scrollTop() > 90)
+  {
+     main_nav.removeClass('big-menu').addClass('small-menu');
+     main_nav.css('border-bottom', '2px solid black');
+     $('li').css('font-size', '0.9em');
+  }
+  else {
+     main_nav.removeClass('small-menu').addClass('big-menu');
+     main_nav.css('border-bottom', '2px solid transparent');
+     $('li').css('font-size', '1em');
+  }
+}
+
 // [START maps_marker_clustering]
 function initMap() {
     var map = new google.maps.Map(document.getElementById("map"), {

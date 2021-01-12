@@ -12,12 +12,90 @@ hr {
 header {
     width: 100%;
     background-color: #808080;
+    font-family: 'Big Shoulders Stencil Text', cursive;
 }
 body {
-	font-family: 'Fjalla One', sans-serif;
-	color: #ffffff;
-	font-size: 16px;
+    padding: 0;
+    margin: 0;
 }
+nav {
+    position: fixed;
+    width: 100%;
+    background-color: #808080;
+    background-color: white;
+    transition: 0.1s linear;
+    z-index: 1;
+    top: 0;
+}
+#logo {
+    display: inline-block;
+    width: auto;
+    font-weight: bold;
+    margin: 1%;
+    padding: 2%;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 4em;
+    background-color: #808080;
+    letter-spacing: 0.3em;
+}
+.big-menu {
+    line-height: 70px;
+}
+.small-menu {
+    line-height: 20px;
+}
+header ul {
+    list-style: none;
+    float: right;
+    width: 30%;
+    margin: 1%;
+    padding: 2%;
+    color: #ffffff;
+    background-color: #808080;
+    letter-spacing: 0.1em;
+}
+header li {
+    display: inline-block;
+    text-transform: uppercase;
+    text-align:center;
+    width: 25%;
+    margin: 3%;
+    font-size: 2em;
+    position: relative;
+}
+header li:before {
+    width: 50%;
+    left: 0;
+    bottom: -15px;
+    content:'';
+    position: absolute;
+    border-bottom: 3px solid transparent;
+    transition: all .3s ease-out;
+}
+header li:after {
+    content:'';
+    position: absolute;
+    border-bottom: 3px solid transparent;
+    width: 50%; 
+    transition: all .3s ease-out;
+    right: 0;
+    top: -10px;
+}
+header li:hover:before {
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 2px solid #ffffff;
+    opacity: 0.7;
+}
+header li:hover:after {
+    right: 50%;
+    transform: translateX(50%);
+    border-bottom: 2px solid #ffffff;
+    opacity: 0.7;
+}
+
+/*----
 h1 {
 	text-transform: uppercase;
     font-family: 'Big Shoulders Stencil Display', cursive;
@@ -83,11 +161,11 @@ p {
 #top-section {
 	overflow: hidden;
     position: relative;
-    height: 45em;
+    height: 65em;
 	width: 100%;
 }
 #home-cover-image {
-	height: 45em;
+	height: 65em;
 	width: 100%;
 	background-image: url("/assets/images/king-johns-castle-home.jpg");
 	animation-name: hero-zoom;
@@ -123,7 +201,7 @@ p {
 }
 #map {
     height: 80vh;
-    width: 80vh;
+    width: 100vh;
     min-height: 360px;
 }
 #options { 
@@ -193,7 +271,7 @@ footer {
 	border: 0.2em solid #ffffff;
 	border-radius: 1em;
 	padding: 1em;
-	color: #1985A1;
+	color: #ffffff;
 }
 .back-to-top a, .back-to-home a {
 	border: 0.2em solid #ffffff;
