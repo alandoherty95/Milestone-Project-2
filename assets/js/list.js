@@ -7,10 +7,10 @@ let selectionJSON = {
 		Id: "1",
 		info: `King John's Castle is a 13th-century castle located on King's Island in Limerick, Ireland, next to the River Shannon. Although the site dates back to 922 when the Vikings lived on the Island, the castle itself was built on the orders of King John in 1200.`
 	},
-	// SIGHT 2: Milk Market
+	// SIGHT 2: Saint Mary's Cathedral
 	MM: {
 		Id: "2",
-		info: `Airy, covered market selling fruits, veggies, meats, dairy items, crafts & baked goods since 1852.`
+		info: `Saint Mary's Cathedral, Limerick, is a cathedral of the Church of Ireland in Limerick, Ireland, which is dedicated to the Blessed Virgin Mary. It is in the ecclesiastical province of Dublin. `
 	},
 	// SIGHT 3: Treaty Stone
 	SS: {
@@ -45,45 +45,45 @@ let selectionJSON = {
 
 	//-=-=-=-=-=--=-=-=-ACTIVITES =-=-=--=-=-=--=-=
 
-	// ACTIVITY 1: 
+	// ACTIVITY 1: Bunratty Castle & Folk Park
 	A1: {
 		Id: "11",
-		info: ``
+		info: `A 15th-century castle and living 19th-century village bring the periods alive at this family museum.`
 	},
-	// ACTIVITY 2:
+	// ACTIVITY 2: The Hunt Museum
 	A2: {
 		Id: "12",
-		info: ``
+		info: `The Hunt Museum is a museum in the city of Limerick, Ireland. The Hunt Museum holds a personal collection donated by the Hunt family, it was originally situated in the University of Limerick, before being moved to its present location in the Georgian Custom House in 1997.`
 	},
-	// ACTIVITY 3:
+	// ACTIVITY 3: Limerick City Gallery of Art
 	A3: {
 		Id: "13",
-		info: ``
+		info: `Limerick City Gallery of Art is an art museum in the city of Limerick, Ireland. It is run by Limerick City Council and is located in Pery Square. The gallery is housed in a Romanesque Revival building which was constructed in 1906 as a Carnegie library and museum.`
 	},
-	// ACTIVITY 4:
+	// ACTIVITY 4: Aura Leisure Grove Island
 	A4: {
 		Id: "14",
-		info: ``
+		info: `Aura is an Irish owned company with over 16 years’ experience operating local authority leisure centres throughout Ireland.`
 	},
-	// ACTIVITY 5:
+	// ACTIVITY 5: Cratloe Woods
 	A5: {
 		Id: "15",
-		info: ``
+		info: `Cratloe Woods is a forested area around the village of Cratloe in County Clare, Ireland. Much of the original oak forest has been replaced with coniferous softwoods during the past century; however, small pockets of native oak survive. `
 	},
-	// ACTIVITY 6:
+	// ACTIVITY 6: Nevsail Watersports
 	A6: {
 		Id: "16",
-		info: ``
+		info: `Our Limerick Watersports & Activity Centre is based in the heart of Limerick City from the Hunt Museum. We offer a range of water and land based activities for all ages, abilities and group sizes.`
 	},
-	// ACTIVITY 7:
+	// ACTIVITY 7: Milk Market
 	A7: {
 		Id: "17",
-		info: ``
+		info: `Airy, covered market selling fruits, veggies, meats, dairy items, crafts & baked goods since 1852.`
 	},
-	// ACTIVITY 8:
+	// ACTIVITY 8: Crescent Shopping Centre
 	A8: {
 		Id: "18",
-		info: ``
+		info: `The Crescent Shopping Centre is a major shopping centre serving Limerick, Ireland. It is located in Dooradoyle, on the southern outskirts of the city. `
 	},
 
 	//-=-=-=-=-=--=-=-=-COFFEE =-=-=--=-=-=--=-=
@@ -98,7 +98,7 @@ let selectionJSON = {
 		Id: "22",
 		info: `Costa Coffee is the fastest growing coffee shop chain in the world and loved for its naturally sweet, smooth and distinct flavour.`
 	},
-	// COFFEE 3: Gloria Jean's Coffees Limerick
+	// COFFEE 3: Gloria Jean's Coffees 
 	GJCL: {
 		Id: "23",
 		info: `Specialty coffeehouse chain offering gourmet blends in a variety of flavors, plus tea & pastries.`
