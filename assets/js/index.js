@@ -1,6 +1,3 @@
-$(document).ready($('body').animate({scrollTop: '95px'}, 700));
-$(document).scroll(scrollByClass);
-
 $(".menu-collapsed").click(function() {
   $(this).toggleClass("menu-expanded");
 });
@@ -37,9 +34,5 @@ function initMap() {
         });
     });
     // Add a marker clusterer to manage the markers.
-    var MarkerClustermap = new MarkerClusterer(maps, markers, {
-        imagePath:
-        "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m"
-    });
 }
 
