@@ -43,7 +43,7 @@ hr {
 .logo a:hover {
     text-decoration: none;
     background: #ffffff;
-    color: #808080;
+    color: #20b2aa;
 }
 .navbar-links ul {
     margin: 0px 10px;
@@ -65,7 +65,7 @@ hr {
 }
 .navbar-links ul li a:hover {
     background: #ffffff;
-    color: #808080;
+    color: #20b2aa;
 }
 .togglebtn {
   position: absolute;
@@ -117,11 +117,11 @@ hr {
 #top-section {
 	overflow: hidden;
     position: relative;
-    height: 65em;
+    height: 50em;
 	width: 100%;
 }
 #home-cover-image {
-	height: 65em;
+	height: 50em;
 	width: 100%;
 	background-image: url("/assets/images/king-johns-castle-home.jpg");
 	animation-name: hero-zoom;
@@ -150,7 +150,7 @@ hr {
 #map-section h1 {
     color:  #ffffff;
     background-color: #808080;
-    font-size: 32px;
+    font-size: 2em;
     padding: 1em;
     text-align: center;
 }
@@ -158,53 +158,45 @@ hr {
     height: 90vh;
     width: 100%;
     margin: auto;
-    min-height: 360px;
+    min-height: 22.5em;
 }
 
 /* Footer */
 .myfooter{
 	background: #808080;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
 	font: bold 16px sans-serif;
 	padding: 55px 50px;
 }
-
 .myfooter .footer-left,
 .myfooter .footer-center,
 .myfooter .footer-right{
 	display: inline-block;
 	vertical-align: top;
 }
-
 /* Footer left */
 .myfooter .footer-left{
 	width: 40%;
 }
-
 /* The company logo */
-
 .myfooter h3{
 	color:  #ffffff;
 	font-family: 'Big Shoulders Stencil Display', cursive;
     margin: 0;
     font-size: 3em;
+    font-weight: 400;
 }
-
 .myfooter h3 span{
-	color:  lightseagreen;
+	color:  #20b2aa;
 }
-
 /* Footer links */
-
 .myfooter .footer-links{
 	color:  #ffffff;
 	margin: 20px 0 12px;
 	padding: 0;
 }
-
 .myfooter .footer-links a{
 	display:inline-block;
 	line-height: 1.8;
@@ -212,20 +204,16 @@ hr {
 	text-decoration: none;
 	color:  inherit;
 }
-
 .myfooter .footer-developer-name{
 	color:  #ffffff;
 	font-size: 14px;
 	font-weight: normal;
 	margin: 0;
 }
-
 /* Footer Center */
-
 .myfooter .footer-center{
 	width: 35%;
 }
-
 .myfooter .footer-center i{
 	background-color:  #808080;
 	color: #ffffff;
@@ -238,12 +226,10 @@ hr {
 	margin: 10px 15px;
 	vertical-align: middle;
 }
-
 .myfooter .footer-center i.fa-envelope{
 	font-size: 17px;
 	line-height: 38px;
 }
-
 .myfooter .footer-center p{
 	display: inline-block;
 	color: #ffffff;
@@ -251,19 +237,16 @@ hr {
 	vertical-align: middle;
 	margin:0;
 }
-
 .myfooter .footer-center p span{
 	display:block;
 	font-weight: normal;
 	font-size:14px;
 	line-height:2;
 }
-
 .myfooter .footer-center p a{
-	color:  lightseagreen;
-	text-decoration: none;;
+	color:  #20B2AA;
+	text-decoration: none;
 }
-
 .myfooter .footer-links a:before {
   content: "|";
   font-weight:300;
@@ -273,13 +256,10 @@ hr {
   display: inline-block;
   padding-right: 5px;
 }
-
 /* Footer Right */
-
 .myfooter .footer-right{
 	width: 20%;
 }
-
 .myfooter .footer-developer-about{
 	line-height: 20px;
 	color:  #ffffff;
@@ -287,7 +267,6 @@ hr {
 	font-weight: normal;
 	margin: 0;
 }
-
 .myfooter .footer-developer-about span{
 	display: block;
 	color:  #ffffff;
@@ -295,12 +274,10 @@ hr {
 	font-weight: bold;
 	margin-bottom: 20px;
 }
-
 .myfooter .footer-icons{
     margin-top: 25px;
     padding: 0.2em;
 }
-
 .myfooter .footer-icons a{
 	display: inline-block;
 	width: 35px;
@@ -317,9 +294,6 @@ hr {
 	margin-right: 3px;
 	margin-bottom: 5px;
 }
-
-/* If you don't want the footer to be responsive, remove these media queries */
-
 @media (max-width: 880px) {
 
 	.myfooter {
@@ -340,10 +314,9 @@ hr {
 	}
 
 }
-
 /*---- Accordion ---*/
 #accordion {
-    background-color: #808080;
+    background-color: #ffffff;
     padding: 1em;
 }
 .accordion-container{
@@ -357,6 +330,21 @@ hr {
   color: #ffffff;
   padding: 0.8em;
   border-bottom: 0.2em solid #ddd;
+}
+#faq-section {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+	width: 100%;
+}
+#faq-cover-photo {
+    height: 50em;
+	width: 100%;
+	background-image: url("/assets/images/hook-and-ladder.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
 }
 #faq {
     background-color: #808080;
@@ -396,7 +384,7 @@ hr {
   margin-top: 0.1em;
 }
 .set > a.active{
-  background-color:#66FF00;
+  background-color:#20B2AA;
   color: #ffffff;
 }
 .content{
@@ -408,4 +396,117 @@ hr {
   padding: 1em;
   margin: 0;
   color: #000000;
+}
+/*---Weather API--*/
+.weather-container {
+  width: 80%;
+  height: 80%;
+  display: block;
+  background-color: #209fe4;
+  border-radius: 2em;
+  margin: 0 auto;
+  color: #ffffff;
+}
+.top-left {
+  height: 60%;
+  width: 50%;
+  padding: 3.5em 0 0 4em;
+  display: inline-block;
+}
+.top-right {
+  height: 60%;
+  width: 50%;
+  float: right;
+  padding: 3.5em 0 0 4em;
+}
+.bottom-left {
+  height: 40%;
+  width: 50%;
+  float: left;
+  margin: 0;
+  padding: 3.5em 0 0 4em;
+  background-color: #209fe4;
+}
+.bottom-right {
+  height: 40%;
+  width: 50%;
+  float: right;
+  padding: 3.5em 0 0 4em;
+  background-color: #209fe4;
+}
+/* Top-left Div */
+#city {
+  font-weight: 900;
+  font-size: 25px;
+}
+#day {
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 18px;
+}
+#date {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 4px;
+}
+#time {
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 8px;
+}
+.top-left > a {
+  text-decoration: none;
+  color: white;
+}
+.top-left > a:hover {
+  color: #b0bec5;
+}
+/* Top-Right Div CSS */
+#weather-status {
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+}
+/* Bottom-left CSS */
+#temperature,
+#celsius,
+#temp-divider,
+#fahrenheit {
+  display: inline;
+  vertical-align: middle;
+}
+#temperature {
+  font-size: 60px;
+  font-weight: 800;
+  margin-right: 5px;
+}
+#celsius {
+  margin-right: 10px;
+}
+#fahrenheit {
+  margin-right: 5px;
+  color: #b0bec5;
+}
+#celsius,
+#temp-divider,
+#fahrenheit {
+  font-size: 30px;
+  font-weight: 800;
+}
+#celsius:hover,
+#fahrenheit:hover {
+  cursor: pointer;
+}
+/* Bottom-Right*/
+.other-details-key {
+  float: left;
+  font-size: 16px;
+  font-weight: 300;
+}
+.other-details-values {
+  float: left;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 40px;
 }
