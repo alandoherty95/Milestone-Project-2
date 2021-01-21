@@ -1,5 +1,5 @@
 function initMap() {
-    // Map options
+    // Map default display
     var options = {
         zoom: 15,
         center: {
@@ -8,12 +8,12 @@ function initMap() {
         }
     }
 
-    // New map
+    // Homepage map
     var map = new google.maps.Map(document.getElementById('map'), options);
 
-    // Listen for click on map
+    // Click listener
     google.maps.event.addListener(map, 'click', function(event) {
-        // Add marker
+        // Adding markers
         addMarker({
             coords: event.latLng
         });
@@ -190,13 +190,13 @@ function initMap() {
         },
     ];
 
-    // Loop through markers
+    // Looping through markers
     for (var i = 0; i < markers.length; i++) {
         // Add marker
         addMarker(markers[i]);
     }
 
-    // Add Marker Function
+    // Adding Marker Function
     function addMarker(props) {
         var marker = new google.maps.Marker({
             position: props.coords,
@@ -204,7 +204,7 @@ function initMap() {
             //icon:props.iconImage
         });
 
-        // Check content
+        // Checking for content
         if (props.content) {
             var infoWindow = new google.maps.InfoWindow({
                 content: props.content

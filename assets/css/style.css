@@ -320,16 +320,26 @@ hr {
     padding: 1em;
 }
 .accordion-container{
-  position: relative;
-  max-width: 80%;
-  height: auto;
-  margin: 2em auto;
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    margin: 2em auto;
 }
 .accordion-container > h2{
-  text-align: center;
-  color: #ffffff;
-  padding: 0.8em;
-  border-bottom: 0.2em solid #ddd;
+    text-align: center;
+    color: #ffffff;
+    padding: 0.8em;
+    border-bottom: 0.2em solid #ddd;
+}
+.accordion-container a {
+    text-decoration: none;
+    color: #20B2AA;
+    padding: 1em;
+}
+.accordion-container a:hover {
+    text-decoration: none;
+    color: #20B2AA;
+    padding: 1em;
 }
 #faq-section {
     overflow: hidden;
