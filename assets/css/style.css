@@ -27,7 +27,6 @@ hr {
     text-decoration: none;
 }
 .logo {
-    margin: 6px;
     text-transform: uppercase;
     font-family: 'Big Shoulders Stencil Display', cursive;
     font-size: 64px;
@@ -129,7 +128,7 @@ hr {
 	animation-fill-mode: forwards;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
+	background-position: center center;
 	position: relative;
 }
 @keyframes hero-zoom {
@@ -327,8 +326,10 @@ hr {
 }
 .accordion-container > h2{
     text-align: center;
-    color: #ffffff;
+    color: #20B2AA;
     padding: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
     border-bottom: 0.2em solid #ddd;
 }
 .accordion-container a {
@@ -340,6 +341,84 @@ hr {
     text-decoration: none;
     color: #20B2AA;
     padding: 1em;
+}
+#coffee-section {
+	overflow: hidden;
+    position: relative;
+    height: 60em;
+	width: 100%;
+}
+#coffee-cover-image {
+	height: 60em;
+	width: 100%;
+	background-image: url("/assets/images/hook-and-ladder-front.jpg");
+	animation-name: hero-zoom;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+@keyframes hero-zoom {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.08);
+	}
+}
+#activities-section {
+	overflow: hidden;
+    position: relative;
+    height: 60em;
+	width: 100%;
+}
+#activities-cover-image {
+	height: 60em;
+	width: 100%;
+	background-image: url("/assets/images/woods.jpg");
+	animation-name: hero-zoom;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+@keyframes hero-zoom {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.08);
+	}
+}
+#attractions-section {
+	overflow: hidden;
+    position: relative;
+    height: 50em;
+	width: 100%;
+}
+#attractions-cover-image {
+	height: 50em;
+	width: 100%;
+	background-image: url("/assets/images/king-johns-castle3.jpg");
+	animation-name: hero-zoom;
+	animation-duration: 4s;
+	animation-fill-mode: forwards;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+@keyframes hero-zoom {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(1.08);
+	}
 }
 #faq-section {
     overflow: hidden;
@@ -360,23 +439,26 @@ hr {
     background-color: #808080;
     padding: 1em;
 }
+#faq h2{
+    text-align: center;
+    color: #ffffff;
+    padding: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.8em;
+    border-bottom: 0.2em solid #ddd;
+}
 .faq-container{
-  position: relative;
-  max-width: 80%;
-  height: auto;
-  margin: 2em auto;
-}
-.faq-container > h2{
-  text-align: center;
-  color: #ffffff;
-  padding: 0.8em;
-  border-bottom: 0.2em solid #ddd;
-}
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    margin: 2em auto;
+    }
 .set{
-  position: relative;
-  width: 100%;
-  height: auto;
-  background-color: #f5f5f5;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
 }
 .set > a{
   display: block;
