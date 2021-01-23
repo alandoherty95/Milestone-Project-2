@@ -25,21 +25,21 @@ function initMap() {
                 lat: 52.669863886926265,
                 lng: -8.625120408211234
             },
-            content: "King John's Castle",
+            content: "<h4>King John's Castle:</h4> <p>Restored medieval fortress with a visitor centre, period costumes and interactive exhibits.</p>",
         },
         {
             coords: {
                 lat: 52.668434715046445,
                 lng: -8.623118222489378
             },
-            content: "Saint Mary's Cathedral",
+            content: "<h4>Saint Mary's Cathedral:</h4>" + "<p>Iconic 12th-century cathedral with large stained-glass windows & a small burial ground.</p>" + "<p>Accessibility: Wheelchair-accessible car park & entrance</p>",
         },
         {
             coords: {
                 lat: 52.6697717608359,
                 lng: -8.627680296689704
             },
-            content: "Treaty Stone",
+            content: "<h4>Treaty Stone:</h4>" + "<p>Monument with a stone said to be used in the signing of the 1691 Treaty of Limerick.</p>" + "<p>Accessibility: Wheelchair-accessible entrance.</p>" + "<p>Amenities: Good for kids</p>",
         },
         {
             coords: {
