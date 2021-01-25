@@ -1,73 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
 * {
-	margin: 0;
-	padding: 0;
-    border: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
 }
+
 body {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
 }
+
 hr {
-	height: 1px;
-	background-color: #ffffff;
-	border: none;
+  height: 1px;
+  background-color: #ffffff;
+  border: none;
 }
 /* Nav Bar */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #808080;
-    color: #ffffff;
-    text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #808080;
+  color: #ffffff;
+  text-decoration: none;
 }
+
 .logo {
-    text-transform: uppercase;
-    font-family: 'Big Shoulders Stencil Display', cursive;
-    font-size: 64px;
-    font-weight: 600;
-    letter-spacing: 0.2em;
-    color: #ffffff;
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  color: #ffffff;
 }
+
 .logo a {
-    text-decoration: none;
-    color: #ffffff;
-    padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
 }
+
 .logo a:hover {
-    text-decoration: none;
-    background: #ffffff;
-    color: #20b2aa;
+  text-decoration: none;
+  background: #ffffff;
+  color: #20b2aa;
 }
+
 .navbar-links ul {
-    margin: 0px 10px;
-    padding: 0px;
-    display: flex;
+  margin: 0px 10px;
+  padding: 0px;
+  display: flex;
 }
+
 .navbar-links ul li {
-    list-style: none;
-    text-transform: uppercase;
+  list-style: none;
+  text-transform: uppercase;
 }
+
 .navbar-links ul li a {
-    text-decoration: none;
-    color: #ffffff;
-    padding: 20px;
-    display: block;
-    font-size: 36px;
-    letter-spacing: 0.1em;
-    font-family: 'Big Shoulders Stencil Display', cursive;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 20px;
+  display: block;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  font-family: 'Big Shoulders Stencil Display', cursive;
 }
+
 .navbar-links ul li a:hover {
-    background: #ffffff;
-    color: #20b2aa;
-    font-weight: bold;
+  background: #ffffff;
+  color: #20b2aa;
+  font-weight: bold;
 }
+
 .togglebtn {
   position: absolute;
   top: 10px;
@@ -78,6 +90,7 @@ hr {
   width: 30px;
   height: 20px;
 }
+
 .line {
   height: 3px;
   width: 100%;
@@ -89,204 +102,233 @@ hr {
   .togglebtn {
     display: flex;
   }
+
   .navbar-links {
     display: none;
     width: 100%;
   }
+
   .navbar {
     flex-direction: column;
     align-items: flex-start;
   }
+
   .logo {
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 600;
-}
+  }
+
   .navbar-links ul {
     width: 100%;
     flex-direction: column;
   }
+
   .navbar-links ul li {
     text-align: center;
+    font-size: 16px;
   }
+
   .navbar-links ul li a {
     padding: 16px;
     cursor: alias;
   }
+
   .navbar-links.active {
     display: flex;
   }
 }
+
 #top-section {
-	overflow: hidden;
-    position: relative;
-    height: 50em;
-	width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 50em;
+  width: 100%;
 }
+
 #home-cover-image {
-	height: 50em;
-	width: 100%;
-	background-image: url("/assets/images/king-johns-castle-home.jpg");
-	animation-name: hero-zoom;
-	animation-duration: 4s;
-	animation-fill-mode: forwards;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	position: relative;
+  height: 50em;
+  width: 100%;
+  background-image: url("/assets/images/king-johns-castle-home.jpg");
+  animation-name: hero-zoom;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
 }
+
 @keyframes hero-zoom {
-	from {
-		transform: scale(1);
-	}
-	to {
-		transform: scale(1.08);
-	}
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.08);
+  }
 }
+
 #home-cover-text, #attractions-cover-text {
-	padding: 1em;
-	border-radius: 2.5em;
-	background-color: rgb(197, 195, 198, 0.8);
-	position: absolute;
-    bottom: 10em;
-    margin: 1em;
-    left: 5em;
-    color: #ffffff;
-    font-family: 'Source Sans Pro', sans-serif;
+  padding: 1em;
+  border-radius: 2.5em;
+  background-color: rgb(197, 195, 198, 0.8);
+  position: absolute;
+  bottom: 10em;
+  margin: 1em;
+  left: 5em;
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
 }
+
 #coffee-cover-text, #activities-cover-text {
-	padding: 1em;
-	border-radius: 2.5em;
-	background-color: rgb(197, 195, 198, 0.8);
-	position: absolute;
-    bottom: 10em;
-    margin: 5em;
-    color: #ffffff;
-    font-family: 'Source Sans Pro', sans-serif;
+  padding: 1em;
+  border-radius: 2.5em;
+  background-color: rgb(197, 195, 198, 0.8);
+  position: absolute;
+  bottom: 10em;
+  margin: 5em;
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
 #map-section {
-    margin: 1em;
-    overflow: hidden;
-    position: relative;
+  margin: 1em;
+  overflow: hidden;
+  position: relative;
 }
+
 #map-section h1 {
-    color:  #ffffff;
-    background-color: #808080;
-    font-size: 2em;
-    padding: 1em;
-    text-align: center;
+  color: #ffffff;
+  background-color: #808080;
+  font-size: 2em;
+  padding: 1em;
+  text-align: center;
 }
+
 #map {
-    height: 90vh;
-    width: 100%;
-    margin: auto;
-    min-height: 22.5em;
+  height: 90vh;
+  width: 100%;
+  margin: auto;
+  min-height: 22.5em;
 }
 
 /* Start of Footer */
-.footer{
-	background:	#A0A0A0;
-	box-sizing: border-box;
-	width: 100%;
-	text-align: left;
-	font: bold 16px sans-serif;
-	padding: 55px 50px;
-}
-.footer .footer-left,
-.footer .footer-center,
-.footer .footer-right{
-	display: inline-block;
-	vertical-align: top;
-}
-/* Left Footer */
-.footer .footer-left{
-	width: 40%;
-}
-/* Discover Limerick Logo */
-.footer h3{
-	color:  #20b2aa;
-	font-family: 'Big Shoulders Stencil Display', cursive;
-    margin: 0;
-    font-size: 60px;
-    font-weight: 400;
-    width: 60%;
-    padding: 6px;
-    background-color: #ffffff;
-}
-.footer h3 a {
-    text-decoration: none;
-    color: #20b2aa;
-}
-.footer h3 span{
-	color:  #20b2aa;
-}
-/* Tab Links */
-.footer .footer-tab-links{
-	color:  #ffffff;
-	margin: 20px 4px 12px 4px;
-    padding: 0;
-    font-size: 20px;
-}
-.footer .footer-tab-links a{
-	display:inline-block;
-	line-height: 1.8;
-    font-weight: 400;
-	text-decoration: none;
-	color: inherit;
+.footer {
+  background: #A0A0A0;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
 }
 
-.footer .footer-tab-links a:hover{
-    text-decoration: none;
-    background: #ffffff;
-    color: #20b2aa;
+.footer .footer-left,
+.footer .footer-center,
+.footer .footer-right {
+  display: inline-block;
+  vertical-align: top;
 }
-.footer .footer-developer-name{
-	color:  #ffffff;
-	font-size: 14px;
-	font-weight: normal;
-	margin: 0;
+/* Left Footer */
+.footer .footer-left {
+  width: 40%;
+}
+/* Discover Limerick Logo */
+.footer h3 {
+  color: #20b2aa;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  margin: 0;
+  font-size: 60px;
+  font-weight: 400;
+  width: 60%;
+  padding: 6px;
+  background-color: #ffffff;
+}
+
+.footer h3 a {
+  text-decoration: none;
+  color: #20b2aa;
+}
+
+.footer h3 span {
+  color: #20b2aa;
+}
+/* Tab Links */
+.footer .footer-tab-links {
+  color: #ffffff;
+  margin: 20px 4px 12px 4px;
+  padding-right: 2px;
+  font-size: 20px;
+}
+
+.footer .footer-tab-links a {
+  display: inline-block;
+  line-height: 1.8;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 2px;
+  color: inherit;
+}
+
+.footer .footer-tab-links a:hover {
+  text-decoration: none;
+  background: #ffffff;
+  color: #20b2aa;
+}
+
+.footer .footer-developer-name {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+  padding: 2px;
 }
 /* Center Footer */
-.footer .footer-center{
-	width: 35%;
+.footer .footer-center {
+  width: 35%;
 }
-.footer .footer-center i{
-	background-color:  #808080;
-	color: #ffffff;
-	font-size: 25px;
-	width: 38px;
-	height: 38px;
-	border-radius: 50%;
-	text-align: center;
-	line-height: 42px;
-	margin: 10px 15px;
-	vertical-align: middle;
+
+.footer .footer-center i {
+  background-color: #808080;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
 }
-.footer .footer-center i.fa-envelope{
-	font-size: 17px;
-	line-height: 38px;
+
+.footer .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
 }
-.footer .footer-center p{
-	display: inline-block;
-	color: #ffffff;
-    font-weight:400;
-	vertical-align: middle;
-	margin:0;
+
+.footer .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 400;
+  vertical-align: middle;
+  margin: 0;
 }
-.footer .footer-center p span{
-	display: block;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 2;
+
+.footer .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 2;
 }
-.footer .footer-center p a{
-	color:  #ffffff;
-    text-decoration: none;
-    margin: 6px;
+
+.footer .footer-center p a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 6px;
 }
+
 .footer .footer-tab-links a:before {
-  font-weight:300;
+  font-weight: 300;
   font-size: 20px;
   left: 0;
   color: #fff;
@@ -294,361 +336,312 @@ hr {
   padding-right: 5px;
 }
 /* Right Footer */
-.footer .footer-right{
-	width: 20%;
+.footer .footer-right {
+  width: 20%;
 }
-.footer .footer-developer-about{
-	line-height: 20px;
-	color:  #ffffff;
-	font-size: 16px;
-	font-weight: normal;
-	margin: 0;
+
+.footer .footer-developer-about {
+  line-height: 20px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: normal;
+  margin: 0;
 }
-.footer .footer-developer-about span{
-	display: block;
-	color:  #ffffff;
-	font-size: 18px;
-	font-weight: bold;
-	margin-bottom: 20px;
+
+.footer .footer-developer-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
+
 .footer .footer-developer-about-icons {
-    margin-top: 25px;
-    padding: 2px;
-    font-size: 22px;
+  margin-top: 25px;
+  padding: 2px;
+  font-size: 22px;
 }
-.footer .footer-right i.fa-linkedin{
-    font-size: 27px;
-    padding: 2px;
+
+.footer .footer-right i.fa-linkedin {
+  font-size: 27px;
+  padding: 2px;
 }
-.footer .footer-right i.fa-github{
-    font-size: 27px;
-    padding: 2px;
+
+.footer .footer-right i.fa-github {
+  font-size: 27px;
+  padding: 2px;
 }
+
 .footer .footer-developer-about-icons a {
-	display: inline-block;
-	width: 35px;
-	height: 35px;
-	cursor: alias;
-	background-color: #808080;
-	border-radius: 2px;
-	font-size: 20px;
-	color: #ffffff;
-	text-align: center;
-	line-height: 35px;
-	margin-right: 3px;
-	margin-bottom: 5px;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: alias;
+  background-color: #808080;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
 }
+
 .footer .footer-developer-about-icons a:hover {
-	background-color: #ffffff;
-    color: #808080;
+  background-color: #ffffff;
+  color: #808080;
 }
+
 @media (max-width: 880px) {
 
-	.footer {
-		font: bold 14px sans-serif;
-	}
+  .footer {
+    font: bold 14px sans-serif;
+  }
 
-	.footer .footer-left,
+  .footer .footer-left,
     .footer .footer-center,
-    .footer .footer-right{
-		display: block;
-		width: 100%;
-		margin-bottom: 40px;
-		text-align: center;
-	}
+    .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
 
-	.footer .footer-center i{
-		margin-left: 0;
-	}
-
+  .footer .footer-center i {
+    margin-left: 0;
+  }
 }
 /* Accordion */
 #accordion {
-    background-color: #ffffff;
-    padding: 1em;
+  background-color: #ffffff;
+  padding: 1em;
 }
-.accordion-container{
-    position: relative;
-    max-width: 80%;
-    height: auto;
-    margin: 2em auto;
+
+.accordion-container {
+  position: relative;
+  max-width: 80%;
+  height: auto;
+  margin: 2em auto;
 }
-.accordion-container > h2{
-    text-align: center;
-    color: #20B2AA;
-    padding: 0.8em;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    border-bottom: 0.2em solid #ddd;
+
+.accordion-container > h2 {
+  text-align: center;
+  color: #20B2AA;
+  padding: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border-bottom: 0.2em solid #ddd;
 }
+
 .accordion-container a {
-    text-decoration: none;
-    color: #20B2AA;
-    padding: 1em;
-    cursor: cell;
+  text-decoration: none;
+  color: #20B2AA;
+  padding: 1em;
+  cursor: cell;
 }
+
 .accordion-container a:hover {
-    text-decoration: none;
-    color: #20B2AA;
-    padding: 1em;
+  text-decoration: none;
+  color: #20B2AA;
+  padding: 1em;
 }
+
 #coffee-section {
-	overflow: hidden;
-    position: relative;
-    height: 60em;
-	width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 60em;
+  width: 100%;
 }
+
 #coffee-cover-image {
-	height: 60em;
-	width: 100%;
-	background-image: url("/assets/images/hook-and-ladder-front.jpg");
-	animation-name: hero-zoom;
-	animation-duration: 4s;
-	animation-fill-mode: forwards;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	position: relative;
+  height: 50em;
+  width: 100%;
+  background-image: url("/assets/images/hook-and-ladder-front.jpg");
+  animation-name: hero-zoom;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
+
 @keyframes hero-zoom {
-	from {
-		transform: scale(1);
-	}
-	to {
-		transform: scale(1.08);
-	}
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.08);
+  }
 }
+
 #activities-section {
-	overflow: hidden;
-    position: relative;
-    height: 60em;
-	width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 60em;
+  width: 100%;
 }
+
 #activities-cover-image {
-	height: 50em;
-	width: 100%;
-	background-image: url("/assets/images/woods.jpg");
-	animation-name: hero-zoom;
-	animation-duration: 4s;
-	animation-fill-mode: forwards;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	position: relative;
+  height: 50em;
+  width: 100%;
+  background-image: url("/assets/images/woods.jpg");
+  animation-name: hero-zoom;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
+
 @keyframes hero-zoom {
-	from {
-		transform: scale(1);
-	}
-	to {
-		transform: scale(1.08);
-	}
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.08);
+  }
 }
+
 #attractions-section {
-	overflow: hidden;
-    position: relative;
-    height: 50em;
-	width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 50em;
+  width: 100%;
 }
+
 #attractions-cover-image {
-	height: 50em;
-	width: 100%;
-	background-image: url("/assets/images/king-johns-castle3.jpg");
-	animation-name: hero-zoom;
-	animation-duration: 4s;
-	animation-fill-mode: forwards;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	position: relative;
+  height: 50em;
+  width: 100%;
+  background-image: url("/assets/images/king-johns-castle3.jpg");
+  animation-name: hero-zoom;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
+
 @keyframes hero-zoom {
-	from {
-		transform: scale(1);
-	}
-	to {
-		transform: scale(1.08);
-	}
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.08);
+  }
 }
+
 #faq-section {
-    overflow: hidden;
-    position: relative;
-    height: auto;
-	width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: auto;
+  width: 100%;
 }
+
 #faq-cover-photo {
-    height: 50em;
-	width: 100%;
-	background-image: url("/assets/images/hook-and-ladder.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	position: relative;
+  height: 50em;
+  width: 100%;
+  background-image: url("/assets/images/hook-and-ladder.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
+
 #faq {
-    background-color: #808080;
-    padding: 1em;
+  background-color: #808080;
+  padding: 1em;
 }
-#faq h2{
-    text-align: center;
-    color: #ffffff;
-    padding: 0.8em;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    padding: 0.8em;
-    border-bottom: 0.2em solid #ddd;
+
+#faq h2 {
+  text-align: center;
+  color: #ffffff;
+  padding: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.8em;
+  border-bottom: 0.2em solid #ddd;
 }
-.faq-container{
-    position: relative;
-    max-width: 80%;
-    height: auto;
-    margin: 2em auto;
-    }
-.set{
-    position: relative;
-    width: 100%;
-    height: auto;
-    background-color: #f5f5f5;
+
+.faq-container {
+  position: relative;
+  max-width: 80%;
+  height: auto;
+  margin: 2em auto;
 }
-.set > a{
+
+.set {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #f5f5f5;
+}
+
+.set > a {
   display: block;
   padding: 1em;
   text-decoration: none;
   color: #000000;
   font-weight: 600;
   border-bottom: 1px solid #ddd;
-  -webkit-transition:all 0.2s linear;
-  -moz-transition:all 0.2s linear;
-  transition:all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
-.set > a i{
+
+.set > a i {
   float: right;
   margin-top: 0.1em;
 }
-.set > a.active{
-  background-color:#20B2AA;
+
+.set > a.active {
+  background-color: #20B2AA;
   color: #ffffff;
 }
-.content{
+
+.content {
   background-color: #ffffff;
   border-bottom: 0.1em solid #ddd;
-  display:none;
+  display: none;
 }
-.content p{
+
+.content p {
   padding: 1em;
   margin: 0;
   color: #000000;
 }
-/*---Weather API--*/
-.weather-container {
-  width: 80%;
-  height: 80%;
+
+.content img {
+  width: 50%;
+  height: 50%;
   display: block;
-  background-color: #209fe4;
-  border-radius: 2em;
-  margin: 0 auto;
-  color: #ffffff;
-}
-.top-left {
-  height: 60%;
-  width: 50%;
-  padding: 3.5em 0 0 4em;
-  display: inline-block;
-}
-.top-right {
-  height: 60%;
-  width: 50%;
-  float: right;
-  padding: 3.5em 0 0 4em;
-}
-.bottom-left {
-  height: 40%;
-  width: 50%;
-  float: left;
-  margin: 0;
-  padding: 3.5em 0 0 4em;
-  background-color: #209fe4;
-}
-.bottom-right {
-  height: 40%;
-  width: 50%;
-  float: right;
-  padding: 3.5em 0 0 4em;
-  background-color: #209fe4;
-}
-/* Top-left Div */
-#city {
-  font-weight: 900;
-  font-size: 25px;
-}
-#day {
-  font-weight: 700;
-  font-size: 25px;
-  margin-top: 18px;
-}
-#date {
-  font-weight: 500;
-  font-size: 20px;
-  margin-top: 4px;
-}
-#time {
-  font-weight: 400;
-  font-size: 18px;
-  margin-top: 8px;
-}
-.top-left > a {
-  text-decoration: none;
-  color: white;
-}
-.top-left > a:hover {
-  color: #b0bec5;
-}
-/* Top-Right Div CSS */
-#weather-status {
-  font-size: 18px;
-  font-weight: 300;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  margin: 0 auto;
 }
-/* Bottom-left CSS */
-#temperature,
-#celsius,
-#temp-divider,
-#fahrenheit {
-  display: inline;
-  vertical-align: middle;
+
+.weather-container {
+    background-color: rgb(255,255,255, 0.8);
+    position: absolute;
+    top: 10em;
+    margin: 1em;
+    right: 5em;
+    color: #20B2AA;
+    padding: 1em;
+    border-radius: 2.5em;
+    font-family: 'Source Sans Pro', sans-serif;
 }
-#temperature {
-  font-size: 60px;
-  font-weight: 800;
-  margin-right: 5px;
+
+.temp, .weather {
+    font-size: 26px;
 }
-#celsius {
-  margin-right: 10px;
-}
-#fahrenheit {
-  margin-right: 5px;
-  color: #b0bec5;
-}
-#celsius,
-#temp-divider,
-#fahrenheit {
-  font-size: 30px;
-  font-weight: 800;
-}
-#celsius:hover,
-#fahrenheit:hover {
-  cursor: pointer;
-}
-/* Bottom-Right*/
-.other-details-key {
-  float: left;
-  font-size: 16px;
-  font-weight: 300;
-}
-.other-details-values {
-  float: left;
-  font-size: 16px;
-  font-weight: 400;
-  margin-left: 40px;
+
+.icon {
+    width: 60px;
+    height: 60px;
 }

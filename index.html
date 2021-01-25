@@ -32,7 +32,13 @@
     </header>
     <section id="top-section">
 		<div id="home-cover-image">
-			
+            <div class="weather-container">
+                <h3>Limerick City, Ireland</h3>
+                <h4>Current Weather</h4>
+                <img class="icon">
+                <p class="weather"></p>
+                <p class="temp"></p>
+            </div>
 		</div>
     </section>
     <section id="map-section">
@@ -41,13 +47,13 @@
                         <!--Google Maps--->
                 </div>
     </section>
-    <footer class="myfooter">
+    <footer class="footer">
 
 			<div class="footer-left">
 
-				<h3>Discover <span>Limerick</span></h3>
+				<h3><a href="./index.html">Discover <span>Limerick</span></a></h3>
 
-				<p class="footer-links">
+				<p class="footer-tab-links">
 					<a href="./attractions.html">Attractions</a>
 				
 					<a href="./activities.html">Activities</a>
@@ -64,12 +70,12 @@
 
 				<div>
 					<i class="fa fa-map-marker"></i>
-					<p><span>52°39'49.7" N</span>8°37'36.1" W</p>
+					<p>52°39'49.7" N <br> 8°37'36.1" W</p>
 				</div>
 
 				<div>
 					<i class="fa fa-phone"></i>
-					<p>+353 833269745</p>
+					<p>083 326 9745</p>
 				</div>
 
 				<div>
@@ -87,7 +93,7 @@
 					A full-stack web developer with experience in HTML, CSS and JavaScript. Please see links below for more info.
 				</p>
 
-				<div class="footer-icons">
+				<div class="footer-developer-about-icons">
 					<a target="_blank" href="https://www.linkedin.com/in/alan-doherty-201855131/ "  target=”_blank”><i class="fa fa-linkedin"></i></a>
                     <a target="_blank" href="https://github.com/alandoherty95"><i class="fa fa-github"></i></a>
                 </div>
@@ -102,5 +108,6 @@
     ></script>
     <script src="./assets/js/google-maps.js"></script>
     <script src="./assets/js/navbar.js"></script>
+    <script src="./assets/js/weather-api.js"></script>
 </body>
 </html>

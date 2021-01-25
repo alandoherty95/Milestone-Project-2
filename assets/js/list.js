@@ -93,39 +93,39 @@ let selectionJSON = {
 		Id: "21",
 		info: `Hook & Ladder “Living Café” offer’s customers a unique experience with a variety of store concepts under one roof – café, cookery school, furniture and home accessories store.`
 	},
-	// COFFEE 2: Costa Coffee
+	// COFFEE 2: Habit Coffee+Retail
 	CC: {
 		Id: "22",
-		info: `Costa Coffee is the fastest growing coffee shop chain in the world and loved for its naturally sweet, smooth and distinct flavour.`
+        info: `Habit Coffee+Retail is a coffee company aiming to deliver the best quality coffee by expertly trained baristas. Sit in or takeaway and enjoy wonderful Badger & Dodo coffees and sample some handmade artisan Irish snacks.`
 	},
-	// COFFEE 3: Gloria Jean's Coffees 
+	// COFFEE 3: Wildberry Café 
 	GJCL: {
 		Id: "23",
-		info: `Specialty coffeehouse chain offering gourmet blends in a variety of flavors, plus tea & pastries.`
+		info: `Wildberry Café is a reasonably-priced coffee shop located at a busy crossroads in the middle of Limerick City. There is a lovely outdoor seating area with a great view of the city.`
 	},
-	// COFFEE 4: Story Cafe
+	// COFFEE 4: Story Café
 	SC: {
 		Id: "24",
 		info: `A coffee shop located in the heart of Limerick on the famous Denmark Street`
 	},
-	// COFFEE 5: Insomnia Coffee Company
+	// COFFEE 5: Melt Chocolate & Coffee
 	ICC: {
 		Id: "25",
-		info: `Insomnia Coffee Company is an Irish independent coffee chain.`
+		info: `Melt Chocolate & Coffee is a cosy coffee shop located on the Little Catherine Street, a pedestrain walkway in the middle of Limerick City. There is a seating area inside and outside the shop to enjoy our coffee and treat.`
 	},
-	// COFFEE 6: Starbucks
+	// COFFEE 6: Caffe Waffe
 	ST: {
 		Id: "26",
-		info: `Today, with more than 15,000 stores in 50 countries, Starbucks is the premier roaster and retailer of specialty coffee in the world. And with every cup, we strive to bring both our heritage and an exceptional experience to life.`
+		info: `Caffe Waffe is a family-run café located on Lower Mallow Street. Frsehly baked scones, breads, pastries and waffles are available every morning. This reasonably-priced, cosy café is very popular among school students and young professionals working in the area.`
 	},
-	// COFFEE 7: Arabica Coffee Co.
+	// COFFEE 7: Delish Café
 	ACC: {
 		Id: "27",
-		info: `Arabica Coffee Roasters strive to provide world class coffee using the latest in coffee brewing technology and carefully sourced beans. `
+		info: `Delish cafes was originally founded in Limerick City April 2004. College friends, Lisa & Evelyn had a passion for making adventurous Sandwiches & sensational salads with only the freshest yet wide variety of ingredients. It was their aim to handle hungry people with taste and “Feeding People with Love” as their motto goes!`
 	},
-	// COFFEE 8: Café Rosé
+	// COFFEE 8: Café Rose & Bistro
 	CR: {
 		Id: "28",
-		info: `Cafe & bistro in the heart of Limerick city serving modern cuisine.`
+		info: `Café & bistro in the heart of Limerick city serving modern cuisine.`
 	},
 };

@@ -5,6 +5,7 @@ function initMap() {
         center: {
             lat: 52.6647,
             lng: -8.62306
+            
         }
     }
 
@@ -141,52 +142,52 @@ function initMap() {
         },
         {
             coords: {
-                lat: 52.66422500885638,
-                lng: -8.625883466888341
+                lat: 52.661685, 
+                long: -8.628887
             },
-            content: "Costa Coffee",
+            content: "Habit Coffee+Retail",
         },
         {
             coords: {
-                lat: 52.663228599747896,
-                lng: -8.626785479665418
+                lat: 52.661859, 
+                long: -8.626744
             },
-            content: "Gloria Jean's Coffees",
+            content: "Wildberry Café",
         },
         {
             coords: {
                 lat: 52.66408942507034,
                 lng: -8.624508272279474
             },
-            content: "Story Cafe",
+            content: "Story Café",
         },
         {
             coords: {
                 lat: 52.66124970285747,
                 lng: -8.620798944456936
             },
-            content: "Insomnia Coffee Company",
+            content: "Melt Chocolate & Coffee",
         },
         {
             coords: {
-                lat: 52.662684750044086,
-                lng: -8.625432086400656
+                lat: 52.660338, 
+                long: -8.630977
             },
-            content: "Starbucks",
+            content: "Caffe Waffe",
         },
         {
             coords: {
-                lat: 52.66299045867191,
-                lng: -8.62877491915442
+                lat: 52.667349, 
+                long: -8.575986
             },
-            content: "Arabica Coffee Co.",
+            content: "Delish Café",
         },
         {
             coords: {
                 lat: 52.661750250196334,
                 lng: -8.626151801661749
             },
-            content: "Café Rosé",
+            content: "Café Rose & Bistro",
         },
     ];
 
