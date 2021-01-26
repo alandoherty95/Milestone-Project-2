@@ -1,49 +1,49 @@
 /*--Below is a list of Sights, Activities and Coffee--*/
 
 let selectionJSON = {
-    /*=-=-=-=-=-=-SIGHT SEEING-=-=-*/
-    // SIGHT 1: King John's Castle
+    // LIST OF ATTRACTIONS
+    // ATTRACTION 1: King John's Castle
 	KJC: {
 		Id: "1",
 		info: `King John's Castle is a 13th-century castle located on King's Island in Limerick, Ireland, next to the River Shannon. Although the site dates back to 922 when the Vikings lived on the Island, the castle itself was built on the orders of King John in 1200.`
 	},
-	// SIGHT 2: Saint Mary's Cathedral
+	// ATTRACTION 2: Saint Mary's Cathedral
 	MM: {
 		Id: "2",
 		info: `Saint Mary's Cathedral, Limerick, is a cathedral of the Church of Ireland in Limerick, Ireland, which is dedicated to the Blessed Virgin Mary. It is in the ecclesiastical province of Dublin. `
 	},
-	// SIGHT 3: Treaty Stone
+	// ATTRACTION 3: Treaty Stone
 	SS: {
 		Id: "3",
 		info: `Monument with a stone said to be used in the signing of the 1691 Treaty of Limerick.`
 	},
-	// SIGHT 4: Riverside Walk
+	// ATTRACTION 4: Riverside Walk
 	RW: {
 		Id: "4",
 		info: `This scenic 3.2km shared walking and cycling trail which runs through the historic Shannon Fields and City Centre`
 	},
-	// SIGHT 5: UL Campus
+	// ATTRACTION 5: UL Campus
 	ULC: {
 		Id: "5",
 		info: `The UL campus is truly one of the most beautiful university campuses anywhere in the world. Visitors never fail to be impressed by this peaceful green place with its trees, its fountains and the beautiful river Shannon flowing majestically through it all.`
 	},
-	// SIGHT 6: Castletroy Neightbourhood Park 
+	// ATTRACTION 6: Castletroy Neightbourhood Park 
 	CNP: {
 		Id: "6",
 		info: `Castletroy Neighbourhood Park features 1.2 km of pedestrian pathways, a fully equipped children’s playground, skateboarding area, circular cycle route and central performance/exhibition area with covering structure.`
 	},
-	// SIGHT 7: People's Park
+	// ATTRACTION 7: People's Park
 	PP: {
 		Id: "7",
 		info: `The People's Park is a park located by Pery Square in Limerick, Ireland, just west of the railway station and bus terminal. At the northern edge of the park is the Limerick City Gallery of Art.`
 	},
-	// SIGHT 8: Sarsfield Bridge
+	// ATTRACTION 8: Sarsfield Bridge
 	SB: {
 		Id: "8",
 		info: `Five-span limestone road bridge, built between 1824-35, spanning the River Shannon joining Sarsfield Street and Ennis Road on a southeast/northwest axis, splaying to both sides to form abutments at the junction with the Ennis Road.`
 	},
 
-	//-=-=-=-=-=--=-=-=-ACTIVITES =-=-=--=-=-=--=-=
+	// LIST OF ACTIVITES
 
 	// ACTIVITY 1: Bunratty Castle & Folk Park
 	A1: {
@@ -86,7 +86,7 @@ let selectionJSON = {
 		info: `The Crescent Shopping Centre is a major shopping centre serving Limerick, Ireland. It is located in Dooradoyle, on the southern outskirts of the city. `
 	},
 
-	//-=-=-=-=-=--=-=-=-COFFEE =-=-=--=-=-=--=-=
+	// LIST OF COFFEE SPOTS
 
 	// COFFEE 1: Hook & Ladder Sarsfield Street
 	HLSS: {

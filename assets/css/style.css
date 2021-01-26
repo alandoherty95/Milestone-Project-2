@@ -27,24 +27,21 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #808080;
-  color: #ffffff;
+  background-color: #A0A0A0;
   text-decoration: none;
+  font-family: 'Big Shoulders Stencil Display', cursive;
 }
 
 .logo {
   text-transform: uppercase;
-  font-family: 'Big Shoulders Stencil Display', cursive;
   font-size: 64px;
-  font-weight: 600;
-  letter-spacing: 0.2em;
-  color: #ffffff;
+  letter-spacing: 0.1em;
 }
 
 .logo a {
   text-decoration: none;
   color: #ffffff;
-  padding: 10px;
+  padding: 6px;
 }
 
 .logo a:hover {
@@ -67,17 +64,16 @@ hr {
 .navbar-links ul li a {
   text-decoration: none;
   color: #ffffff;
-  padding: 20px;
+  padding: 6px;
   display: block;
   font-size: 36px;
   letter-spacing: 0.1em;
-  font-family: 'Big Shoulders Stencil Display', cursive;
+  margin: 6px;
 }
 
 .navbar-links ul li a:hover {
   background: #ffffff;
   color: #20b2aa;
-  font-weight: bold;
 }
 
 .togglebtn {
@@ -125,12 +121,12 @@ hr {
 
   .navbar-links ul li {
     text-align: center;
-    font-size: 16px;
   }
 
   .navbar-links ul li a {
-    padding: 16px;
+    padding: 6px;
     cursor: alias;
+    font-size: 26px;
   }
 
   .navbar-links.active {
@@ -138,7 +134,7 @@ hr {
   }
 }
 
-#top-section {
+#home-top-section {
   overflow: hidden;
   position: relative;
   height: 50em;
@@ -168,30 +164,27 @@ hr {
   }
 }
 
-#home-cover-text, #attractions-cover-text {
-  padding: 1em;
-  border-radius: 2.5em;
-  background-color: rgb(197, 195, 198, 0.8);
-  position: absolute;
-  bottom: 10em;
-  margin: 1em;
-  left: 5em;
-  color: #ffffff;
-  font-family: 'Source Sans Pro', sans-serif;
+.weather-container {
+    background-color: rgb(255,255,255, 0.8);
+    position: absolute;
+    top: 10em;
+    margin: 1em;
+    right: 5em;
+    color: #20B2AA;
+    padding: 1em;
+    border-radius: 2.5em;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-#coffee-cover-text, #activities-cover-text {
-  padding: 1em;
-  border-radius: 2.5em;
-  background-color: rgb(197, 195, 198, 0.8);
-  position: absolute;
-  bottom: 10em;
-  margin: 5em;
-  color: #ffffff;
-  font-family: 'Source Sans Pro', sans-serif;
+.temp, .weather {
+    font-size: 28px;
 }
-/* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
+
+.icon {
+    width: 60px;
+    height: 60px;
+}
+
 #map-section {
   margin: 1em;
   overflow: hidden;
@@ -211,6 +204,17 @@ hr {
   width: 100%;
   margin: auto;
   min-height: 22.5em;
+}
+
+#attractions-cover-text, #coffee-cover-text, #activities-cover-text {
+  padding: 1em;
+  border-radius: 2.5em;
+  background-color: rgb(197, 195, 198, 0.8);
+  position: absolute;
+  bottom: 10em;
+  margin: 5em;
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* Start of Footer */
@@ -581,6 +585,9 @@ hr {
   height: auto;
   background-color: #f5f5f5;
 }
+.set a {
+  cursor: cell;
+}
 
 .set > a {
   display: block;
@@ -617,31 +624,12 @@ hr {
 }
 
 .content img {
-  width: 50%;
-  height: 50%;
+  width: 30%;
+  height: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  padding: 2px;
 }
 
-.weather-container {
-    background-color: rgb(255,255,255, 0.8);
-    position: absolute;
-    top: 10em;
-    margin: 1em;
-    right: 5em;
-    color: #20B2AA;
-    padding: 1em;
-    border-radius: 2.5em;
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-.temp, .weather {
-    font-size: 26px;
-}
-
-.icon {
-    width: 60px;
-    height: 60px;
-}
