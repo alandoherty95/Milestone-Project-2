@@ -206,6 +206,10 @@ hr {
   min-height: 22.5em;
 }
 
+#map-section h4 {
+  color: #20B2AA;
+}
+
 #attractions-cover-text, #coffee-cover-text, #activities-cover-text {
   padding: 1em;
   border-radius: 2.5em;

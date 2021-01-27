@@ -5,7 +5,7 @@ function initMap() {
         center: {
             lat: 52.6647,
             lng: -8.62306
-            
+
         }
     }
 
@@ -138,56 +138,56 @@ function initMap() {
                 lat: 52.66429243846216,
                 lng: -8.627616913163683
             },
-            content: "Hook & Ladder",
+            content: "<h4>Hook & Ladder Sarsfield Street:</h4>" + "<p>Hook & Ladder “Living Café” offers customers a unique experience with a variety of store concepts under one roof – café, cookery school, furniture and home accessories store. Hook & Ladder have 4 cafés in Limerick.</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible car park & entrance.</p>",
         },
         {
             coords: {
-                lat: 52.661685, 
+                lat: 52.661685,
                 long: -8.628887
             },
-            content: "Habit Coffee+Retail",
+            content: "<h4>Habit Coffee+Retail</h4>" + "<p>Habit Coffee+Retail is a coffee company aiming to deliver the best quality coffee by expertly trained baristas. Sit in or takeaway and enjoy wonderful Badger & Dodo coffees and sample some handmade artisan Irish snacks.</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible entrance.</p>",
         },
         {
             coords: {
-                lat: 52.661859, 
+                lat: 52.661859,
                 long: -8.626744
             },
-            content: "Wildberry Café",
+            content: "<h4>Wildberry Café</h4>" + "<p>Wildberry Café is a reasonably-priced coffee shop located at a busy crossroads in the middle of Limerick City. There is a lovely outdoor seating area with a great view of the city.</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible toilet.</p>",
         },
         {
             coords: {
                 lat: 52.66408942507034,
                 lng: -8.624508272279474
             },
-            content: "Story Café",
+            content: "<h4>Story Café</h4>" + "<p>A coffee shop located in the heart of Limerick on the famous Denmark Street known for great service and atmosphere. An outdoor seating area has been added recently.</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible entrance.</p>",
         },
         {
             coords: {
                 lat: 52.66124970285747,
                 lng: -8.620798944456936
             },
-            content: "Melt Chocolate & Coffee",
+            content: "<h4>Melt Chocolate & Coffee</h4>" + "<p>Melt Chocolate & Coffee is a cosy coffee shop located on the Little Catherine Street, a pedestrain walkway in the middle of Limerick City. There is a seating area inside and outside the shop to enjoy our coffee and treat.</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible entrance.</p>",
         },
         {
             coords: {
-                lat: 52.660338, 
+                lat: 52.660338,
                 long: -8.630977
             },
-            content: "Caffe Waffe",
+            content: "<h4>Caffe Waffe</h4>" + "<p>Caffe Waffe is a family-run café located on Lower Mallow Street. Frsehly baked scones, breads, pastries and waffles are available every morning. This reasonably-priced, cosy café is very popular among school students and young professionals working in the area.</p>" + "<p><b>Amenities:</b> Good for kids</p>",
         },
         {
             coords: {
-                lat: 52.667349, 
+                lat: 52.667349,
                 long: -8.575986
             },
-            content: "Delish Café",
+            content: "<h4>Delish Café</h4>" + "<p>Delish Café was originally founded in Limerick City April 2004. College friends, Lisa & Evelyn had a passion for making adventurous Sandwiches & sensational salads with only the freshest yet wide variety of ingredients. It was their aim to handle hungry people with taste and “Feeding People with Love” as their motto goes!</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible entrance.</p>",
         },
         {
             coords: {
                 lat: 52.661750250196334,
                 lng: -8.626151801661749
             },
-            content: "Café Rose & Bistro",
+            content: "<h4>Café Rose & Bistro</h4>" + "<p>Caffe Waffe is a family-run café located on Lower Mallow Street. Frsehly baked scones, breads, pastries and waffles are available every morning. This reasonably-priced, cosy café is very popular among school students and young professionals working in the area.</p>" + "<p><b>Amenities:</b> Good for kids</p>",
         },
     ];
 
