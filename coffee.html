@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -14,29 +15,30 @@
 <body>
     <header>
         <nav class="navbar">
-            <div class="logo"><a href="./index.html">Discover Limerick</a></div>
+            <div class="logo"><a href="./index.html" class="hvr-bounce-to-bottom">Discover Limerick</a></div>
             <a class="togglebtn" href="#"><span class="line"></span>
                 <span class="line"></span>
                 <span class="line"></span></a>
             <div class="navbar-links">
                 <ul>
-                    <li><a href="./attractions.html">Attractions</a></li>
-                    <li><a href="./activities.html">Activites</a></li>
-                    <li><a href="./coffee.html">Coffee</a></li>
-                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./attractions.html" class="hvr-bounce-to-bottom">Attractions</a></li>
+                    <li><a href="./activities.html" class="hvr-bounce-to-bottom">Activites</a></li>
+                    <li><a href="./coffee.html" class="hvr-bounce-to-bottom">Coffee</a></li>
+                    <li><a href="./about.html" class="hvr-bounce-to-bottom">About</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-		<section id="coffee-section">
+	<section id="coffee-section">
             <div id="coffee-cover-image">
                 <div id="coffee-cover-text">
                     <h2>Our Monthly Favourites:</h2>
                     <h2><i class="fa fa-heartbeat"></i> Hook & Ladder Sarsfield Street</h2>
 			    </div>
             </div>
-        </section>	
-            <div class="accordion-container">
+    </section>
+    <section id="accordion">  	
+        <div class="accordion-container">
                     <h2>Recommended Coffee</h2>
                     <div class="set">
                         <a href="javascript:void(0);">
@@ -44,15 +46,19 @@
                         <i class="fa fa-plus"></i>
                         </a>
                         <div class="content">
-                        <p>Hook & Ladder “Living Café” offers customers a unique experience with a variety of store concepts under one roof – a café, cookery school, furniture and home accessories store.</p> 
-                        <p>Hook & Ladder have 4 cafés in Limerick. This casual and cosy café is very accommodating with a kids' menu and vegetarian options. Hook & Ladder also provides a takeaway and local delivery service offering an extensive menu to cater for all taste buds, from amazing breakfast platters, gourmet sandwiches and delicious hot food, to a scrumptious selection of home baked cakes and breads that are baked fresh in store daily.
-                        </p>
+                        <p>Hook & Ladder “Living Café” offers customers a unique experience with a variety of store concepts under one roof – a café, cookery school, furniture and home accessories store. Hook & Ladder have 4 cafés in Limerick. This casual and cosy café is very accommodating with a kids' menu and vegetarian options. </p>
+
+                        <p>Hook & Ladder also provides a takeaway and local delivery service offering an extensive menu to cater for all taste buds, from amazing breakfast platters, gourmet sandwiches and delicious hot food, to a scrumptious selection of home baked cakes and breads that are baked fresh in store daily.</p>
+
                         <p>The first Hook & Ladder opened on the Tramore Road in Waterford in 2013; following the success of Waterford in May 2014 the “Flagship” Hook & Ladder arrived to Sarsfield Street in Limerick City, following this between 2015 and 2019, four more premises in Corbally Castletroy, Shannon and Dooradoyle opened and joined the Hook & Ladder family.</p>
 
                         <p>Hook & Ladder is proud to now have over 110 people employed with the business, and is committed to supporting local producers and suppliers.</p>
 
+                        <p>Note: Wheelchair-accessible entrance, seating & toilet is available.</p>
+
                         <p>Hook & Ladder, 7 Sarsfield Street, Limerick. V94 TN88</p>
-                        <a target="_blank" href="https://www.hookandladder.ie/sarsfield-street/">Visit Website</a>
+                        
+                        <a target="_blank" href="https://www.hookandladder.ie/sarsfield-street/">View Official Website</a>
                         <img src="assets/images/hook-and-ladder2.png" alt="Hook & Ladder Logo">
                         </div>
                     </div>
@@ -62,9 +68,14 @@
                         <i class="fa fa-plus"></i>
                         </a>
                         <div class="content">
-                        <p>Habit Coffee+Retail is a coffee company aiming to deliver the best quality coffee by expertly trained baristas. Sit in or takeaway and enjoy wonderful Badger & Dodo coffees and sample some handmade artisan Irish snacks.
-                        </p>
-                        <a target="_blank" href="https://www.facebook.com/pages/category/Shopping---Retail/habit_coffee_retail-107146874234271/">Visit Website</a>
+                        <p>Habit Coffee+Retail is a coffee company aiming to deliver the best quality coffee by expertly trained baristas. This café has the sleek, minimalist look of a modern coffee shop. Coffee lovers have the option of sitting in or takeaway.</p>
+
+                        <p>Discover the wonderful taste of Badger & Dodo coffee and sample some handmade artisan Irish snacks. The baristas behind the counter are coffee connoisseurs bringing some of the highest quality coffee to Limerick City.</p>
+
+                        <p>Note: Wheelchair-accessible entrance is available.</p>
+
+                        <p>Habit Coffee+Retail, 43 O'Connell St, Limerick, V94 AK31</p>
+                        <a target="_blank" href="https://www.instagram.com/habit_coffee_retail/?hl=en">View Instagram Profile</a>
                         <img src="assets/images/habit.jpeg" alt="Habit Coffee+Retail">
                         </div>
                     </div>
@@ -74,21 +85,23 @@
                         <i class="fa fa-plus"></i>
                         </a>
                         <div class="content">
-                        <p>Wildberry Café is a reasonably-priced coffee shop located at a busy crossroads in the middle of Limerick City. There is a lovely outdoor seating area with a great view of the city.
-                        </p>
-                        <a target="_blank" href="https://www.facebook.com/pages/category/Coffee-Shop/Wildberry-Cafe-634674316980330/">Visit Website</a>
+                        <p>Wildberry Café is a reasonably-priced coffee shop located at a busy crossroads in the middle of Limerick City. This warm and cosy café provides a takeaway and local delivery service. The menu offers organic dishes and vegetarian options. Wildberry Café is a family-friendly establishment with the capability to cater for large groups.</p>
+
+                        <p>Note: Wheelchair-accessible toilet is available.</p>
+                        <a target="_blank" href="https://www.facebook.com/pages/category/Coffee-Shop/Wildberry-Cafe-634674316980330/">View Facebook Profile</a>
                         <img src="assets/images/wildberry.jpeg" alt="Wildberry Café">
                         </div>
                     </div>
                     <div class="set">
                         <a href="javascript:void(0);">
-                        Story Cafe
+                        Story Café
                         <i class="fa fa-plus"></i> 
                         </a>
                         <div class="content">
-                        <p>A coffee shop located in the heart of Limerick on the famous Denmark Street known for great service and atmosphere. An outdoor seating area has been added recently.
-                        </p>
-                        <a target="_blank" href="https://www.facebook.com/StoryCafeLK">Visit Website</a>
+                        <p>A coffee shop located in the heart of Limerick on the famous Denmark Street known for great service and vibrant atmosphere. An outdoor seating area occupies the front of the building allowing customers to sit outside and enjoy the bustling streets of LImerick. Story Café has takeaway and dine-in options and also has the ability to cater for groups and families. </p>
+
+                        <p>Note: Wheelchair-accessible entrance is available.</p>
+                        <a target="_blank" href="https://www.facebook.com/StoryCafeLK">View Facebook Profile</a>
                         <img src="assets/images/story.png" alt="Story Café">
                         </div>
                     </div>
@@ -98,9 +111,12 @@
                         <i class="fa fa-plus"></i>
                         </a>
                         <div class="content">
-                        <p>Melt Chocolate & Coffee is a cosy coffee shop located on the Little Catherine Street, a pedestrain walkway in the middle of Limerick City. There is a seating area inside and outside the shop to enjoy our coffee and treat.
+                        <p>Melt Chocolate & Coffee is a quiet, comfortable coffee shop located on Little Catherine Street. It is facing a busy pedestrian walkway in the middle of Limerick City. There is a seating area inside and outside the shop to enjoy a coffee and treat while watching people move up and down the street. The menu includes sandwiches, paninis and pastries made fresh every morning.
+
                         </p>
-                        <a target="_blank" href="https://www.facebook.com/meltchocolateandcoffee/">Visit Website</a>
+
+                        <p>Note: Wheelchair-accessible entrance is available.</p>
+                        <a target="_blank" href="https://www.facebook.com/meltchocolateandcoffee/">View Facebook Profile</a>
                         <img src="assets/images/melt.jpeg" alt="Melt Chocolate & Coffee">
                         </div>
                     </div>
@@ -110,9 +126,8 @@
                         <i class="fa fa-plus"></i> 
                         </a>
                         <div class="content">
-                        <p>Caffe Waffe is a family-run café located on Lower Mallow Street. Frsehly baked scones, breads, pastries and waffles are available every morning. This reasonably-priced, cosy café is very popular among school students and young professionals working in the area.
-                        </p>
-                        <a target="_blank" href="https://www.facebook.com/Caffe-Waffe-158333484228389/?ref=page_internal">Visit Website</a>
+                        <p>Caffe Waffe is a family-run café located on Lower Mallow Street. Freshly baked bread, scones, pastries and waffles are available every morning. This small, reasonably-priced café is very popular among school students and young professionals working in the area. It is an ideal location to grab a takeaway coffee and walk along by the river.</p>
+                        <a target="_blank" href="https://www.facebook.com/Caffe-Waffe-158333484228389/?ref=page_internal">View Facebook Profile</a>
                         <img src="assets/images/caffe-waffe.jpeg" alt="Caffe Waffe">
                         </div>
                     </div>
@@ -122,9 +137,12 @@
                         <i class="fa fa-plus"></i>
                         </a>
                         <div class="content">
-                        <p>Delish Café was originally founded in Limerick City April 2004. College friends, Lisa & Evelyn had a passion for making adventurous Sandwiches & sensational salads with only the freshest yet wide variety of ingredients. It was their aim to handle hungry people with taste and “Feeding People with Love” as their motto goes!
+                        <p>Delish Café was originally founded in Limerick City April 2004. College friends, Lisa & Evelyn had a passion for making adventurous sandwiches & sensational salads with only the freshest yet wide variety of ingredients. This ambitious café is very accommodating with a kids' menu and vegetarian options. The café promotes a “Meet, Greet & Seat Philosophy” in all shops so that each and every customer is handled with care & valued. Delish creates fresh, quirky & very tasty food, complimented by freshly ground coffee, freshly squeezed juices & homemade desserts. 
+
                         </p>
-                        <a target="_blank" href="https://www.delish.ie/">Visit Website</a>
+
+                        <p>Note: Wheelchair-accessible lift & entrance is available.</p>
+                        <a target="_blank" href="https://www.delish.ie/">View Official Website</a>
                         <img src="assets/images/delish.jpeg" alt="Delish Café">
                         </div>
                     </div>
@@ -134,28 +152,28 @@
                         <i class="fa fa-plus"></i> 
                         </a>
                         <div class="content">
-                        <p>Café Rosé is a café & bistro in the heart of Limerick city serving modern cuisine. Café Rosé serves healthy breakfast, lunch, home made desserts to eat in and to go.
+                        <p>Café Rosé is a café & bistro in the heart of Limerick city serving tasty, modern cuisine. Café Rosé serves healthy breakfast, lunch, homemade desserts to eat in and to take away. This small, comfortable café is ideal for families with kids and also has the capability to cater for large groups.
                         </p>
-                        <a target="_blank" href="https://www.facebook.com/caferose2016/">Visit Website</a>
+                        <a target="_blank" href="https://www.facebook.com/caferose2016/">View Facebook Profile</a>
                         <img src="assets/images/cafe-rose.jpeg" alt="Café Rosé & Bistro">
                         </div>
                     </div>
-            </div>
-
+        </div>
+    </section>
     <footer class="footer">
 
 			<div class="footer-left">
 
-				<h3><a href="./index.html">Discover <span>Limerick</span></a></h3>
+				<h3><a href="./index.html" class="hvr-bounce-to-top">Discover Limerick</a></h3>
 
 				<p class="footer-tab-links">
-					<a href="./attractions.html">Attractions</a>
+					<a href="./attractions.html" class="hvr-bounce-to-top">Attractions</a>
 				
-					<a href="./activities.html">Activities</a>
+					<a href="./activities.html" class="hvr-bounce-to-top">Activities</a>
 				
-					<a href="./coffee.html">Coffee</a>
+					<a href="./coffee.html" class="hvr-bounce-to-top">Coffee</a>
 					
-					<a href="./about.html">About</a>
+					<a href="./about.html" class="hvr-bounce-to-top">About</a>
 				</p>
 
 				<p class="footer-developer-name">Alan Doherty © 2021</p>
@@ -189,7 +207,7 @@
 				</p>
 
 				<div class="footer-developer-about-icons">
-					<a target="_blank" href="https://www.linkedin.com/in/alan-doherty-201855131/ "  target=”_blank”><i class="fa fa-linkedin"></i></a>
+					<a target="_blank" href="https://www.linkedin.com/in/alan-doherty-201855131/ "><i class="fa fa-linkedin"></i></a>
                     <a target="_blank" href="https://github.com/alandoherty95"><i class="fa fa-github"></i></a>
                 </div>
 
