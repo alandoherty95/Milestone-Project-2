@@ -26,119 +26,119 @@ function initMap() {
                 lat: 52.669863886926265,
                 lng: -8.625120408211234
             },
-            content: "<h4>King John's Castle:</h4> <p>Restored medieval fortress with a visitor centre, period costumes and interactive exhibits.</p>",
+            content: "<h4>King John's Castle</h4> <p>King John's Castle is a 13th-century castle located on Kings Island in Limerick, next to the River Shannon. The foundation of the city of Limerick, however, is generally dated to 922, when the Viking leader Thormodu Helgason established a permanent base on Kings Island, this is the area where King John's Castle now stands.</p>",
         },
         {
             coords: {
                 lat: 52.668434715046445,
                 lng: -8.623118222489378
             },
-            content: "<h4>Saint Mary's Cathedral:</h4>" + "<p>Iconic 12th-century cathedral with large stained-glass windows & a small burial ground.</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible car park & entrance</p>",
+            content: "<h4>Saint Mary's Cathedral</h4>" + "<p>Saint Mary’s Cathedral was founded in 1168 AD and stands majestically over the City of Limerick on the banks of the River Shannon. It is one of the most important medieval buildings to survive intact in Ireland, which is still performing its original function. It is the oldest building in Limerick still in continuous daily use.</p>",
         },
         {
             coords: {
                 lat: 52.6697717608359,
                 lng: -8.627680296689704
             },
-            content: "<h4>Treaty Stone:</h4>" + "<p>Monument with a stone said to be used in the signing of the 1691 Treaty of Limerick.</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible entrance.</p>" + "<p><b>Amenities:</b> Good for kids</p>",
+            content: "<h4>Treaty Stone</h4>" + "<p>The Treaty Stone is a monument with a stone said to be used in the signing of the 1691 Treaty of Limerick, marking the surrender of the city to William of Orange. The Treaty Stone stands across the River Shannon from King John's Castle.</p>",
         },
         {
             coords: {
                 lat: 52.66546437993901,
                 lng: -8.626859872110707
             },
-            content: "<h4>Riverside Walk:</h4>" + "<p>A walking route along the River Shannon through the heart of Limerick City.</p>",
+            content: "<h4>Riverside Walk</h4>" + "<p>The Limerick City Riverside Walk is a scenic 3.25km shared walking and cycling trail which runs through the historic Shannon Fields and City Centre. There are many historic bridges, including Thomond Bridge and Sarsfield Bridge, to see on this walk. </p>",
         },
         {
             coords: {
                 lat: 52.67363069366351,
                 lng: -8.57273651495968
             },
-            content: "<h4>UL Campus:</h4>" + "<p>Magnificent university campus with walking & biking trails and the beautiful river Shannon flowing majestically through it all.</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible car park & entrance.</p>" + "<p><b>Amenities:</b> Good for kids</p>",
+            content: "<h4>UL Campus</h4>" + "<p>The University of Limerick campus is truly one of the most beautiful university campuses in the world. Visitors never fail to be impressed by this peaceful green place with its trees, its fountains and the beautiful River Shannon flowing gracefully through. In spring, UL is a symphony of birdsong, while in autumn, it is a celebration of colour.</p>",
         },
         {
             coords: {
                 lat: 52.66278226364466,
                 lng: -8.539517495214959
             },
-            content: "<h4>Castletroy Neighbourhood Park:</h4>" + "<p>An outdoor public park. It features an array of natural habitats, including a 4,300 sq. metre lake, wetlands, wildflower grass areas and woodlands.</p>",
+            content: "<h4>Castletroy Neighbourhood Park</h4>" + "<p>Castletroy Neighbourhood Park is a large outdoor public park. It features an array of natural habitats, including a 4,300 sq. metre lake, wetlands, wildflower grass areas and woodlands. It also features 1.2 km of pedestrian pathways, a fully equipped children’s playground, skateboarding area and circular cycle route.</p>",
         },
         {
             coords: {
                 lat: 52.65829229686129,
                 lng: -8.627773099688705
             },
-            content: "<h4>People's Park:</h4>" + "<p>Public park including a refurbished drinking fountain, the Limerick City Gallery of Art, children's playground, a band stand and two park shelters.</p>",
+            content: "<h4>People's Park</h4>" + "<p>he People's Park is a large public park located near Pery Square in Limerick. It can be found just west of the railway station and bus terminal. At the northern edge of the park is the Limerick City Gallery of Art. The park was formally opened in 1877, in memory of Richard Russell, a prominent local businessman.</p>",
         },
         {
             coords: {
                 lat: 52.66546710457959,
                 lng: -8.630398583046363
             },
-            content: "<h4>Sarsfield Bridge:</h4>" + "<p>A limestone road bridge built over the River Shannon between 1824-35 connecting Sarsfield Street and Ennis Road.</p>",
+            content: "<h4>Sarsfield Bridge</h4>" + "<p>Sarsfield Bridge is a five-span limestone road bridge. It was built between 1824-35 connecting Sarsfield Street and Ennis Road. It was once a swivel bridge that could open allowing large vessels to pass into the upper quays. This function is no longer in use although the mechanisms can still be seen under the bridge.</p>",
         },
         {
             coords: {
                 lat: 52.69972418946017,
                 lng: -8.81145052112184
             },
-            content: "<h4>Bunratty Castle & Folk Park:</h4>" + "<p>A 15th-century castle and living 19th-century village bring the periods alive at this family museum.</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible car park & entrance.</p>" + "<p><b>Amenities:</b> Good for kids</p>",
+            content: "<h4>Bunratty Castle & Folk Park</h4>" + "<p>Bunratty Castle is a 15th-century castle and living 19th-century village bringing the periods alive at this family-friendly museum. The castle and the adjoining folk park are run by Shannon Heritage as tourist attractions. It is widely recognised as the most complete and authentic castle in Ireland.</p>",
         },
         {
             coords: {
                 lat: 52.66632309901861,
                 lng: -8.623624203355625
             },
-            content: "<h4>The Hunt Museum:</h4>" + "<p>Former custom house holding a 2000-strong collection of ancient and modern ethnographic treasures.</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible entrance, lift & tiolet.</p>" + "<p><b>Amenities:</b> Good for kids, Restaurant</p>",
+            content: "<h4>The Hunt Museum</h4>" + "<p>The Hunt Museum preserves and exhibits the original artefacts gathered, over a lifetime, by John and Gertrude Hunt and known as the Hunt Collection. The Hunt Museum Trust was established in 1974 to hold the Collection and the property at Craggaunowen, a 16th-century Irish tower house that the Hunts had restored.</p>",
         },
         {
             coords: {
                 lat: 52.659067333536164,
                 lng: -8.62790903420211
             },
-            content: "<h4>Limerick City Gallery of Art:</h4>" + "<p>Landmark contemporary Irish art gallery, with minimalist extension and changing exhibits, plus cafe.</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible car park, entrance, lift & tiolet.</p>" + "<p><b>Amenities:</b> Good for kids, Restaurant, Toilets</p>",
+            content: "<h4>Limerick City Gallery of Art</h4>" + "<p>Limerick City Gallery of Art is the largest contemporary art gallery in the Mid-Western Region, annually exhibiting national and international artists in a diverse exhibition programme. Limerick City Gallery of Art is one of the leading contemporary art galleries in Ireland and home to an important collection of art.</p>",
         },
         {
             coords: {
                 lat: 52.669014473880644,
                 lng: -8.61397906489442
             },
-            content: "<h4>Aura Leisure Centre:</h4>" + "<p>Leisure Centre is a public leisure facility with a gym, swimming pool, sauna, steam room and sports hall.</p>" + "<p><b>Amenities:</b> Good for kids</p>",
+            content: "<h4>Aura Leisure Centre</h4>" + "<p>Aura Leisure Centre is a public leisure facility with a gym, swimming pool, sauna, steam room and sports hall. Aura has a proven track record in working to support the delivery of public leisure facilities nationwide. It is located at Grove Island Shopping Centre on the Corbally side of the city.</p>",
         },
         {
             coords: {
                 lat: 52.68335928210222,
                 lng: -8.738064475750312
             },
-            content: "<h4>Cratloe Woods:</h4>" + "<p>State-owned, storied oak & softwood forest, with picnic tables & paths for walking.</p>" + "<p><b>Amenities:</b> Good for kids</p>",
+            content: "<h4>Cratloe Woods</h4>" + "<p>Cratloe Woods is a forested area around the village of Cratloe, just outside of Limerick City. Cratloe Wood Car Park and Picnic Site is located adjacent to Cratloe village and on the western side Cratloe Forest property which is over 700 Hectares in extent. The site is operated by Coillte, who operate a number of forestry areas in Ireland.</p>",
         },
         {
             coords: {
                 lat: 52.666432513426216,
                 lng: -8.625121561336258
             },
-            content: "<h4>Limerick Watersports & Activity Centre:</h4>" + "<p>Activity Centre offering a wide range of water and land based activities for all ages, abilities and group sizes.</p>",
+            content: "<h4>Nevsail Watersports</h4>" + "<p>The Limerick Watersports & Activity Centre is based in the heart of Limerick City behind the Hunt Museum. A range of water and land based activities are on offer for all ages, abilities and group sizes. Group activities include team building, hen & stag parties as well as school tours and kids birthdays.</p>",
         },
         {
             coords: {
                 lat: 52.663665310677956,
                 lng: -8.621588330297785
             },
-            content: "<h4>Milk Market:</h4>" + "<p>Airy, covered market selling fruits, veggies, meats, dairy items, crafts & baked goods since 1852.</p>",
+            content: "<h4>Milk Market</h4>" + "<p>The Milk Market is a covered market selling fresh fruits, vegetables, meats, dairy items, crafts & baked goods since 1852. It provides Limerick residents and visitors with access to a wide variety of local, in-season products, typically directly from the producer.</p>",
         },
         {
             coords: {
                 lat: 52.64048373515425,
                 lng: -8.64533731710641
             },
-            content: "<h4>Crescent Shopping Centre:</h4>" + "<p>Large, modern mall featuring an assortment of brand-name retail shops, casual eateries & services.</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible lift.</p>",
+            content: "<h4>Crescent Shopping Centre</h4>" + "<p>he Crescent Shopping Centre is a major shopping centre serving Limerick. It is located in Dooradoyle, on the southern outskirts of the city. The Crescent Shopping Centre is the biggest and most successful shopping complex outside of Dublin. It is home to over 90 stores, a host of cafes and restaurants, creche and 12 screen cinema.</p>",
         },
         {
             coords: {
                 lat: 52.66429243846216,
                 lng: -8.627616913163683
             },
-            content: "<h4>Hook & Ladder Sarsfield Street:</h4>" + "<p>Hook & Ladder “Living Café” offers customers a unique experience with a variety of store concepts under one roof – café, cookery school, furniture and home accessories store. Hook & Ladder have 4 cafés in Limerick.</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible car park & entrance.</p>",
+            content: "<h4>Hook & Ladder Sarsfield Street</h4>" + "<p>Hook & Ladder “Living Café” offers customers a unique experience with a variety of store concepts under one roof – café, cookery school, furniture and home accessories store. Hook & Ladder have 4 cafés in Limerick.</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible car park & entrance.</p>",
         },
         {
             coords: {
