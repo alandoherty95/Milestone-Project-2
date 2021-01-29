@@ -141,7 +141,7 @@ hr {
 #home-cover-image {
   height: 50em;
   width: 100%;
-  background-image: url("https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/king-johns-castle-home.jpg");
+  background-image: url("https://alandoherty95/Milestone-Project-2/blob/master/assets/images/king-johns-castle-home.jpg");
   animation-name: hero-zoom;
   animation-duration: 4s;
   animation-fill-mode: forwards;
