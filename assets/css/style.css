@@ -141,7 +141,7 @@ hr {
 #home-cover-image {
   height: 50em;
   width: 100%;
-  background-image: url("./assets/images/king-johns-castle-home.jpg");
+  background-image: url("https://github.com/alandoherty95/Milestone-Project-2/blob/484e23a3ee9519a7ceae7fd3cb0135093e7f6246/assets/images/king-johns-castle-home.jpg");
   animation-name: hero-zoom;
   animation-duration: 4s;
   animation-fill-mode: forwards;
@@ -479,7 +479,7 @@ hr {
 #coffee-cover-image {
   height: 50em;
   width: 100%;
-  background-image: url("./assets/images/hook-and-ladder-front.jpg");
+  background-image: url("https://github.com/alandoherty95/Milestone-Project-2/blob/484e23a3ee9519a7ceae7fd3cb0135093e7f6246/assets/images/hook-and-ladder-front.jpg");
   animation-name: hero-zoom;
   animation-duration: 4s;
   animation-fill-mode: forwards;
@@ -509,7 +509,7 @@ hr {
 #activities-cover-image {
   height: 50em;
   width: 100%;
-  background-image: url("./assets/images/woods.jpg");
+  background-image: url("https://github.com/alandoherty95/Milestone-Project-2/blob/484e23a3ee9519a7ceae7fd3cb0135093e7f6246/assets/images/woods.jpg");
   animation-name: hero-zoom;
   animation-duration: 4s;
   animation-fill-mode: forwards;
@@ -539,7 +539,7 @@ hr {
 #attractions-cover-image {
   height: 50em;
   width: 100%;
-  background-image: url("./assets/images/king-johns-castle3.jpg");
+  background-image: url("https://github.com/alandoherty95/Milestone-Project-2/blob/484e23a3ee9519a7ceae7fd3cb0135093e7f6246/assets/images/king-johns-castle3.jpg");
   animation-name: hero-zoom;
   animation-duration: 4s;
   animation-fill-mode: forwards;
@@ -569,7 +569,7 @@ hr {
 #faq-cover-photo {
   height: 50em;
   width: 100%;
-  background-image: url("./assets/images/hook-and-ladder.jpg");
+  background-image: url("https://github.com/alandoherty95/Milestone-Project-2/blob/484e23a3ee9519a7ceae7fd3cb0135093e7f6246/assets/images/hook-and-ladder.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
