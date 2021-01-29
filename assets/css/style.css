@@ -174,12 +174,27 @@ hr {
 }
 
 .temp, .weather {
-    font-size: 28px;
+    font-size: 22px;
+}
+
+.feels_like {
+    font-size: 20px;
 }
 
 .icon {
     width: 60px;
     height: 60px;
+}
+.info-container {
+    background-color: rgb(255,255,255, 0.8);
+    position: absolute;
+    bottom: 10em;
+    margin: 1em;
+    left: 5em;
+    color: #20B2AA;
+    padding: 1em;
+    border-radius: 2.5em;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #map-section {
@@ -240,7 +255,7 @@ hr {
 }
 /* Discover Limerick Logo */
 .footer h3 {
-  color: #20b2aa;
+  color: #ffffff;
   font-family: 'Big Shoulders Stencil Display', cursive;
   margin: 0;
   font-size: 50px;
@@ -248,7 +263,6 @@ hr {
   width: 60%;
   padding: 6px;
   letter-spacing: 0.5px;
-  background-color: #ffffff;
 }
 .hvr-bounce-to-top:before {
     background-color: #20b2aa;
@@ -257,7 +271,7 @@ hr {
 
 .footer h3 a {
   text-decoration: none;
-  color: #20b2aa;
+  color: #ffffff;
 }
 
 .footer h3 a:hover span {
@@ -275,9 +289,10 @@ hr {
   line-height: 1.8;
   font-weight: 600;
   text-decoration: none;
-  padding: 6px;
-  margin: 6px;
+  padding: 4px;
+  margin: 4px;
   color: inherit;
+  border: 0.5px solid #ffffff;
 }
 
 .footer .footer-tab-links a:hover {
