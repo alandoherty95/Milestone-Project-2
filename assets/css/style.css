@@ -16,12 +16,6 @@ body {
   padding: 0;
   font-size: 16px;
 }
-
-hr {
-  height: 1px;
-  background-color: #ffffff;
-  border: none;
-}
 /* Nav Bar */
 .navbar {
   display: flex;
@@ -151,51 +145,110 @@ hr {
   position: relative;
 }
 
-@keyframes hero-zoom {
-  from {
-    transform: scale(1);
-  }
-
-  to {
-    transform: scale(1.08);
-  }
-}
-
 .weather-container {
     background-color: rgb(255,255,255, 0.8);
     position: absolute;
-    top: 10em;
-    margin: 1em;
-    right: 5em;
     color: #20B2AA;
     padding: 1em;
-    border-radius: 2.5em;
+    margin: 1em;
     font-family: 'Source Sans Pro', sans-serif;
-}
-
-.temp, .weather {
     font-size: 22px;
 }
-
-.feels_like {
-    font-size: 20px;
-}
-
 .icon {
     width: 60px;
     height: 60px;
 }
-.info-container {
-    background-color: rgb(255,255,255, 0.8);
-    position: absolute;
-    bottom: 10em;
-    margin: 1em;
-    left: 5em;
-    color: #20B2AA;
-    padding: 1em;
-    border-radius: 2.5em;
-    font-family: 'Source Sans Pro', sans-serif;
+
+@media only screen and (max-width: 768px) {
+    #home-top-section {
+        height: 30em;
+    }
+    #home-cover-image {
+        height: 30em;
+        background-image: url("/assets/images/bunratty.jpeg");
+    }
+    #coffee-top-section {
+        height: 30em;
+    }
+    #coffee-cover-image {
+        height: 40em;
+        background-image: url("/assets/images/hook-and-ladder.jpeg");
+    }
+    #activities-top-section {
+        height: 30em;
+    }
+    #activities-cover-image {
+        height: 30em;
+        background-image: url("/assets/images/avenue.jpg");
+    }
+    #attractions-top-section {
+        height: 30em;
+    }
+    #attractions-cover-image {
+        height: 30em;
+        background-image: url("/assets/images/king-johns-castle-portrait.jpg");
+    }
+    #faq-top-section {
+        height: 30em;
+    }
+    #faq-cover-image {
+        height: 30em;
+        background-image: url("/assets/images/night-limerick-city.jpeg");
+    }
+    .weather-container h4, p {
+        font-size: 14px;
+    }
+    .icon {
+        width: 40px;
+        height: 40px;
+    }
 }
+
+@media only screen and (max-width: 600px) {
+    #home-top-section {
+        height: 15em;
+    }
+    #home-cover-image {
+        height: 15em;
+        background-image: url("/assets/images/swan.jpeg");
+    }
+    #coffee-top-section {
+        height: 15em;
+    }
+    #coffee-cover-image {
+        height: 15em;
+        background-image: url("/assets/images/hook-and-ladder.jpeg");
+    }
+    #activities-top-section {
+        height: 15em;
+    }
+    #activities-cover-image {
+        height: 15em;
+        background-image: url("/assets/images/trunk.jpg");
+    }
+    #attractions-top-section {
+        height: 15em;
+    }
+    #attractions-cover-image {
+        height: 15em;
+        background-image: url("/assets/images/king-johns-castle-portrait.jpg");
+    }
+    #faq-top-section {
+        height: 15em;
+    }
+    #faq-cover-image {
+        height: 15em;
+        background-image: url("/assets/images/night-limerick-city.jpeg");
+    }
+    .weather-container h4, p {
+        font-size: 12px;
+    }
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
 
 #map-section {
   margin: 1em;
@@ -227,10 +280,52 @@ hr {
   border-radius: 2.5em;
   background-color: rgb(197, 195, 198, 0.8);
   position: absolute;
-  bottom: 10em;
-  margin: 5em;
+  margin: 2em;
   color: #ffffff;
   font-family: 'Source Sans Pro', sans-serif;
+}
+.YouMayLike {
+  padding: 1em;
+  margin: 1em;
+}
+
+.YouMayLike h1{
+  color: #20B2AA;
+  font-size: 2em;
+  padding: 1em;
+  text-align: center;
+  padding: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.8em;
+  border-bottom: 0.2em solid #ddd;
+}
+
+/* Shuffle Cards */
+#coffeeYouMayLike{
+  display: flex;
+  overflow-x: scroll;
+}
+
+#coffeeYouMayLike img{
+  max-height: 180px;
+}
+
+#activitiesYouMayLike{
+  display: flex;
+  overflow-x: auto;
+}
+
+#activitiesYouMayLike img{
+  max-height: 180px;
+}
+
+#attractionsYouMayLike{
+  display: flex;
+}
+
+#attractionsYouMayLike img{
+  max-height: 180px;
 }
 
 /* Start of Footer */
@@ -415,25 +510,64 @@ hr {
   color: #808080;
 }
 
-@media (max-width: 880px) {
-
-  .footer {
-    font: bold 14px sans-serif;
+@media (max-width: 768px) {
+  .footer h3 {
+    font-size: 32px;
   }
 
-  .footer .footer-left,
-    .footer .footer-center,
-    .footer .footer-right {
+  .footer .footer-left {
+    text-align: center;
+  }
+
+  .footer .footer-tab-links {
+    font-size: 16px;
+  }
+
+  .footer .footer-left, .footer .footer-center, .footer .footer-right {
     display: block;
     width: 100%;
     margin-bottom: 40px;
     text-align: center;
   }
 
+  .footer .footer-right {
+    font-size: 16px;
+  }
+
   .footer .footer-center i {
     margin-left: 0;
   }
 }
+
+@media (max-width: 600px) {
+  .footer h3 {
+    font-size: 30px;
+  }
+
+  .footer .footer-left {
+    text-align: center;
+  }
+
+  .footer .footer-tab-links {
+    font-size: 12px;
+  }
+
+  .footer .footer-left, .footer .footer-center, .footer .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .footer .footer-right {
+    font-size: 12px;
+  }
+
+  .footer .footer-center i {
+    margin-left: 0;
+  }
+}
+
 /* Accordion */
 #accordion {
   background-color: #ffffff;
@@ -472,7 +606,7 @@ hr {
 #coffee-section {
   overflow: hidden;
   position: relative;
-  height: 60em;
+  height: 50em;
   width: 100%;
 }
 
@@ -489,16 +623,6 @@ hr {
   position: relative;
 }
 
-@keyframes hero-zoom {
-  from {
-    transform: scale(1);
-  }
-
-  to {
-    transform: scale(1.08);
-  }
-}
-
 #activities-section {
   overflow: hidden;
   position: relative;
@@ -509,7 +633,7 @@ hr {
 #activities-cover-image {
   height: 50em;
   width: 100%;
-  background-image: url("https://raw.githubusercontent.com/alandoherty95/Milestone-Project-2/master/assets/images/woods.jpg");
+  background-image: url("/assets/images/cratloe-forest.jpeg");
   animation-name: hero-zoom;
   animation-duration: 4s;
   animation-fill-mode: forwards;
@@ -517,16 +641,6 @@ hr {
   background-size: cover;
   background-position: center;
   position: relative;
-}
-
-@keyframes hero-zoom {
-  from {
-    transform: scale(1);
-  }
-
-  to {
-    transform: scale(1.08);
-  }
 }
 
 #attractions-section {
@@ -549,24 +663,14 @@ hr {
   position: relative;
 }
 
-@keyframes hero-zoom {
-  from {
-    transform: scale(1);
-  }
-
-  to {
-    transform: scale(1.08);
-  }
-}
-
 #faq-section {
   overflow: hidden;
   position: relative;
-  height: auto;
+  height: 50em;
   width: 100%;
 }
 
-#faq-cover-photo {
+#faq-cover-image {
   height: 50em;
   width: 100%;
   background-image: url("https://raw.githubusercontent.com/alandoherty95/Milestone-Project-2/master/assets/images/hook-and-ladder.jpg");
