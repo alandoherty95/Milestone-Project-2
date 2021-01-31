@@ -1,12 +1,12 @@
 let activitiesYouMayLike = [
     {"title": "Cratloe Woods", 
-     "img": "/assets/images/mountain.jpg", 
+     "img": "https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/woods.jpg?raw=true", 
      "description": "Cratloe Woods is a forested area around the village of Cratloe, just outside of Limerick City.", 
      "amenities": "Good for kids", 
      "mapLink": "https://goo.gl/maps/QYeh7qyneNj9m1MAA"},
   
     {"title": "Bunratty Castle & Folk Park", 
-    "img": "/assets/images/bunratty.jpeg", 
+    "img": "https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/bunratty.jpeg?raw=true", 
     "description": "Bunratty Castle is a 15th-century castle and living 19th-century village bringing the periods alive at this family-friendly museum.", 
     "amenities": "Good for kids, Wheelchair-accessible car park & entrance.", 
     "mapLink": "https://goo.gl/maps/wkexFeM1WtfzfAxp8"},
@@ -24,25 +24,25 @@ let activitiesYouMayLike = [
     "mapLink": "https://goo.gl/maps/2MbVvUsuyvT9HDyu5"},
 
     {"title": "Aura Leisure Centre", 
-    "img": "/assets/images/aura.png", 
+    "img": "https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/aura.png?raw=true", 
     "description": "Aura Leisure Centre is a public leisure facility with a gym, swimming pool, sauna, steam room and sports hall.", 
     "amenities": "Good for kids", 
     "mapLink": "https://g.page/AuraLeisureGroveIsland?share"},
     
     {"title": "Nevsail Watersports", 
-    "img": "/assets/images/nevsail.png", 
+    "img": "https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/nevsail.png?raw=true", 
     "description": "The Limerick Watersports & Activity Centre is based in the heart of Limerick City behind the Hunt Museum.", 
     "amenities": "Good for kids", 
     "mapLink": "https://goo.gl/maps/eARkjxtBCF3LpcM78"},
     
     {"title": "Milk Market", 
-    "img": "/assets/images/milk-market.jpeg", 
+    "img": "https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/milk-market.jpeg?raw=true", 
     "description": "The Milk Market is a covered market selling fresh fruits, vegetables, meats, dairy items, crafts & baked goods since 1852.", 
     "amenities": "Wheelchair-accessible entrance, lift & toilet.", 
     "mapLink": "https://goo.gl/maps/PDzWvnRE6pJNjeoJ8"},
     
     {"title": "Crescent Shopping Centre", 
-    "img": "/assets/images/crescent.jpeg", 
+    "img": "https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/crescent.jpeg?raw=true", 
     "description": "The Crescent Shopping Centre is a major shopping centre serving Limerick. It is located in Dooradoyle, on the southern outskirts of the city.",
     "amenities": "Wheelchair-accessible car park, entrance, lift & toilet", 
     "mapLink": "https://goo.gl/maps/G9HtaovKQNoPWUi96"}

@@ -1,12 +1,12 @@
 let attractionsYouMayLike = [
     {"title": "King John's Castle", 
-     "img": "/assets/images/king-johns-castle.jpg", 
+     "img": "https://raw.githubusercontent.com/alandoherty95/Milestone-Project-2/master/assets/images/king-johns-castle-home.jpg", 
      "description": "King John's Castle is a 13th-century castle located on Kings Island in Limerick, next to the River Shannon.", 
      "amenities": "Good for kids", 
      "mapLink": "https://goo.gl/maps/izB18TvPC59JFPJb8"},
   
     {"title": "Saint Mary's Cathedral", 
-    "img": "/assets/images/stables.jpeg", 
+    "img": "https://raw.githubusercontent.com/alandoherty95/Milestone-Project-2/master/assets/images/stables.jpeg", 
     "description": "Saint Mary’s Cathedral was founded in 1168 AD and stands majestically over the City of Limerick on the banks of the River Shannon. ", 
     "amenities": "Wheelchair-accessible car park & entrance", 
     "mapLink": "https://goo.gl/maps/YL2uWJRtUi6FvnE76"},
@@ -18,13 +18,13 @@ let attractionsYouMayLike = [
     "mapLink": "https://goo.gl/maps/Y6yR7oUVSnPnWRtw7"},
     
     {"title": "Riverside Walk", 
-    "img": "/assets/images/ariel-limerick.jpg", 
+    "img": "https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/ariel-limerick.jpg?raw=true", 
     "description": "The Limerick City Riverside Walk is a scenic 3.25km shared walking and cycling trail which runs through the historic Shannon Fields and City Centre.",
     "amenities": "Good for kids", 
     "mapLink": "https://goo.gl/maps/T1Go6rXhPZ9gykx56"},
 
     {"title": "UL Campus", 
-    "img": "/assets/images/ul-bridge.jpeg", 
+    "img": "https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/ul-bridge.jpeg?raw=true", 
     "description": "The University of Limerick campus is truly one of the most beautiful university campuses anywhere in the world.", 
     "amenities": "Good for kids, Wheelchair-accessible car park & entrance", 
     "mapLink": "https://goo.gl/maps/csiPxfTTaozTAdSJ9"},
