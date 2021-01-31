@@ -149,8 +149,9 @@ body {
     background-color: rgb(255,255,255, 0.8);
     position: absolute;
     color: #20B2AA;
-    padding: 1em;
+    padding: 0.5em;
     margin: 1em;
+    max-width: 220px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 22px;
 }
@@ -179,7 +180,7 @@ body {
     }
     #activities-cover-image {
         height: 30em;
-        background-image: url("/assets/images/avenue.jpg");
+        background-image: url("https://cdn.pixabay.com/photo/2020/03/10/10/51/forest-4918605_1280.jpg");
     }
     #attractions-top-section {
         height: 30em;
@@ -206,38 +207,38 @@ body {
 
 @media only screen and (max-width: 600px) {
     #home-top-section {
-        height: 15em;
+        height: 20em;
     }
     #home-cover-image {
-        height: 15em;
-        background-image: url("/assets/images/swan.jpeg");
+        height: 20em;
+        background-image: url("https://cdn.pixabay.com/photo/2017/08/28/16/31/castle-2690330__480.jpg");
     }
     #coffee-top-section {
-        height: 15em;
+        height: 20em;
     }
     #coffee-cover-image {
-        height: 15em;
-        background-image: url("/assets/images/hook-and-ladder.jpeg");
+        height: 20em;
+        background-image: url("https://cdn.pixabay.com/photo/2017/08/28/16/31/castle-2690330__480.jpg");
     }
     #activities-top-section {
-        height: 15em;
+        height: 20em;
     }
     #activities-cover-image {
-        height: 15em;
-        background-image: url("/assets/images/trunk.jpg");
+        height: 20em;
+        background-image: url("https://cdn.pixabay.com/photo/2020/01/26/22/27/leaf-4796054__480.jpg");
     }
     #attractions-top-section {
-        height: 15em;
+        height: 20em;
     }
     #attractions-cover-image {
-        height: 15em;
-        background-image: url("/assets/images/king-johns-castle-portrait.jpg");
+        height: 20em;
+        background-image: url("https://cdn.pixabay.com/photo/2017/08/28/16/31/castle-2690330__480.jpg");
     }
     #faq-top-section {
-        height: 15em;
+        height: 20em;
     }
     #faq-cover-image {
-        height: 15em;
+        height: 20em;
         background-image: url("/assets/images/night-limerick-city.jpeg");
     }
     .weather-container h4, p {
@@ -287,6 +288,7 @@ body {
 .YouMayLike {
   padding: 1em;
   margin: 1em;
+  overflow-x: auto;
 }
 
 .YouMayLike h1{
@@ -304,7 +306,6 @@ body {
 /* Shuffle Cards */
 #coffeeYouMayLike{
   display: flex;
-  overflow-x: scroll;
 }
 
 #coffeeYouMayLike img{
@@ -326,6 +327,20 @@ body {
 
 #attractionsYouMayLike img{
   max-height: 180px;
+}
+
+.card {
+    border: 2px solid #A0A0A0;
+    padding: 4px;
+    width: 100%;
+}
+
+.card-title {
+    color: #20B2AA;
+}
+
+.card-service {
+    color: #20B2AA;
 }
 
 /* Start of Footer */

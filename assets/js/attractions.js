@@ -83,9 +83,9 @@ function insertPopularSpots(){
                 <div class="card">
                     <img class="card-img-top" src="${item.img}" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">${item.title}</h5>
+                        <h3 class="card-title">${item.title}</h3>
                         <p class="card-text">${item.description}</p>
-                        <p class="card-text">${item.amenities}</p>
+                        <p class="card-service">${item.amenities}</p>
                         <a href="${item.mapLink}" target="_blank" class="btn btn-primary">View on Maps</a>
                     </div>
                 </div>

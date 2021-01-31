@@ -1,6 +1,6 @@
 let coffeeYouMayLike = [
     {"title": "Hook & Ladder Sarsfield Street", 
-     "img": "/assets/images/hook-and-ladder-front.jpg", 
+     "img": "https://cdn.pixabay.com/photo/2015/11/07/11/49/coffee-1031526__480.jpg", 
      "description": "Hook & Ladder offers customers a unique experience with a café, cookery school and furniture store under one roof.", 
      "service": "Delivery, Takeaway, Dine-in & In-store shopping", 
      "mapLink": "https://g.page/Hookandladderofficial?share"},
@@ -18,32 +18,32 @@ let coffeeYouMayLike = [
     "mapLink": "https://g.page/Wildberry-Cafe?share"},
     
     {"title": "Story Café", 
-    "img": "assets/images/story.png", 
-    "description": "A coffee shop located in the heart of Limerick on the famous Denmark Street known for great service and vibrant atmosphere.", 
+    "img": "https://cdn.pixabay.com/photo/2015/07/11/23/00/coffee-841425__480.jpg", 
+    "description": "A coffee shop located on the famous Denmark Street known for great service and vibrant atmosphere.", 
     "service": "Takeaway & Dine-in", 
     "mapLink": "https://goo.gl/maps/wPbyDBPnB8oxWWJe6"},
 
     {"title": "Melt Chocolate & Coffee", 
-    "img": "/assets/images/melt.jpeg", 
-    "description": "Melt Chocolate & Coffee is a quiet, comfortable coffee shop located on Little Catherine Street. It is facing a busy pedestrian walkway in the middle of Limerick City.", 
+    "img": "https://cdn.pixabay.com/photo/2015/04/20/13/28/coffee-731330__480.jpg", 
+    "description": "Melt Chocolate & Coffee is a quiet, comfortable coffee shop located at a busy pedestrian walkway on Little Catherine Street.", 
     "service": "Takeaway & Dine-in", 
     "mapLink": "https://goo.gl/maps/cf3UwFZP3rdz5m1g6"},
     
     {"title": "Caffe Waffe", 
-    "img": "/assets/images/caffe-waffe.jpeg", 
-    "description": "Caffe Waffe is a family-run café located on Lower Mallow Street. Freshly baked bread, scones, pastries and waffles are available every morning.", 
+    "img": "https://cdn.pixabay.com/photo/2016/02/19/10/25/breakfast-1209223__480.jpg", 
+    "description": "Caffe Waffe is a family-run café with freshly baked scones, pastries and waffles are available every morning.", 
     "service": "Takeaway & Dine-in", 
     "mapLink": "https://goo.gl/maps/gjS7mrZLF4HVweYY8"},
     
     {"title": "Delish Café", 
-    "img": "/assets/images/delish.jpeg", 
-    "description": "Delish Café was originally founded in Limerick City April 2004. College friends, Lisa & Evelyn had a passion for making adventurous sandwiches & sensational salads with only the freshest yet wide variety of ingredients.", 
+    "img": "https://cdn.pixabay.com/photo/2014/08/21/09/27/coffee-423198__480.jpg", 
+    "description": "Delish Café was originally founded with a passion for sandwiches & salads with only the freshest ingredients.", 
     "service": "Delivery, Takeaway & Dine-in", 
     "mapLink": "https://g.page/delish-cafe-castletroy?share"},
     
     {"title": "Café Rosé & Bistro", 
-    "img": "/assets/images/cafe-rose.jpeg", 
-    "description": "Café Rosé is a café & bistro in the heart of Limerick city serving tasty, modern cuisine. Café Rosé serves healthy breakfast, lunch, homemade desserts to eat in and to take away.",
+    "img": "https://cdn.pixabay.com/photo/2019/10/21/16/48/table-4566563__480.jpg", 
+    "description": "Café Rosé is a café & bistro serving tasty, modern cuisine for breakfast, lunch as well as homemade desserts.",
     "service": "Takeaway & Dine-in", 
     "mapLink": "https://goo.gl/maps/DshL6onvu9XMcF4c9"}
 ];
@@ -81,11 +81,11 @@ function insertPopularSpots(){
         // https://getbootstrap.com/docs/4.0/components/card/
         return `<div id=${item.title}>
                 <div class="card">
-                    <img class="card-img-top" src="${item.img}" alt="Card image cap">
+                    <img class="card-img-top" src="${item.img}" alt="Card Image Cap">
                     <div class="card-body">
                         <h3 class="card-title">${item.title}</h3>
                         <p class="card-text">${item.description}</p>
-                        <p class="card-text">${item.service}</p>
+                        <p class="card-service">${item.service}</p>
                         <a href="${item.mapLink}" target="_blank" class="btn btn-primary">View on Maps</a>
                     </div>
                 </div>
