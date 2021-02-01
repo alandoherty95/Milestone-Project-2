@@ -15,8 +15,9 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
-/* Nav Bar */
+/* Navigation Bar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -25,7 +26,7 @@ body {
   text-decoration: none;
   font-family: 'Big Shoulders Stencil Display', cursive;
 }
-
+/* Discover Limerick Logo */
 .logo {
   text-transform: uppercase;
   font-size: 64px;
@@ -37,10 +38,11 @@ body {
   color: #ffffff;
   padding: 6px;
 }
+
 .logo a:hover {
   text-decoration: none;
 }
-
+/* Navigation Tabs */
 .navbar-links ul {
   margin: 0px 10px;
   padding: 0px;
@@ -79,7 +81,7 @@ body {
   background: #ffffff;
   border-radius: 10px;
 }
-
+/* Media Query: Max-Width: 600px */
 @media only screen and (max-width: 600px) {
   .togglebtn {
     display: flex;
@@ -121,8 +123,8 @@ body {
 }
 
 .hvr-bounce-to-bottom:before {
-    background-color: #20b2aa;
-    color: #ffffff;
+  background-color: #20b2aa;
+  color: #ffffff;
 }
 
 #home-top-section {
@@ -131,7 +133,7 @@ body {
   height: 50em;
   width: 100%;
 }
-
+/* King John's Castle Primary Cover Image */
 #home-cover-image {
   height: 50em;
   width: 100%;
@@ -144,113 +146,147 @@ body {
   background-position: center center;
   position: relative;
 }
-
+/* Current Weather Conditions */
 .weather-container {
-    background-color: rgb(255,255,255, 0.8);
-    position: absolute;
-    color: #20B2AA;
-    padding: 0.5em;
-    margin: 1em;
-    max-width: 220px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 22px;
+  background-color: rgb(255,255,255, 0.8);
+  position: absolute;
+  color: #20B2AA;
+  padding: 0.5em;
+  margin: 1em;
+  max-width: 220px;
+  font-size: 20px;
 }
+
 .icon {
-    width: 60px;
-    height: 60px;
+  width: 80px;
+  height: 80px;
 }
 
+.weather-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.weather-container p {
+  color: #000000;
+  font-weight: 600;
+}
+/* Media Query: Max-Width: 768px */
 @media only screen and (max-width: 768px) {
-    #home-top-section {
-        height: 30em;
-    }
-    #home-cover-image {
-        height: 30em;
-        background-image: url("https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/forest.jpg?raw=true");
-    }
-    #coffee-top-section {
-        height: 30em;
-    }
-    #coffee-cover-image {
-        height: 40em;
-        background-image: url("https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/hook-and-ladder.jpeg?raw=true");
-    }
-    #activities-top-section {
-        height: 30em;
-    }
-    #activities-cover-image {
-        height: 30em;
-        background-image: url("https://cdn.pixabay.com/photo/2020/03/10/10/51/forest-4918605_1280.jpg");
-    }
-    #attractions-top-section {
-        height: 30em;
-    }
-    #attractions-cover-image {
-        height: 30em;
-        background-image: url("/assets/images/king-johns-castle-portrait.jpg");
-    }
-    #faq-top-section {
-        height: 30em;
-    }
-    #faq-cover-image {
-        height: 30em;
-        background-image: url("https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/king-johns-castle-portrait.jpg?raw=true");
-    }
-    .weather-container h4, p {
-        font-size: 14px;
-    }
-    .icon {
-        width: 40px;
-        height: 40px;
-    }
-}
+  #home-top-section {
+    height: 30em;
+  }
 
+  #home-cover-image {
+    height: 30em;
+    background-image: url("https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/forest.jpg?raw=true");
+  }
+
+  #coffee-top-section {
+    height: 30em;
+  }
+
+  #coffee-cover-image {
+    height: 40em;
+    background-image: url("https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/hook-and-ladder.jpeg?raw=true");
+  }
+
+  #activities-top-section {
+    height: 30em;
+  }
+
+  #activities-cover-image {
+    height: 30em;
+    background-image: url("https://cdn.pixabay.com/photo/2020/03/10/10/51/forest-4918605_1280.jpg");
+  }
+
+  #attractions-top-section {
+    height: 30em;
+  }
+
+  #attractions-cover-image {
+    height: 30em;
+    background-image: url("/assets/images/king-johns-castle-portrait.jpg");
+  }
+
+  #faq-top-section {
+    height: 30em;
+  }
+
+  #faq-cover-image {
+    height: 30em;
+    background-image: url("https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/king-johns-castle-portrait.jpg?raw=true");
+  }
+
+  .weather-container h4, ul, p {
+    font-size: 14px;
+  }
+
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+/* Media Query: Max-Width: 600px */
 @media only screen and (max-width: 600px) {
-    #home-top-section {
-        height: 20em;
-    }
-    #home-cover-image {
-        height: 20em;
-        background-image: url("https://cdn.pixabay.com/photo/2017/08/28/16/31/castle-2690330__480.jpg");
-    }
-    #coffee-top-section {
-        height: 20em;
-    }
-    #coffee-cover-image {
-        height: 20em;
-        background-image: url("https://cdn.pixabay.com/photo/2017/08/28/16/31/castle-2690330__480.jpg");
-    }
-    #activities-top-section {
-        height: 20em;
-    }
-    #activities-cover-image {
-        height: 20em;
-        background-image: url("https://cdn.pixabay.com/photo/2020/01/26/22/27/leaf-4796054__480.jpg");
-    }
-    #attractions-top-section {
-        height: 20em;
-    }
-    #attractions-cover-image {
-        height: 20em;
-        background-image: url("https://cdn.pixabay.com/photo/2017/08/28/16/31/castle-2690330__480.jpg");
-    }
-    #faq-top-section {
-        height: 20em;
-    }
-    #faq-cover-image {
-        height: 20em;
-        background-image: url("https://cdn.pixabay.com/photo/2017/08/28/16/31/castle-2690330__480.jpg");
-    }
-    .weather-container h4, p {
-        font-size: 12px;
-    }
-    .icon {
-        width: 30px;
-        height: 30px;
-    }
+  #home-top-section {
+    height: 22em;
+  }
+
+  #home-cover-image {
+    height: 22em;
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/28/16/31/castle-2690330__480.jpg");
+  }
+
+  #coffee-top-section {
+    height: 22em;
+  }
+
+  #coffee-cover-image {
+    height: 22em;
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/28/16/31/castle-2690330__480.jpg");
+  }
+
+  #activities-top-section {
+    height: 22em;
+  }
+
+  #activities-cover-image {
+    height: 22em;
+    background-image: url("https://cdn.pixabay.com/photo/2020/01/26/22/27/leaf-4796054__480.jpg");
+  }
+
+  #attractions-top-section {
+    height: 22em;
+  }
+
+  #attractions-cover-image {
+    height: 22em;
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/28/16/31/castle-2690330__480.jpg");
+  }
+
+  #faq-top-section {
+    height: 22em;
+  }
+
+  #faq-cover-image {
+    height: 22em;
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/28/16/31/castle-2690330__480.jpg");
+  }
+
+  .weather-container h4, ul, p {
+    font-size: 12px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
 }
-
-
+/* Google Map API */
 #map-section {
   margin: 1em;
   overflow: hidden;
@@ -275,14 +311,14 @@ body {
 #map-section h4 {
   color: #20B2AA;
 }
-
+/* Coffee Tab */
 #coffee-section {
   overflow: hidden;
   position: relative;
   height: 50em;
   width: 100%;
 }
-
+/* Hook & Ladder Cover Image */
 #coffee-cover-image {
   height: 50em;
   width: 100%;
@@ -295,14 +331,14 @@ body {
   background-position: center;
   position: relative;
 }
-
+/* Activities Tab */
 #activities-section {
   overflow: hidden;
   position: relative;
   height: 50em;
   width: 100%;
 }
-
+/* Cratloe Woods Cover Image */
 #activities-cover-image {
   height: 50em;
   width: 100%;
@@ -315,14 +351,14 @@ body {
   background-position: center;
   position: relative;
 }
-
+/* Attractions Tab */
 #attractions-section {
   overflow: hidden;
   position: relative;
   height: 50em;
   width: 100%;
 }
-
+/* King John's Castle Secondary Cover Image */
 #attractions-cover-image {
   height: 50em;
   width: 100%;
@@ -335,7 +371,7 @@ body {
   background-position: center;
   position: relative;
 }
-
+/* Cover Text on Cover Images */
 #attractions-cover-text, #coffee-cover-text, #activities-cover-text {
   padding: 1em;
   border-radius: 2.5em;
@@ -343,15 +379,16 @@ body {
   position: absolute;
   margin: 2em;
   color: #ffffff;
-  font-family: 'Source Sans Pro', sans-serif;
 }
+/* Recommended Places */
+
 .YouMayLike {
   padding: 1em;
   margin: 1em;
   overflow-x: auto;
 }
 
-.YouMayLike h1{
+.YouMayLike h1 {
   color: #20B2AA;
   font-size: 2em;
   padding: 1em;
@@ -363,44 +400,57 @@ body {
   border-bottom: 0.2em solid #ddd;
 }
 
-/* Shuffle Cards */
-#coffeeYouMayLike{
+/* Recommended Places: Shuffle Cards */
+#coffeeYouMayLike {
   display: flex;
 }
 
-#coffeeYouMayLike img{
+#coffeeYouMayLike img {
   max-height: 180px;
 }
 
-#activitiesYouMayLike{
+#activitiesYouMayLike {
   display: flex;
   overflow-x: auto;
 }
 
-#activitiesYouMayLike img{
+#activitiesYouMayLike img {
   max-height: 180px;
 }
 
-#attractionsYouMayLike{
+#attractionsYouMayLike {
   display: flex;
 }
 
-#attractionsYouMayLike img{
+#attractionsYouMayLike img {
   max-height: 180px;
 }
 
-.card {
-    border: 2px solid #A0A0A0;
-    padding: 4px;
-    width: 100%;
+#placesYouWillLove {
+  display: flex;
+}
+
+#placesYouWillLove img {
+  max-height: 180px;
+}
+
+.single-card {
+  border: 2px solid #20B2AA;
+  border-radius: 2%;
+  padding: 4px;
+  width: 100%;
 }
 
 .card-title {
-    color: #20B2AA;
+  color: #20B2AA;
+}
+
+.card-text {
+  font-size: 18px;
 }
 
 .card-service {
-    color: #20B2AA;
+  color: #20B2AA;
 }
 
 /* Start of Footer */
@@ -409,7 +459,7 @@ body {
   box-sizing: border-box;
   width: 100%;
   text-align: left;
-  font: bold 16px sans-serif;
+  font-size: 16px;
   padding: 55px 50px;
 }
 
@@ -434,17 +484,14 @@ body {
   padding: 6px;
   letter-spacing: 0.5px;
 }
+
 .hvr-bounce-to-top:before {
-    background-color: #20b2aa;
-    color: #ffffff;
+  background-color: #20b2aa;
+  color: #ffffff;
 }
 
 .footer h3 a {
   text-decoration: none;
-  color: #ffffff;
-}
-
-.footer h3 a:hover span {
   color: #ffffff;
 }
 
@@ -479,6 +526,10 @@ body {
 /* Center Footer */
 .footer .footer-center {
   width: 35%;
+}
+
+.footer .footer-center div {
+  text-align: left;
 }
 
 .footer .footer-center i {
@@ -584,7 +635,7 @@ body {
   background-color: #ffffff;
   color: #808080;
 }
-
+/* Footer Media Query: Max-Width: 768px */
 @media (max-width: 768px) {
   .footer h3 {
     font-size: 32px;
@@ -613,7 +664,7 @@ body {
     margin-left: 0;
   }
 }
-
+/* Footer Media Query: Max-Width: 600px */
 @media (max-width: 600px) {
   .footer h3 {
     font-size: 30px;
@@ -642,7 +693,7 @@ body {
     margin-left: 0;
   }
 }
-
+/* Inspritation came from https://getbootstrap.com/docs/5.0/components/accordion/ and https://jqueryui.com/accordion/ */
 /* Accordion */
 #accordion {
   background-color: #ffffff;
@@ -677,14 +728,19 @@ body {
   color: #20B2AA;
   padding: 1em;
 }
-
+/* Our Monthly Favourites */
+#monthly-favourites {
+  background-color: #20B2AA;
+  color: #ffffff;
+}
+/* About Tab */
 #faq-section {
   overflow: hidden;
   position: relative;
   height: 50em;
   width: 100%;
 }
-
+/* Sarsfield Street Cover Image */
 #faq-cover-image {
   height: 50em;
   width: 100%;
@@ -723,6 +779,7 @@ body {
   height: auto;
   background-color: #f5f5f5;
 }
+
 .set a {
   cursor: cell;
 }
@@ -760,7 +817,7 @@ body {
   margin: 0;
   color: #000000;
 }
-
+/* Accordion Images */
 .content img {
   width: 30%;
   height: 30%;

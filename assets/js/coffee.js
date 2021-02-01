@@ -3,52 +3,60 @@ let coffeeYouMayLike = [
      "img": "https://cdn.pixabay.com/photo/2015/11/07/11/49/coffee-1031526__480.jpg", 
      "description": "Hook & Ladder offers customers a unique experience with a café, cookery school and furniture store under one roof.", 
      "service": "Delivery, Takeaway, Dine-in & In-store shopping", 
-     "mapLink": "https://g.page/Hookandladderofficial?share"},
+     "mapLink": "https://g.page/Hookandladderofficial?share",
+     "externalLink": "https://www.hookandladder.ie/sarsfield-street/"},
   
     {"title": "Habit Coffee+Retail", 
     "img": "https://cdn.pixabay.com/photo/2016/01/02/04/59/coffee-1117933_960_720.jpg", 
     "description": "Habit Coffee+Retail is a coffee company aiming to deliver the best quality coffee by expertly trained baristas.", 
     "service": "Takeaway, Dine-in & In-store shopping", 
-    "mapLink": "https://g.page/habit-coffee-retail?share"},
+    "mapLink": "https://g.page/habit-coffee-retail?share",
+    "externalLink": "https://www.instagram.com/habit_coffee_retail/?hl=en"},
     
     {"title": "Wildberry Café", 
     "img": "https://cdn.pixabay.com/photo/2015/11/07/11/48/conservatory-1031494_960_720.jpg", 
     "description": "Wildberry Café is a reasonably-priced coffee shop located at a busy crossroads in the middle of Limerick City.", 
     "service": "Delivery, Takeaway & Dine-in", 
-    "mapLink": "https://g.page/Wildberry-Cafe?share"},
+    "mapLink": "https://g.page/Wildberry-Cafe?share",
+    "externalLink": "https://www.facebook.com/pages/category/Coffee-Shop/Wildberry-Cafe-634674316980330/"},
     
     {"title": "Story Café", 
     "img": "https://cdn.pixabay.com/photo/2015/07/11/23/00/coffee-841425__480.jpg", 
     "description": "A coffee shop located on the famous Denmark Street known for great service and vibrant atmosphere.", 
     "service": "Takeaway & Dine-in", 
-    "mapLink": "https://goo.gl/maps/wPbyDBPnB8oxWWJe6"},
+    "mapLink": "https://goo.gl/maps/wPbyDBPnB8oxWWJe6",
+    "externalLink": "https://www.facebook.com/StoryCafeLK"},
 
     {"title": "Melt Chocolate & Coffee", 
     "img": "https://cdn.pixabay.com/photo/2015/04/20/13/28/coffee-731330__480.jpg", 
-    "description": "Melt Chocolate & Coffee is a quiet, comfortable coffee shop located at a busy pedestrian walkway on Little Catherine Street.", 
+    "description": "Melt Chocolate & Coffee is a quiet, comfortable coffee shop located at a busy pedestrian walkway on Little Catherine Street.",
     "service": "Takeaway & Dine-in", 
-    "mapLink": "https://goo.gl/maps/cf3UwFZP3rdz5m1g6"},
+    "mapLink": "https://goo.gl/maps/cf3UwFZP3rdz5m1g6",
+    "externalLink": "https://www.facebook.com/meltchocolateandcoffee/"},
     
     {"title": "Caffe Waffe", 
     "img": "https://cdn.pixabay.com/photo/2016/02/19/10/25/breakfast-1209223__480.jpg", 
     "description": "Caffe Waffe is a family-run café with freshly baked scones, pastries and waffles are available every morning.", 
     "service": "Takeaway & Dine-in", 
-    "mapLink": "https://goo.gl/maps/gjS7mrZLF4HVweYY8"},
+    "mapLink": "https://goo.gl/maps/gjS7mrZLF4HVweYY8",
+    "externalLink": "https://www.facebook.com/Caffe-Waffe-158333484228389/?ref=page_internal"},
     
     {"title": "Delish Café", 
     "img": "https://cdn.pixabay.com/photo/2014/08/21/09/27/coffee-423198__480.jpg", 
     "description": "Delish Café was originally founded with a passion for sandwiches & salads with only the freshest ingredients.", 
     "service": "Delivery, Takeaway & Dine-in", 
-    "mapLink": "https://g.page/delish-cafe-castletroy?share"},
+    "mapLink": "https://g.page/delish-cafe-castletroy?share",
+    "externalLink": "https://www.delish.ie/"},
     
     {"title": "Café Rosé & Bistro", 
     "img": "https://cdn.pixabay.com/photo/2019/10/21/16/48/table-4566563__480.jpg", 
     "description": "Café Rosé is a café & bistro serving tasty, modern cuisine for breakfast, lunch as well as homemade desserts.",
     "service": "Takeaway & Dine-in", 
-    "mapLink": "https://goo.gl/maps/DshL6onvu9XMcF4c9"}
+    "mapLink": "https://goo.gl/maps/DshL6onvu9XMcF4c9",
+    "externalLink": "https://www.facebook.com/caferose2016/"}
 ];
 
-// Shuffle my array every 8 seconds
+// Shuffle my array every 15 seconds
 // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 
 function shuffle(array) {
@@ -72,7 +80,7 @@ function shuffle(array) {
 
 window.onload = function() {
     insertPopularSpots();
-    setInterval(insertPopularSpots, 8000);
+    setInterval(insertPopularSpots, 15000);
 };
 
 function insertPopularSpots(){
@@ -80,13 +88,14 @@ function insertPopularSpots(){
         // Card 
         // https://getbootstrap.com/docs/4.0/components/card/
         return `<div id=${item.title}>
-                <div class="card">
+                <div class="single-card">
                     <img class="card-img-top" src="${item.img}" alt="Card Image Cap">
                     <div class="card-body">
                         <h3 class="card-title">${item.title}</h3>
                         <p class="card-text">${item.description}</p>
                         <p class="card-service">${item.service}</p>
                         <a href="${item.mapLink}" target="_blank" class="btn btn-primary">View on Maps</a>
+                        <a href="${item.externalLink}" target="_blank" class="btn btn-primary">View External Website</a>
                     </div>
                 </div>
         </div>`;
