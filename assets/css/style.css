@@ -26,6 +26,10 @@ body {
   text-decoration: none;
   font-family: 'Big Shoulders Stencil Display', cursive;
 }
+nav.navbar {
+  margin: 0;
+}
+
 /* Discover Limerick Logo */
 .logo {
   text-transform: uppercase;
@@ -401,37 +405,16 @@ body {
 }
 
 /* Recommended Places: Shuffle Cards */
-#coffeeYouMayLike {
-  display: flex;
-}
-
-#coffeeYouMayLike img {
-  max-height: 180px;
-}
-
-#activitiesYouMayLike {
+#coffeeYouMayLike, #activitiesYouMayLike, #attractionsYouMayLike, #placesYouWillLove {
   display: flex;
   overflow-x: auto;
 }
 
-#activitiesYouMayLike img {
-  max-height: 180px;
-}
-
-#attractionsYouMayLike {
-  display: flex;
-}
-
-#attractionsYouMayLike img {
-  max-height: 180px;
-}
-
-#placesYouWillLove {
-  display: flex;
-}
-
-#placesYouWillLove img {
-  max-height: 180px;
+#coffeeYouMayLike img, #activitiesYouMayLike img, #attractionsYouMayLike img, #placesYouWillLove img {
+  max-height: 400px;
+  width: 100%;
+  border-radius: 2%;
+  padding: 6px;
 }
 
 .single-card {
@@ -451,6 +434,11 @@ body {
 
 .card-service {
   color: #20B2AA;
+  font-size: 18px;
+}
+
+.btn-info {
+    margin: 2px;
 }
 
 /* Start of Footer */

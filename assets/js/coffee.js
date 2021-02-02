@@ -56,7 +56,7 @@ let coffeeYouMayLike = [
     "externalLink": "https://www.facebook.com/caferose2016/"}
 ];
 
-// Shuffle my array every 15 seconds
+// Shuffle my array every 30 seconds
 // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 
 function shuffle(array) {
@@ -80,11 +80,11 @@ function shuffle(array) {
 
 window.onload = function() {
     insertPopularSpots();
-    setInterval(insertPopularSpots, 15000);
+    setInterval(insertPopularSpots, 30000);
 };
 
 function insertPopularSpots(){
-      const youMayLikeThisElement = shuffle(coffeeYouMayLike).slice(0,3).map(item =>{
+      const youMayLikeThisElement = shuffle(coffeeYouMayLike).slice(0,2).map(item =>{
         // Card 
         // https://getbootstrap.com/docs/4.0/components/card/
         return `<div id=${item.title}>
@@ -94,8 +94,8 @@ function insertPopularSpots(){
                         <h3 class="card-title">${item.title}</h3>
                         <p class="card-text">${item.description}</p>
                         <p class="card-service">${item.service}</p>
-                        <a href="${item.mapLink}" target="_blank" class="btn btn-primary">View on Maps</a>
-                        <a href="${item.externalLink}" target="_blank" class="btn btn-primary">View External Website</a>
+                        <a href="${item.mapLink}" target="_blank" class="btn btn-info">View on Maps</a>
+                        <a href="${item.externalLink}" target="_blank" class="btn btn-info">View External Website</a>
                     </div>
                 </div>
         </div>`;

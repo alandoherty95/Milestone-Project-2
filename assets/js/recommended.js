@@ -58,117 +58,117 @@ let placesYouWillLove = [
     {"title": "King John's Castle", 
      "img": "https://raw.githubusercontent.com/alandoherty95/Milestone-Project-2/master/assets/images/king-johns-castle-home.jpg", 
      "description": "King John's Castle is a 13th-century castle located on Kings Island in Limerick, next to the River Shannon.", 
-     "amenities": "Good for kids", 
+     "service": "Good for kids", 
      "mapLink": "https://goo.gl/maps/izB18TvPC59JFPJb8",
      "externalLink": "https://www.kingjohnscastle.com/"},
   
     {"title": "Saint Mary's Cathedral", 
     "img": "https://raw.githubusercontent.com/alandoherty95/Milestone-Project-2/master/assets/images/stables.jpeg", 
     "description": "Saint Mary’s Cathedral was founded in 1168 AD and stands majestically over the City of Limerick on the banks of the River Shannon. ", 
-    "amenities": "Wheelchair-accessible car park & entrance", 
+    "service": "Wheelchair-accessible car park & entrance", 
     "mapLink": "https://goo.gl/maps/YL2uWJRtUi6FvnE76",
     "externalLink": "https://www.saintmaryscathedral.ie/"},
     
     {"title": "Treaty Stone", 
     "img": "https://irelandxo.com/sites/default/files/styles/full_width_image__780px_/public/default_images/Screen%20Shot%202019-07-03%20at%2012.09.41%20p.m..png?itok=6VxXjx_L", 
     "description": "The Treaty Stone is a monument with a stone said to be used in the signing of the 1691 Treaty of Limerick, marking the surrender of the city to William of Orange.", 
-    "amenities": "Good for kids, Wheelchair-accessible entrance", 
+    "service": "Good for kids, Wheelchair-accessible entrance", 
     "mapLink": "https://goo.gl/maps/Y6yR7oUVSnPnWRtw7",
     "externalLink": "https://www.discoverireland.ie/limerick/treaty-stone"},
     
     {"title": "Riverside Walk", 
     "img": "https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/ariel-limerick.jpg?raw=true", 
     "description": "The Limerick City Riverside Walk is a scenic 3.25km shared walking and cycling trail which runs through the historic Shannon Fields and City Centre.",
-    "amenities": "Good for kids", 
+    "service": "Good for kids", 
     "mapLink": "https://goo.gl/maps/T1Go6rXhPZ9gykx56",
     "externalLink": "https://www.hookandladder.ie/sarsfield-street/"},
 
     {"title": "UL Campus", 
     "img": "https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/ul-bridge.jpeg?raw=true", 
     "description": "The University of Limerick campus is truly one of the most beautiful university campuses anywhere in the world.", 
-    "amenities": "Good for kids, Wheelchair-accessible car park & entrance", 
+    "service": "Good for kids, Wheelchair-accessible car park & entrance", 
     "mapLink": "https://goo.gl/maps/csiPxfTTaozTAdSJ9",
     "externalLink": "https://www.ul.ie/ul-campus"},
     
     {"title": "Castletroy Neighbourhood Park", 
     "img": "https://lh3.ggpht.com/RTfz1vOVrLOq_oOtkPugajh_HWFb5K84dgC-ui_7Xh8UyD5Pd9JSt5nM6duWFmL1qNZ2P1yYgHWsLwQS_FI", 
     "description": "Castletroy Neighbourhood Park is a large outdoor public park. It features an array of natural habitats, including a 4,300 sq. metre lake, wetlands, wildflower grass areas and woodlands.", 
-    "amenities": "Good for kids", 
+    "service": "Good for kids", 
     "mapLink": "https://goo.gl/maps/nSaXjnCCgPH6AURj9",
     "externalLink": "https://www.ilovelimerick.ie/castletroy-neighbourhood-park/"},
     
     {"title": "People's Park", 
     "img": "https://www.limerick.ie/sites/default/files/styles/hero_image/public/media/images/2017-03/People%27s-Park-Limerick-810x456.jpg?itok=n-ri4UsV", 
     "description": "The People's Park is a large public park located near Pery Square in Limerick. It can be found just west of the railway station and bus terminal.", 
-    "amenities": "Good for kids", 
+    "service": "Good for kids", 
     "mapLink": "https://goo.gl/maps/LxeUR9GSb3Hb1ugW7",
     "externalLink": "https://limerickslife.com/peoples-park/"},
     
     {"title": "Sarsfield Bridge", 
     "img": "https://film.limerick.ie/sites/default/files/styles/full_screen/public/users/clare/images/locations/Sarsfield%20Bridge_0.jpg?itok=njX51_OH", 
     "description": "Sarsfield Bridge is a five-span limestone road bridge. It was built between 1824-35 connecting Sarsfield Street and Ennis Road.",
-    "amenities": "Good for kids", 
+    "service": "Good for kids", 
     "mapLink": "https://goo.gl/maps/zhRnaqFJMQe99Bfd6",
     "externalLink": "https://www.buildingsofireland.ie/buildings-search/building/21512010/sarsfield-bridge-sarsfield-street-ennis-road-limerick-limerick-city"},
   
   {"title": "Cratloe Woods", 
      "img": "https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/woods.jpg?raw=true", 
      "description": "Cratloe Woods is a forested area around the village of Cratloe, just outside of Limerick City.", 
-     "amenities": "Good for kids", 
+     "service": "Good for kids", 
      "mapLink": "https://goo.gl/maps/QYeh7qyneNj9m1MAA",
      "externalLink": "https://www.coillte.ie/site/cratloe-wood/"},
   
     {"title": "Bunratty Castle & Folk Park", 
     "img": "https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/bunratty.jpeg?raw=true", 
     "description": "Bunratty Castle is a 15th-century castle and living 19th-century village bringing the periods alive at this family-friendly museum.", 
-    "amenities": "Good for kids, Wheelchair-accessible car park & entrance.", 
+    "service": "Good for kids, Wheelchair-accessible car park & entrance.", 
     "mapLink": "https://goo.gl/maps/wkexFeM1WtfzfAxp8",
     "externalLink": "https://www.bunrattycastle.ie/"},
     
     {"title": "The Hunt Museum", 
     "img": "https://cdn.pixabay.com/photo/2017/01/21/22/40/castle-1998435__340.jpg", 
     "description": "The Hunt Museum preserves and exhibits the original artefacts gathered, over a lifetime, by John and Gertrude Hunt and known as the Hunt Collection.", 
-    "amenities": "Wheelchair-accessible entrance, lift & toilet.", 
+    "service": "Wheelchair-accessible entrance, lift & toilet.", 
     "mapLink": "https://g.page/huntmuseum?share",
     "externalLink": "https://www.huntmuseum.com/"},
     
     {"title": "Limerick City Gallery of Art", 
     "img": "https://cdn.pixabay.com/photo/2019/05/31/13/35/art-gallery-4242219__340.jpg", 
     "description": "Limerick City Gallery of Art is the largest contemporary art gallery in the Mid-Western Region, annually exhibiting national and international artists in a diverse exhibition programme.",
-    "amenities": "Wheelchair-accessible car park, entrance, lift & toilet", 
+    "service": "Wheelchair-accessible car park, entrance, lift & toilet", 
     "mapLink": "https://goo.gl/maps/2MbVvUsuyvT9HDyu5",
     "externalLink": "http://gallery.limerick.ie/"},
 
     {"title": "Aura Leisure Centre", 
     "img": "https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/aura.png?raw=true", 
     "description": "Aura Leisure Centre is a public leisure facility with a gym, swimming pool, sauna, steam room and sports hall.", 
-    "amenities": "Good for kids", 
+    "service": "Good for kids", 
     "mapLink": "https://g.page/AuraLeisureGroveIsland?share",
     "externalLink": "https://www.auraleisure.ie/location/grove-island/"},
     
     {"title": "Nevsail Watersports", 
     "img": "https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/nevsail.png?raw=true", 
     "description": "The Limerick Watersports & Activity Centre is based in the heart of Limerick City behind the Hunt Museum.", 
-    "amenities": "Good for kids", 
+    "service": "Good for kids", 
     "mapLink": "https://goo.gl/maps/eARkjxtBCF3LpcM78",
     "externalLink": "https://www.limerickadventures.com/"},
     
     {"title": "Milk Market", 
     "img": "https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/milk-market.jpeg?raw=true", 
     "description": "The Milk Market is a covered market selling fresh fruits, vegetables, meats, dairy items, crafts & baked goods since 1852.", 
-    "amenities": "Wheelchair-accessible entrance, lift & toilet.", 
+    "service": "Wheelchair-accessible entrance, lift & toilet.", 
     "mapLink": "https://goo.gl/maps/PDzWvnRE6pJNjeoJ8",
     "externalLink": "https://www.milkmarketlimerick.ie/"},
     
     {"title": "Crescent Shopping Centre", 
     "img": "https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/crescent.jpeg?raw=true", 
     "description": "The Crescent Shopping Centre is a major shopping centre serving Limerick. It is located in Dooradoyle, on the southern outskirts of the city.",
-    "amenities": "Wheelchair-accessible car park, entrance, lift & toilet", 
+    "service": "Wheelchair-accessible car park, entrance, lift & toilet", 
     "mapLink": "https://goo.gl/maps/G9HtaovKQNoPWUi96",
     "externalLink": "https://crescentshoppingcentre.ie/"}
 ];
 
-// Shuffle my array every 15 seconds
+// Shuffle my array every 30 seconds
 // https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 
 function shuffle(array) {
@@ -192,7 +192,7 @@ function shuffle(array) {
 
 window.onload = function() {
     insertPopularSpots();
-    setInterval(insertPopularSpots, 15000);
+    setInterval(insertPopularSpots, 30000);
 };
 
 function insertPopularSpots(){
@@ -206,8 +206,8 @@ function insertPopularSpots(){
                         <h3 class="card-title">${item.title}</h3>
                         <p class="card-text">${item.description}</p>
                         <p class="card-service">${item.service}</p>
-                        <a href="${item.mapLink}" target="_blank" class="btn btn-primary">View on Maps</a>
-                        <a href="${item.externalLink}" target="_blank" class="btn btn-primary">View External Website</a>
+                        <a href="${item.mapLink}" target="_blank" class="btn btn-info">View on Maps</a>
+                        <a href="${item.externalLink}" target="_blank" class="btn btn-info">View External Website</a>
                     </div>
                 </div>
         </div>`;
