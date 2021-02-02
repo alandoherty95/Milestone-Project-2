@@ -290,6 +290,67 @@ nav.navbar {
     height: 30px;
   }
 }
+
+#favourites {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 2em auto;
+  padding: 1em 2em;
+  color: #000000;
+  border: 4px solid #20B2AA;
+}
+
+#favourites h2 {
+  text-align: center;
+  color: #A0A0A0;
+}
+
+#favourites img {
+  height: 10em;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+  transition: all .4s ease-in-out;
+}
+
+#favouritesarticle a {
+  text-decoration: none;
+  color: #20B2AA;
+}
+
+#favourites > div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1em;
+}
+
+#favourites article {
+  flex: 1 0 10em;
+  margin: 0.5em 1em;
+}
+
+.favourite-card:hover {
+  cursor: pointer;
+}
+
+#favourites article h2 a:hover,
+#favourites article h2 a:focus,
+.clickablecard:hover .cardmainlink {
+  text-decoration: underline;
+  text-decoration-skip: ink;
+  text-decoration-skip-ink: auto;
+  color: #00d;
+}
+
+
+#favourites article a:hover img,
+#favourites article a:focus img,
+.favourite-card:hover img {
+  transform: scale(1.1);
+}
+
+
 /* Google Map API */
 #map-section {
   margin: 1em;
@@ -383,6 +444,13 @@ nav.navbar {
   position: absolute;
   margin: 2em;
   color: #ffffff;
+}
+
+ul.cover-text {
+  margin: 1em;
+  color: #ffffff;
+  list-style-type: square;
+  font-size: 18px;
 }
 /* Recommended Places */
 

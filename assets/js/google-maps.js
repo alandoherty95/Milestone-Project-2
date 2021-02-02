@@ -1,5 +1,5 @@
 function initMap() {
-    // Map default display
+    // Map Default Display
     var options = {
         zoom: 15,
         center: {
@@ -9,12 +9,12 @@ function initMap() {
         }
     };
 
-    // Homepage map
+    // Home Page Map
     var map = new google.maps.Map(document.getElementById('map'), options);
 
-    // Click listener
+    // Click Listener
     google.maps.event.addListener(map, 'click', function(event) {
-        // Adding markers
+        // Adding Markers
         addMarker({
             coords: event.latLng
         });
@@ -23,22 +23,22 @@ function initMap() {
     // Array of markers
     var markers = [{
             coords: {
-                lat: 52.669863886926265,
-                lng: -8.625120408211234
+                lat: 52.66971206665039, 
+                lng: -8.625608444213867
             },
             content: "<h4>King John's Castle</h4> <p>King John's Castle is a 13th-century castle located on Kings Island in Limerick, next to the River Shannon. The foundation of the city of Limerick, however, is generally dated to 922, when the Viking leader Thormodu Helgason established a permanent base on Kings Island, this is the area where King John's Castle now stands.</p>",
         },
         {
             coords: {
-                lat: 52.668434715046445,
-                lng: -8.623118222489378
+                lat: 52.6681899,
+                lng: -8.6235454
             },
             content: "<h4>Saint Mary's Cathedral</h4>" + "<p>Saint Mary’s Cathedral was founded in 1168 AD and stands majestically over the City of Limerick on the banks of the River Shannon. It is one of the most important medieval buildings to survive intact in Ireland, which is still performing its original function. It is the oldest building in Limerick still in continuous daily use.</p>",
         },
         {
             coords: {
-                lat: 52.6697717608359,
-                lng: -8.627680296689704
+                lat: 52.6698134,
+                lng: -8.6281917
             },
             content: "<h4>Treaty Stone</h4>" + "<p>The Treaty Stone is a monument with a stone said to be used in the signing of the 1691 Treaty of Limerick, marking the surrender of the city to William of Orange. The Treaty Stone stands across the River Shannon from King John's Castle.</p>",
         },
@@ -58,57 +58,57 @@ function initMap() {
         },
         {
             coords: {
-                lat: 52.66278226364466,
-                lng: -8.539517495214959
+                lat: 52.661808013916016,
+                lng: -8.538951873779297
             },
             content: "<h4>Castletroy Neighbourhood Park</h4>" + "<p>Castletroy Neighbourhood Park is a large outdoor public park. It features an array of natural habitats, including a 4,300 sq. metre lake, wetlands, wildflower grass areas and woodlands. It also features 1.2 km of pedestrian pathways, a fully equipped children’s playground, skateboarding area and circular cycle route.</p>",
         },
         {
             coords: {
-                lat: 52.65829229686129,
-                lng: -8.627773099688705
+                lat: 52.65807342529297,
+                lng: -8.627958297729492
             },
             content: "<h4>People's Park</h4>" + "<p>he People's Park is a large public park located near Pery Square in Limerick. It can be found just west of the railway station and bus terminal. At the northern edge of the park is the Limerick City Gallery of Art. The park was formally opened in 1877, in memory of Richard Russell, a prominent local businessman.</p>",
         },
         {
             coords: {
-                lat: 52.66546710457959,
-                lng: -8.630398583046363
+                lat: 52.6659174,
+                lng: -8.6310764
             },
             content: "<h4>Sarsfield Bridge</h4>" + "<p>Sarsfield Bridge is a five-span limestone road bridge. It was built between 1824-35 connecting Sarsfield Street and Ennis Road. It was once a swivel bridge that could open allowing large vessels to pass into the upper quays. This function is no longer in use although the mechanisms can still be seen under the bridge.</p>",
         },
         {
             coords: {
-                lat: 52.69972418946017,
-                lng: -8.81145052112184
+                lat: 52.6978336,
+                lng: -8.8121413
             },
             content: "<h4>Bunratty Castle & Folk Park</h4>" + "<p>Bunratty Castle is a 15th-century castle and living 19th-century village bringing the periods alive at this family-friendly museum. The castle and the adjoining folk park are run by Shannon Heritage as tourist attractions. It is widely recognised as the most complete and authentic castle in Ireland.</p>",
         },
         {
             coords: {
-                lat: 52.66632309901861,
-                lng: -8.623624203355625
+                lat: 52.66633987426758,
+                lng: -8.624337196350098
             },
             content: "<h4>The Hunt Museum</h4>" + "<p>The Hunt Museum preserves and exhibits the original artefacts gathered, over a lifetime, by John and Gertrude Hunt and known as the Hunt Collection. The Hunt Museum Trust was established in 1974 to hold the Collection and the property at Craggaunowen, a 16th-century Irish tower house that the Hunts had restored.</p>",
         },
         {
             coords: {
-                lat: 52.659067333536164,
-                lng: -8.62790903420211
+                lat: 52.6588619,
+                lng: -8.628419
             },
             content: "<h4>Limerick City Gallery of Art</h4>" + "<p>Limerick City Gallery of Art is the largest contemporary art gallery in the Mid-Western Region, annually exhibiting national and international artists in a diverse exhibition programme. Limerick City Gallery of Art is one of the leading contemporary art galleries in Ireland and home to an important collection of art.</p>",
         },
         {
             coords: {
-                lat: 52.669014473880644,
-                lng: -8.61397906489442
+                lat: 52.66879653930664,
+                lng: -8.614601135253906
             },
             content: "<h4>Aura Leisure Centre</h4>" + "<p>Aura Leisure Centre is a public leisure facility with a gym, swimming pool, sauna, steam room and sports hall. Aura has a proven track record in working to support the delivery of public leisure facilities nationwide. It is located at Grove Island Shopping Centre on the Corbally side of the city.</p>",
         },
         {
             coords: {
-                lat: 52.68335928210222,
-                lng: -8.738064475750312
+                lat: 52.66879653930664,
+                lng: -8.614601135253906
             },
             content: "<h4>Cratloe Woods</h4>" + "<p>Cratloe Woods is a forested area around the village of Cratloe, just outside of Limerick City. Cratloe Wood Car Park and Picnic Site is located adjacent to Cratloe village and on the western side Cratloe Forest property which is over 700 Hectares in extent. The site is operated by Coillte, who operate a number of forestry areas in Ireland.</p>",
         },
@@ -142,45 +142,45 @@ function initMap() {
         },
         {
             coords: {
-                lat: 52.661685,
-                long: -8.628887
+                lat: 52.661639, 
+                lng: -8.628799
             },
             content: "<h4>Habit Coffee+Retail</h4>" + "<p>Habit Coffee+Retail is a coffee company aiming to deliver the best quality coffee by expertly trained baristas. Sit in or takeaway and enjoy wonderful Badger & Dodo coffees and sample some handmade artisan Irish snacks.</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible entrance.</p>",
         },
         {
             coords: {
-                lat: 52.661859,
-                long: -8.626744
+                lat: 52.661857, 
+                lng: -8.626671
             },
             content: "<h4>Wildberry Café</h4>" + "<p>Wildberry Café is a reasonably-priced coffee shop located at a busy crossroads in the middle of Limerick City. There is a lovely outdoor seating area with a great view of the city.</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible toilet.</p>",
         },
         {
             coords: {
-                lat: 52.66408942507034,
-                lng: -8.624508272279474
+                lat: 52.664052, 
+                lng: -8.624795
             },
             content: "<h4>Story Café</h4>" + "<p>A coffee shop located in the heart of Limerick on the famous Denmark Street known for great service and atmosphere. An outdoor seating area has been added recently.</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible entrance.</p>",
         },
         {
             coords: {
-                lat: 52.66124970285747,
-                lng: -8.620798944456936
+                lat: 52.662858,
+                lng: -8.625753
             },
             content: "<h4>Melt Chocolate & Coffee</h4>" + "<p>Melt Chocolate & Coffee is a cosy coffee shop located on the Little Catherine Street, a pedestrain walkway in the middle of Limerick City. There is a seating area inside and outside the shop to enjoy our coffee and treat.</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible entrance.</p>",
         },
         {
             coords: {
-                lat: 52.660338,
+                lat: 52.660226,
                 long: -8.630977
             },
             content: "<h4>Caffe Waffe</h4>" + "<p>Caffe Waffe is a family-run café located on Lower Mallow Street. Frsehly baked scones, breads, pastries and waffles are available every morning. This reasonably-priced, cosy café is very popular among school students and young professionals working in the area.</p>" + "<p><b>Amenities:</b> Good for kids</p>",
         },
         {
             coords: {
-                lat: 52.667349,
+                lat: 52.667264,
                 long: -8.575986
             },
-            content: "<h4>Delish Café</h4>" + "<p>Delish Café was originally founded in Limerick City April 2004. College friends, Lisa & Evelyn had a passion for making adventurous Sandwiches & sensational salads with only the freshest yet wide variety of ingredients. It was their aim to handle hungry people with taste and “Feeding People with Love” as their motto goes!</p>" + "<p><b>Accessibility:</b> Wheelchair-accessible entrance.</p>",
+            content: "<h4>Delish Café</h4>" + "<p>Delish Café was originally founded in Limerick City April 2004. College friends, Lisa & Evelyn had a passion for making adventurous sandwiches & sensational salads with only the freshest yet wide variety of ingredients. </p>" + "<p><b>Accessibility:</b> Wheelchair-accessible entrance.</p>",
         },
         {
             coords: {
@@ -191,7 +191,7 @@ function initMap() {
         },
     ];
 
-    // Looping through markers
+    // Looping Through Location Markers
     for (var i = 0; i < markers.length; i++) {
         // Add marker
         addMarker(markers[i]);
@@ -202,10 +202,10 @@ function initMap() {
         var marker = new google.maps.Marker({
             position: props.coords,
             map: map,
-            //icon:props.iconImage
+            
         });
 
-        // Checking for content
+        // Checking for content for InfoWindow
         if (props.content) {
             var infoWindow = new google.maps.InfoWindow({
                 content: props.content

@@ -1,3 +1,13 @@
+var favouritecards = document.querySelectorAll(".favourite-link");
+for (var i=0; i<cards.length; i++) {
+  cards[i].addEventListener('click', function(e) {
+    var link = this.querySelector(".favourite-link");
+    link.click();
+  }, false);
+}
+
+
+
 let placesYouWillLove = [
     {"title": "Hook & Ladder Sarsfield Street", 
      "img": "https://cdn.pixabay.com/photo/2015/11/07/11/49/coffee-1031526__480.jpg", 
