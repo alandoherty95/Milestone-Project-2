@@ -195,7 +195,7 @@ nav.navbar {
 
   #coffee-cover-image {
     height: 40em;
-    background-image: url("https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/hook-and-ladder.jpeg?raw=true");
+    background-image: url("https://images.pexels.com/photos/6151691/pexels-photo-6151691.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   }
 
   #activities-top-section {
@@ -204,7 +204,7 @@ nav.navbar {
 
   #activities-cover-image {
     height: 30em;
-    background-image: url("https://cdn.pixabay.com/photo/2020/03/10/10/51/forest-4918605_1280.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2013/07/25/01/31/forest-166733__340.jpg");
   }
 
   #attractions-top-section {
@@ -213,7 +213,7 @@ nav.navbar {
 
   #attractions-cover-image {
     height: 30em;
-    background-image: url("/assets/images/king-johns-castle-portrait.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2020/05/21/12/49/limerick-5200627__340.jpg");
   }
 
   #faq-top-section {
@@ -242,7 +242,7 @@ nav.navbar {
 
   #home-cover-image {
     height: 22em;
-    background-image: url("https://cdn.pixabay.com/photo/2017/08/28/16/31/castle-2690330__480.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2015/05/19/17/45/klee-773946__340.jpg ");
   }
 
   #coffee-top-section {
@@ -251,7 +251,7 @@ nav.navbar {
 
   #coffee-cover-image {
     height: 22em;
-    background-image: url("https://cdn.pixabay.com/photo/2017/08/28/16/31/castle-2690330__480.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2018/05/01/21/14/coffee-3367011_960_720.jpg");
   }
 
   #activities-top-section {
@@ -260,7 +260,7 @@ nav.navbar {
 
   #activities-cover-image {
     height: 22em;
-    background-image: url("https://cdn.pixabay.com/photo/2020/01/26/22/27/leaf-4796054__480.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2020/01/26/22/27/leaf-4796054__340.jpg");
   }
 
   #attractions-top-section {
@@ -269,7 +269,7 @@ nav.navbar {
 
   #attractions-cover-image {
     height: 22em;
-    background-image: url("https://cdn.pixabay.com/photo/2017/08/28/16/31/castle-2690330__480.jpg");
+    background-image: url("https://cdn.pixabay.com/photo/2017/08/28/16/31/castle-2690330_960_720.jpg");
   }
 
   #faq-top-section {
@@ -405,9 +405,9 @@ nav.navbar {
 }
 /* Cratloe Woods Cover Image */
 #activities-cover-image {
-  height: 50em;
+  height: 45em;
   width: 100%;
-  background-image: url("https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/mountain.jpg?raw=true");
+  background-image: url("https://cdn.pixabay.com/photo/2017/11/12/13/37/forest-2942477__340.jpg ");
   animation-name: hero-zoom;
   animation-duration: 4s;
   animation-fill-mode: forwards;
@@ -420,14 +420,14 @@ nav.navbar {
 #attractions-section {
   overflow: hidden;
   position: relative;
-  height: 50em;
+  height: 45em;
   width: 100%;
 }
 /* King John's Castle Secondary Cover Image */
 #attractions-cover-image {
-  height: 50em;
+  height: 45em;
   width: 100%;
-  background-image: url("https://raw.githubusercontent.com/alandoherty95/Milestone-Project-2/master/assets/images/king-johns-castle3.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2019/10/01/18/09/king-johns-castle-4519021__340.jpg");
   animation-name: hero-zoom;
   animation-duration: 4s;
   animation-fill-mode: forwards;
