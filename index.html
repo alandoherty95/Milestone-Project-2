@@ -46,21 +46,41 @@
             </div>
 		</div>
     </section>
+    <h1 class="headline">Our Monthly Favourites</h1>
+    <h4 class="subline">New selections chosen every month</h4>
     <section id="favourites">
         <div>
             <article class="favourite-card">
             <img src="https://cdn.pixabay.com/photo/2019/10/01/18/09/king-johns-castle-4519021__340.jpg" alt="King Johns's Castle">
             <h2><a href="./attractions.html" class="favourite-link">King Johns's Castle</a></h2>
             <p>
-            King John's Castle is a 13th-century castle located on Kings Island in Limerick, next to the River Shannon. The foundation of the city of Limerick, however, is generally dated to 922, when the Viking leader Thormodu Helgason established a permanent base on Kings Island, this is the area where King John's Castle now stands. It is located at the heart of Limerick’s medieval quarter. The site on which the Castle stands has been occupied for over 1000 years.
+            King John's Castle is a 13th-century castle located on Kings Island in Limerick, next to the River Shannon. Viking leader Thormodu Helgason established a permanent base on Kings Island. This is the area where King John's Castle now stands. It is located at the heart of Limerick’s medieval quarter. The site on which the Castle stands has been occupied for over 1000 years.
             </p>
+            <p>The sights, scenes and sounds of King John’s Castle and its environs all combine to recreate the atmosphere of the era.</p>
+                <ul class="cover-list">
+                    <li>Flagship landmark</li>
+                    <li>13th-century castle</li>
+                    <li>Build on Shannon River</li>
+                </ul>
+            <a class="btn btn-info" target="_blank" href="https://goo.gl/maps/izB18TvPC59JFPJb8">View on Maps</a>
+            <a class="btn btn-info" target="_blank" href="https://www.kingjohnscastle.com/">View Official Website</a>
             </article>
             <article class="favourite-card">
             <img src="https://cdn.pixabay.com/photo/2017/12/17/19/08/away-3024773_960_720.jpg " alt="Cratloe Woods">
                 <h2><a href="./activities.html" class="favourite-link">Cratloe Woods</a></h2>
                 <p>
-                Cratloe Woods is a forested area around the village of Cratloe, just outside of Limerick city. Much of the original oak forest has been replaced with coniferous softwoods during the past century; however, small pockets of native oak survive. Cratloe Wood Car Park and Picnic Site is located adjacent to Cratloe village and on the western side Cratloe Forest property which is over 700 Hectares in extent. It overlooks the Estuary of the River Shannon which is the longest river in Ireland and Great Britain. The Galtee Mountains in Co. Tipperary can be seen to the east, the Ballyhoura Mountains in North Cork to the south and Shannon Airport to the west.
-                </p>   
+                Cratloe Woods is a forested area around the village of Cratloe, just outside of Limerick city. Much of the original oak forest has been replaced with coniferous softwoods but small pockets of native oak survive. Cratloe Wood Car Park and Picnic Site is located adjacent to Cratloe village.</p>
+                
+                <p>It overlooks the Estuary of the River Shannon which is the longest river in Ireland and Great Britain. The Galtee Mountains in Co. Tipperary can be seen to the east, the Ballyhoura Mountains in North Cork to the south and Shannon Airport to the west.
+                </p>
+                <p>The site is operated by Coillte, a State owned company that operates a number of forestry areas throughout Ireland.</p>
+                    <ul class="cover-list">
+                        <li>Wildlife & woodlands</li>
+                        <li>Overlooks the Shannon Estuary</li>
+                        <li>Off the beaten track</li>
+                    </ul>
+                <a class="btn btn-info" target="_blank" href="https://goo.gl/maps/QYeh7qyneNj9m1MAA" >View on Maps</a>
+                <a class="btn btn-info" target="_blank" href="https://www.coillte.ie/site/cratloe-wood/">View Official Website</a>  
             </article>
             <article class="favourite-card">
                 <img src="https://images.pexels.com/photos/6151691/pexels-photo-6151691.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Hooker & Ladder Sarsfield Street">
@@ -68,16 +88,26 @@
                 <p>
                 Hook & Ladder “Living Café” offers customers a unique experience with a variety of store concepts under one roof – a café, cookery school, furniture and home accessories store. Hook & Ladder have 4 cafés in Limerick. This casual and cosy café is very accommodating with a kids' menu and vegetarian options.
                 </p>
+                <p>Note: Wheelchair-accessible entrance, seating & toilet is available.</p>
+                    <ul class="cover-list">
+                        <li>Irresistible coffee</li>
+                        <li>Delicious hot food</li>
+                        <li>Vibrant interior design</li>                    
+                    </ul>
+                <a class="btn btn-info" target="_blank" href="https://g.page/Hookandladderofficial?share">View on Maps</a>
+                <a class="btn btn-info" target="_blank" href="https://www.hookandladder.ie/sarsfield-street/">View Official Website</a>
             </article>
         </div>
     </section>
     <section class="YouMayLike">
-            <h1>Places we know you will love</h1>
+            <h1 class="headline">Places we know you will love</h1>
+            <h4 class="subline">Selections will shuffle every 30 seconds</h4>
             <div id="placesYouWillLove">
             </div>
     </section>
     <section id="map-section">
-                <h1>Our Recommended Places on a Map</h1>
+                <h1 class="headline">More Recommended Locations</h1>
+                <h4 class="subline">Click on a marker for more info</h4>
                 <div id="map">
                         <!--My Google Map--> 
                 </div>
@@ -137,6 +167,7 @@
 
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://api.openweathermap.org/data/2.5/weather?q=Limerick,IE&units=metric&appid=253ef60d5eabe6c9178c95bf3a787705" defer></script>
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC50Y1i0FujM1Th3p4IyAbLO9zYQSkEm78&callback=initMap&libraries=&v=weekly"
       defer
