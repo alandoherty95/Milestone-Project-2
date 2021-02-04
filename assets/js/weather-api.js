@@ -6,13 +6,13 @@ console.log(data);
     var temp = data.main.temp;
         $('#celsius').click(function(){
             $(this).css("color","#ffffff");
-            $('#fahrenheit').css("color","#000000");
+            $('#fahrenheit').css("color","#505050");
             $('#temperature').html(Math.round(temp));
         });
 
         $('#fahrenheit').click(function(){
             $(this).css("color","#ffffff");
-            $('#celsius').css("color","#000000");
+            $('#celsius').css("color","#505050");
             $('#temperature').html(Math.round(temp * 1.8 + 32));
         });
     var feels_like = Math.floor(data.main.feels_like);
