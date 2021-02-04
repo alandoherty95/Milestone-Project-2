@@ -11,6 +11,8 @@
 
 > Every month, 1 attraction, 1 activity and 1 coffee shop will be featured as part of 'Our Monthly Favourites' initiative. These selections will be promoted and recommended more favourably than the others. The primary objective of the website is to encourage people of all ages to get outside more and become more active while exploring the many attractions that make Limerick such a renowned city. The website is designed to be responsive and accessible on a range of devices.
 
+>  50% of Limerick's population is under 35 years. The younger half of the population should be exercising for at least 30 minutes everyday. This platform gives users the ability to browse through the top attractions and activities that Limerick has to offer. The users can choose a desired locations or multiple locations and use the integrated Google Maps API for navigation. In preparation for this project, I conducted research online as well as surveyed friends and peers. From this research, I concluded that young people have become more health conscious in recent years and enjoy spending time outside away. Grabbing a takeaway coffee and going for a walk with friends is becoming increasingly popular. Discover Limerick makes it easy and convenient for people of all ages to get active while exploring the best attractions and activities this renowned city has to offer.
+
 ---
 
 ## Demo
@@ -179,10 +181,10 @@ Each of the three tabs (Attractions, Activities & Coffee) display recommended pl
 ### Features to Implement in the Future
 
 - **Upcoming Events** <br>
-We are implementing another feature which will display the upcoming events in and around Limerick City. This feature will include sporting events, concerts, food & drink festivals and exhibitions. 
+We are implementing another feature which will display the upcoming events in and around Limerick City. This feature will include sporting events, concerts, food & drink festivals and exhibitions. We will focus on outdoor events because our goal is to encourage people to spend more time outside rather than in pubs and other indoor settings.
 
 - **Hotels & Restaurants** <br>
-In the longer-term, we are hoping to implement a feature to include hotels & restaurants. This will allow users to plan their entire trips on the website without having to look externally.
+In the longer-term, we are hoping to implement a feature to include hotels & restaurants. This will allow users to plan their entire trips on the website without having to look externally. 
 ---
 
 <a name="testing"></a>
@@ -286,7 +288,6 @@ Another blue button should appear to click:  _Open Browser_.
 To run a backend Python file, type  `python3 app.py`, if your Python file is named  `app.py`  of course.
 A blue button should appear to click:  _Make Public_,
 Another blue button should appear to click:  _Open Browser_.
-Click ‘Try again’ if the message ‘Nothing to see here… Port 800 didn’t respond’.
 
 ### Forking the GitHub Repository
 
@@ -328,6 +329,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 - [Google Fonts](https://fonts.google.com/) for making the web more beautiful, fast, and open through great typography. A resource that is very easy to use.
 - [Slack](https://app.slack.com/client/T0L30B202/C016NG69WG3) community for is always helpful and motivating. It is great for asking questions and discussing challenges.
 - [Pixabay](https://pixabay.com/) for providing a large collection of high quality images.
+- [Pexels](https://pixabay.com/) for providing stunning images.
 
 ### Acknowledgements
 
@@ -335,5 +337,3 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 - The Code Institute team for being available to answering any questions or queries I may have.
 - My friends for giving me their time to demonstrate the website and offering constructive feedback.
 - My family for allowing me to spend so much time invested in this project and for offering ideas and feedback along the way.
-
-

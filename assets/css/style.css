@@ -4,6 +4,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 
+/*****************************************
+Colors:
+- Backgrounds - #a0a0a0 Dark Gray
+- Backgrounds - #20b2aa Light Sea Green
+- Backgrounds - #ffffff White
+- Text body - #000000 Black
+******************************************/
+
 * {
   margin: 0;
   padding: 0;
@@ -152,12 +160,13 @@ nav.navbar {
 }
 /* Current Weather Conditions */
 .weather-container {
-  background-color: rgb(255,255,255, 0.8);
+  background-color: rgba(160,160,160, 0.8);
   position: absolute;
-  color: #20B2AA;
+  color: #ffffff;
   padding: 0.5em;
   margin: 1em;
-  max-width: 220px;
+  border: 2px solid #ffffff;
+  max-width: 12em;
   font-size: 20px;
 }
 
@@ -177,6 +186,38 @@ nav.navbar {
 .weather-container p {
   color: #000000;
   font-weight: 600;
+}
+
+#temperature,
+#celsius,
+#temp-divider,
+#fahrenheit {
+  display: inline;
+}
+
+#temperature {
+  font-size: 30px;
+  margin-right: 2px;
+}
+
+#celsius {
+  margin-right: 10px;
+}
+
+#fahrenheit {
+  margin-right: 2px;
+  color: #000000;
+}
+
+#celsius,
+#temp-divider,
+#fahrenheit {
+  font-size: 20px;
+}
+
+#celsius:hover,
+#fahrenheit:hover {
+  cursor: pointer;
 }
 /* Media Query: Max-Width: 768px */
 @media only screen and (max-width: 768px) {
@@ -225,8 +266,12 @@ nav.navbar {
     background-image: url("https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/king-johns-castle-portrait.jpg?raw=true");
   }
 
-  .weather-container h4, ul, p {
+  .weather-container h3, ul, p {
     font-size: 14px;
+  }
+
+  .weather-container h5 {
+    font-size: 10px;
   }
 
   .icon {
@@ -315,12 +360,12 @@ nav.navbar {
   transition: all .4s ease-in-out;
 }
 
-#favourites article h2 a {
+article h2 a {
   text-decoration: none;
   color: #20B2AA;
 }
 
-#favourites article a {
+article a {
   text-decoration: none;
 }
 
@@ -330,7 +375,7 @@ nav.navbar {
   margin: 0 -1em;
 }
 
-#favourites article {
+article {
   flex: 1 0 10em;
   margin: 0.5em 1em;
 }
@@ -339,16 +384,18 @@ nav.navbar {
   cursor: pointer;
 }
 
-#favourites article h2 a:hover,
-#favourites article h2 a:focus,
+article h2 a:hover,
+article h2 a:focus,
 .favourite-card:hover .favourite-link {
-  text-decoration: none;
+  text-decoration: underline;
+  text-decoration-skip: ink;
+  text-decoration-skip-ink: auto;
   color: #20B2AA;
 }
 
 
-#favourites article a:hover img,
-#favourites article a:focus img,
+article a:hover img,
+article a:focus img,
 .favourite-card:hover img {
   transform: scale(1.1);
 }
@@ -434,7 +481,7 @@ nav.navbar {
 /* Cover Text on Cover Images */
 #attractions-cover-text, #coffee-cover-text, #activities-cover-text {
   padding: 1em;
-  background-color: rgb(197, 195, 198, 0.8);
+  background-color: #A0A0A0;
   position: absolute;
   margin: 2em;
   color: #ffffff;
