@@ -6,10 +6,9 @@
 
 /*****************************************
 Colors:
-- Backgrounds - #a0a0a0 Dark Gray
-- Backgrounds - #20b2aa Light Sea Green
-- Backgrounds - #ffffff White
-- Text body - #000000 Black
+- #a0a0a0 Dark Gray
+- #20b2aa Light Sea Green
+- #ffffff White
 ******************************************/
 
 * {
@@ -351,10 +350,10 @@ nav.navbar {
 }
 
 #favourites img {
-  height: 15em;
+  height: 13em;
   width: auto;
   display: block;
-  margin: 6px auto;
+  margin: 1em auto;
   transition: all .4s ease-in-out;
 }
 

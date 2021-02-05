@@ -8,9 +8,7 @@
 
 ---
 
-  ![](https://browser-a6fb8e6e-52eb-4000-9146-f2ed76c8ad5a.ws-eu03.gitpod.io/workspace/Milestone-Project-2/assets/resources/Multiple%20Devices.png)
-  
-  
+  ![enter image description here](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/Large%20Device%20Home%20Page.png?raw=true)
 
 > **Discover Limerick** is an interactive front-end development website promoting the magnificent city of Limerick in the south-west of Ireland. The website concentrates on three main areas - Attractions, Activities and Coffee. I have chosen to display 8 attractions, 8 activities and 8 coffee shops in and around Limerick City using Google Maps to help users identify and locate their desired destination.
 
@@ -26,10 +24,7 @@
 
 > 50% of Limerick's population is under 35 years. The younger half of the population should be exercising for at least 30 minutes everyday. This platform gives users the ability to browse through the top attractions and activities that Limerick has to offer. The users can choose a desired location or multiple locations and use the integrated Google Maps API for navigation. In preparation for this project, I conducted research online as well as surveyed friends and peers. From this research, I concluded that young people have become more health conscious in recent years and enjoy spending time outside away. Grabbing a takeaway coffee and going for a walk with friends is becoming increasingly popular. Discover Limerick makes it easy and convenient for people of all ages to get active while exploring the best attractions and activities this renowned city has to offer.
 
-  
-
----
-
+  ![enter image description here](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/Small%20Device%20Home%20Page.png?raw=true)
   
 
 ## Demo
@@ -51,8 +46,6 @@ A live demo can be found here. *********
 3. Structure
 
 4. Wireframe Mockups
-
-5. Surface
 
 6. Technologies
 
@@ -261,14 +254,10 @@ This tab will display more information such as the origin, history and interesti
 
 #### Wireframe Mockups
 
-  
+  Wireframe Mockups, screenshots and
   
 
 ---
-
-  
-
-## Surface
 
   
   
@@ -405,7 +394,14 @@ In the longer-term, we are hoping to implement a feature to include hotels & res
 
 This resolved my issue and allowed me to use a toggle for users to switch seamlessly between Celsius and Fahrenheit.
 
-  
+-  One major bug I experienced was with GitHub. An issue affecting a number of developers, when trying to run a preview server ports were stuck on detecting and would not open a port. When I run command python3 -m http.server the terminal displays:
+    
+`33060 – detecting...
+3306 – detecting...
+8000 – detecting...`
+    
+    
+-   I experienced this issue for severals hours on Feb 5th. I learned more about the issue from Slack and after a few hours, the ports were open again. The issue was logged by another developer experiencing the same issues: https://github.com/gitpod-io/gitpod/issues/3118
 
 - I found Lighthouse to be very helpful. Lighthouse is an open-source, automated tool for improving the quality of web pages. I was able to test the responsiveness and load times using Lighthouse. I used Lighthouse to test the performance and accessibility on mobile and desktop (including private browsers).
 
@@ -671,6 +667,8 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 - [Slack](https://app.slack.com/client/T0L30B202/C016NG69WG3) community is always helpful and motivating. It is great for asking questions and discussing challenges.
 
 - [Pixabay](https://pixabay.com/) for providing a large collection of high quality images.
+
+- [Pexels](https://www.pexels.com/) for providing striking, high resolution images.
 
   
 
