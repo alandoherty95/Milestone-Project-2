@@ -9,7 +9,7 @@
 
   
 
-![Responsive Design](assets/images/responsive-design-devices.png)
+![Responsive Design](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/responsive-design-devices.png?raw=true)
 
   
 
@@ -143,7 +143,7 @@ The colour scheme chosen for this website is pretty simplistic. The three colour
 
   
 
-![Light Sea Green](assets/images/light-sea-green-font-colors.png)
+![Light Sea Green](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/light-sea-green-font-colors.png?raw=true)
 
   
 
@@ -163,7 +163,7 @@ The headings on this website use the Big Shoulders font type. Big Shoulders is a
 
   
 
-![Discover Limerick Logo](assets/images/discover-limerick-logo.png)
+![Discover Limerick Logo](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/discover-limerick-logo.png?raw=true)
 
   
 

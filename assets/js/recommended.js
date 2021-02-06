@@ -149,7 +149,7 @@ let placesYouWillLove = [
     "externalLink": "http://gallery.limerick.ie/"},
 
     {"title": "Aura Leisure Centre", 
-    "img": "https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/aura.png?raw=true", 
+    "img": "https://pbs.twimg.com/profile_images/1212664840503922688/nBqhuXSN.jpg", 
     "description": "Aura Leisure Centre is a public leisure facility with a gym, swimming pool, sauna, steam room and sports hall. It is located at Grove Island Shopping Centre on the Corbally side of the city.", 
     "service": "Good for kids", 
     "mapLink": "https://g.page/AuraLeisureGroveIsland?share",
