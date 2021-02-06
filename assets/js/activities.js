@@ -99,7 +99,7 @@ function insertPopularSpots(){
                     </div>
                 </div>
         </div>`;
-    });
+    }).join("")
   
   document.getElementById("activitiesYouMayLike").innerHTML =  youMayLikeThisElement;
 }

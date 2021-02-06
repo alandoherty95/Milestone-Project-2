@@ -219,7 +219,7 @@ function insertPopularSpots(){
                     </div>
                 </div>
         </div>`;
-    });
+    }).join("")
   
   document.getElementById("placesYouWillLove").innerHTML =  youMayLikeThisElement;
 }
