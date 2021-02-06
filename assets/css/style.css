@@ -529,7 +529,7 @@ ul.cover-list {
 }
 
 #coffeeYouMayLike img, #activitiesYouMayLike img, #attractionsYouMayLike img {
-  max-height: 400px;
+  max-width: 400px;
   width: 100%;
   padding: 6px;
 }
