@@ -1,6 +1,8 @@
+// Open Weather API
 $.getJSON("https://api.openweathermap.org/data/2.5/weather?q=Limerick,IE&units=metric&appid=253ef60d5eabe6c9178c95bf3a787705", function (data) {
-
+    // Weather Icon
     const icon = `http://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    // Temperature with Toggle for Celsius & Fahrenheit
     const temp = data.main.temp;
     
     $('#celsius').click(function () {
@@ -23,7 +25,7 @@ $.getJSON("https://api.openweathermap.org/data/2.5/weather?q=Limerick,IE&units=m
 
     $('.icon').attr('src', icon);
     $('#temperature').html(Math.round(temp));
-    $(".feels_like").append(`Feels like:${feels_like}°C`);
+    $(".feels_like").append(`Feels Like: ${feels_like}°C`);
     $(".weather").append(main_weather + "; " + description_weather);
     $(".wind").append("Wind Speed: " + wind_speed + " m/s");
     $(".humidity").append("Humidity: " + humidity + " %");

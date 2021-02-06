@@ -1,3 +1,4 @@
+// Bootstrap Accordion 
 $(document).ready(function() {
   $(".set > a").on("click", function() {
     if ($(this).hasClass("active")) {

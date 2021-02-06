@@ -1,3 +1,4 @@
+// // List of Recommended Attractions, Activities & Coffee Shops
 var cards = document.querySelectorAll(".favourite-card");
 for (var i=0; i<cards.length; i++) {
   cards[i].addEventListener('click', function(e) {
@@ -177,12 +178,12 @@ let placesYouWillLove = [
 ];
 
 // Shuffle my array every 30 seconds
-// https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+// Inspiration from https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;
 
-  // While there remain elements to shuffle...
+  // While there remains elements to shuffle...
   while (0 !== currentIndex) {
 
     // Pick a remaining element...
@@ -205,8 +206,8 @@ window.onload = function() {
 
 function insertPopularSpots(){
       const youMayLikeThisElement = shuffle(placesYouWillLove).slice(0,3).map(item =>{
-        // Card 
-        // https://getbootstrap.com/docs/4.0/components/card/
+        // Card Structure
+        // Inspiration from https://getbootstrap.com/docs/4.0/components/card/
         return `<div id=${item.title}>
                 <div class="single-card">
                     <img class="card-img-top" src="${item.img}" alt="Card Image Cap">

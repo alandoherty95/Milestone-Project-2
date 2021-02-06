@@ -1,3 +1,4 @@
+// List of Recommended Attractions
 let attractionsYouMayLike = [
     {"title": "King John's Castle", 
      "img": "https://raw.githubusercontent.com/alandoherty95/Milestone-Project-2/master/assets/images/king-johns-castle-home.jpg", 
@@ -57,12 +58,12 @@ let attractionsYouMayLike = [
 ];
 
 // Shuffle my array every 30 seconds
-// https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+// Inspiration from https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;
 
-  // While there remain elements to shuffle...
+  // While there remains elements to shuffle...
   while (0 !== currentIndex) {
 
     // Pick a remaining element...
@@ -85,7 +86,7 @@ window.onload = function() {
 
 function insertPopularSpots(){
       const youMayLikeThisElement = shuffle(attractionsYouMayLike).slice(0,2).map(item =>{
-        // Card 
+        // Card Structure
         // https://getbootstrap.com/docs/4.0/components/card/
         return `<div id=${item.title}>
                 <div class="single-card">

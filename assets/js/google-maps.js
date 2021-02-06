@@ -1,3 +1,4 @@
+// Google Maps API
 function initMap() {
     // Map Default Display
     var options = {
@@ -20,7 +21,7 @@ function initMap() {
         });
     });
 
-    // Array of markers
+    // My Array of Markers
     var markers = [{
             coords: {
                 lat: 52.66971206665039, 
@@ -205,7 +206,7 @@ function initMap() {
             
         });
 
-        // Checking for content for InfoWindow
+        // Checking for Content to Display in InfoWindow
         if (props.content) {
             var infoWindow = new google.maps.InfoWindow({
                 content: props.content

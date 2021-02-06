@@ -24,10 +24,6 @@ body {
   font-size: 16px;
   font-family: 'Source Sans Pro', sans-serif;
 }
-
-a:hover {
-    color: #20b2aa;
-}
 /* Navigation Bar */
 .navbar {
   display: flex;
@@ -478,11 +474,12 @@ article a:focus img,
 }
 /* Cover Text on Cover Images */
 #attractions-cover-text, #coffee-cover-text, #activities-cover-text {
-  padding: 1em;
-  background-color: #A0A0A0;
+  background-color: rgba(160,160,160, 0.9);
   position: absolute;
-  margin: 2em;
   color: #ffffff;
+  padding: 0.5em;
+  margin: 1em;
+  border: 2px solid #ffffff;
 }
 
 ul.cover-text {
@@ -520,8 +517,15 @@ ul.cover-list {
   padding: 2em;
   overflow-x: auto;
   width: 94%;
+  display: block;
+  box-sizing: border-box;
 }
 
+.YouMayLike > div {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1em;
+}
 
 /* Recommended Places: Shuffle Cards */
 #coffeeYouMayLike, #activitiesYouMayLike, #attractionsYouMayLike, #placesYouWillLove {
@@ -755,7 +759,7 @@ ul.cover-list {
 /* Footer Media Query: Max-Width: 768px */
 @media (max-width: 768px) {
   .footer h3 {
-    font-size: 32px;
+    font-size: 30px;
   }
 
   .footer .footer-left {
@@ -784,7 +788,7 @@ ul.cover-list {
 /* Footer Media Query: Max-Width: 600px */
 @media (max-width: 600px) {
   .footer h3 {
-    font-size: 30px;
+    font-size: 26px;
   }
 
   .footer .footer-left {

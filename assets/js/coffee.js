@@ -1,3 +1,4 @@
+// List of Recommended Coffee Shops
 let coffeeYouMayLike = [
     {"title": "Hook & Ladder Sarsfield Street", 
      "img": "https://cdn.pixabay.com/photo/2015/11/07/11/49/coffee-1031526__480.jpg", 
@@ -57,12 +58,12 @@ let coffeeYouMayLike = [
 ];
 
 // Shuffle my array every 30 seconds
-// https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
+// Inspiration from https://stackoverflow.com/questions/2450954/how-to-randomize-shuffle-a-javascript-array
 
 function shuffle(array) {
   var currentIndex = array.length, temporaryValue, randomIndex;
 
-  // While there remain elements to shuffle...
+  // While there remains elements to shuffle...
   while (0 !== currentIndex) {
 
     // Pick a remaining element...
@@ -85,7 +86,7 @@ window.onload = function() {
 
 function insertPopularSpots(){
       const youMayLikeThisElement = shuffle(coffeeYouMayLike).slice(0,2).map(item =>{
-        // Card 
+        // Card Structure
         // https://getbootstrap.com/docs/4.0/components/card/
         return `<div id=${item.title}>
                 <div class="single-card">

@@ -1,3 +1,4 @@
+// FAQ Accordion in About tab
 $(document).ready(function() {
   $(".set > a").on("click", function() {
     if ($(this).hasClass("active")) {
