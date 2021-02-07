@@ -485,7 +485,7 @@ This resolved my issue and allowed me to use a toggle for users to switch seamle
 
 `8000 – detecting...`
 
-- I experienced this issue for severals hours on Feb 5th. I learned more about the issue from Slack and after a few hours, the ports were open again. The issue was logged by another developer experiencing the same issues: https://github.com/gitpod-io/gitpod/issues/3118
+- I experienced this issue for severals hours on February 5th & 6th. I learned more about the issue from Slack and after a few hours, the ports were open again. The issue was logged by another developer experiencing the same issues: https://github.com/gitpod-io/gitpod/issues/3118.
 
   
 
@@ -503,6 +503,7 @@ This resolved my issue and allowed me to use a toggle for users to switch seamle
 
 - The recommended places were shuffling and refreshing too frequently. This was constructive feedback I received while demonstrating the website to family members. Consequently, I update the JS code to refresh the results every 30 seconds to resolve this.
 
+- I deployed my website again, checking all images, functionality, links were working correctly. 
   
 
 ### User Stories
