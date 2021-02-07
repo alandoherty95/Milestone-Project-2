@@ -175,7 +175,7 @@ Another font used is Quicksand. Quicksand is a display sans serif with rounded t
 
   
 
-Imagery is vital for grabbing the attention and interest of the user. The large, background cover image was chosen to catch the user's attention. It also symbolises the dramatic local history of this renowned city. I found Pixabay to be an incredibly useful resource for images. I was able to find stunning, high-resolution images for use on this project.
+Imagery is vital for grabbing the attention and interest of the user. The large, background cover image was chosen to catch the user's attention. It also symbolises the dramatic local history of this renowned city. I found Pixabay and Pexels to be a great resource for images. I was able to find stunning, high-resolution images for use on this project. I also used photos from Google Images and local websites.
 
   
 
@@ -291,7 +291,7 @@ This tab will display more information such as the origin, history and interesti
 
   
 
-Wireframe mockups and screenshots
+Wireframe, mockups and screenshots can be found in this [folder](https://github.com/alandoherty95/Milestone-Project-2/tree/master/assets/resources). I like to create wireframes on the web as well as on paper.
 
   
 
@@ -873,6 +873,9 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
   
 
 - [Pexels](https://www.pexels.com/) for providing striking, high resolution images.
+
+
+- [Google Images](https://www.pexels.com/) for providing other pictures.
 
   
 
