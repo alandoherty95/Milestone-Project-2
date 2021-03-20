@@ -528,15 +528,18 @@ ul.cover-list {
   overflow-x: auto;
 }
 
+#placesYouWillLove {
+    width: 100%;
+}
+
 #coffeeYouMayLike img, #activitiesYouMayLike img, #attractionsYouMayLike img {
   max-width: 400px;
-  width: 100%;
+  min-height: 200px;
   padding: 6px;
 }
 
 #placesYouWillLove img {
-  max-height: 400px;
-  width: 100%;
+  width: 96%;
   padding: 6px;
 }
 
@@ -544,10 +547,11 @@ ul.cover-list {
   border: 4px solid #20B2AA;
   padding: 4px;
   width: 100%;
+  height: 100%;
 }
 
 .card-body {
-  width: 94%;
+  width: 100%;
   margin: 2em auto;
   padding: 2em;
 }

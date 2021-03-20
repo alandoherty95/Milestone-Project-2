@@ -192,6 +192,9 @@ function initMap() {
         },
     ];
 
+    //Create and open InfoWindow.
+    var infoWindow = new google.maps.InfoWindow();
+
     // Looping Through Location Markers
     for (var i = 0; i < markers.length; i++) {
         // Add marker

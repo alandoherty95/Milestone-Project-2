@@ -118,18 +118,15 @@ The home page displays current, up-to-date weather conditions for Limerick City,
 ### User Stories
 
   
+As a local of Limerick City, I want to quickly identify places I'd like to visit so that I can spend more time exploring and less time deciding where to go.
 
-Persona One: I am a user who lives in Limerick but there is a large part of the city I have not yet explored or visited. I feel there are so many sites to see and things to do, it can be difficult to decide on one. I am unsure which places are worth visiting in my free time. I usually spent more time deciding where to go and less time outside.
+As a visitor to Limerick, I want to find information about the many destinations so that I can organise my time efficiently in an attempt to visit multiple destinations on the same day.
 
-  
+As a relatively inactive person, I want to use a website to learn more about the attractions in Limerick so that it will encourage me to become more active by getting outdoors more often.
 
-Persona Two: I am a user who lives outside of Limerick but would love to learn more about the city before visiting. I like to plan my trips precisely in order to visit as many locations as possible during my stay in the city. For this reason, I like to strategically organize my time and route to achieve this goal. I love reading about my destinations before travelling.
+Please see TESTING.md for more details about testing.
 
-  
 
-Persona Three: I am a user who lives in Limerick City and made a resolution to become more active this year. Admittedly, I need a little motivation to get outside more often and to increase my step count. I love learning about the city I grew up in and I would like to achieve that while being more active. This website provides the right motivation and intrigue to get outdoors more regularly.
-
-  
 
 ### Design
 
@@ -506,22 +503,14 @@ This resolved my issue and allowed me to use a toggle for users to switch seamle
 - I deployed my website again, checking all images, functionality, links were working correctly. 
   
 
-### User Stories
+### Testing - User Stories
 
-  
 
-Persona One: I use the Discover Limerick website to identify places I would like to visit and explore. I am able to pick my favourite places to visit and then formulate plans. There are so many places worth visiting in Limerick City so it is helpful to narrow down the best places in my area. I really like the 'Monthly Recommendations' provided and I am looking forward to seeing more attractions that I have not had the chance to see even though I have always lived in Limerick. This website allows me to focus my time and attention on the main locations worth visiting.
+Persona One: I can open the main homepage and scroll down to quickly view ‘Our Monthly Favourites’. I am able to click on each selection to find out more information as well as related locations that I might be interested in.
 
-  
-
-Persona Two: I like to organise my time efficiently in an attempt to visit multiple destinations on the same day. This website is very useful for planning and selecting my desired locations. I really enjoy reading information about each location. My knowledge of Limerick has grown immensely after reading the information contained in the About section. This allows me to gain a better understanding of each destination and make the most of my trip to Limerick. The website allows me to plan and organise a more productive trip.
-
-  
-
-Persona Three: I have recently become more active and adventurous. The website has been instrumental in encouraging me to get outdoors more often. I enjoy grabbing a coffee at some of the recommended coffee shops and then walking around the city, particularly the Riverside Walk. I have significantly increased my step count and overall health and fitness levels in recent weeks with the help of 'Discover Limerick'. I love the mobile version of the website as it allows me to check in while moving around the city.
-
-  
-  
+Persona Two: I can view all selected locations in the Google Maps section allowing me to plan my route efficiently. I can click on each marker to learn more information about each location. I like to visit several places in the same area and so, this feature is beneficial to me.
+ 
+Persona Three: I can navigate throughout the website to view all attractions, activities and coffee spots before deciding. Being able to see these attractions, motivates me to be more active and spend more time outdoors exploring. I like using the mobile version of the website because I can check it while moving around the city.
 
 ### Further Testing
 
@@ -609,7 +598,7 @@ iPhone 8, 7, 6S, 6
 
   
 
-- I experienced an issue with the Open Weather API feature.
+
 
   
 
@@ -625,7 +614,7 @@ iPhone 8, 7, 6S, 6
 
   
 
-- I identified a bug while testing the Current Weather to ensure it was functioning correctly. In the early stages, the current temperature was displaying 0 instead of the correct figure. I rewrote the code and tested multiple times. I found a solution by adjusted the following line of code:
+- I experienced an issue with the Open Weather API feature. I identified a bug while testing the Current Weather to ensure it was functioning correctly. In the early stages, the current temperature was displaying 0 instead of the correct figure. I rewrote the code and tested multiple times. I found a solution by adjusted the following line of code:
 
   
 
