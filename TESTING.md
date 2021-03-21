@@ -274,6 +274,17 @@ I made this adjustment and tested again. The clickable cards are now functioning
 
 - I was having an issue with the info windows in Google Maps. Multiple info windows could stay open at the same time. This is a negative user experience. I identified the problem and reworked my JS code to resolve this bug. I was able to improve my Google Maps API code by adding extra markers to distinguish between attractions, activities and coffee spots.
 
+I added the following code to my Google Maps API to close previous info window when a new marker was clicked on:
+`
+function closeOtherInfo() {
+    if( InfoObj.length > 0) {
+        InfoObj[0].set("marker", null);
+        InfoObj[0].close();
+        InfoObj[0].length = 0;
+    }
+}
+`
+
   
 
 ### Known Bugs
