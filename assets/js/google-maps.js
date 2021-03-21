@@ -161,7 +161,79 @@ var markersOnMap = [
             lng: -8.64533731710641
         }],
         type: 'activities'
-    }
+    },
+        {
+        placeName: "Hook & Ladder Sarsfield Street",
+        placeDescription: "Hook & Ladder “Living Café” offers customers a unique experience with a variety of store concepts under one roof – café, cookery school, furniture and home accessories store. Hook & Ladder have 4 cafés in Limerick. Accessibility: Wheelchair-accessible car park & entrance.",
+        LatLng: [{
+            lat: 52.66429243846216,
+            lng: -8.627616913163683
+        }],
+        type: 'coffee'
+    },
+        {
+        placeName: "Habit Coffee+Retail",
+        placeDescription: "Habit Coffee+Retail is a coffee company aiming to deliver the best quality coffee by expertly trained baristas. Sit in or takeaway and enjoy wonderful Badger & Dodo coffees and sample some handmade artisan Irish snacks. Accessibility: Wheelchair-accessible entrance.",
+        LatLng: [{
+            lat: 52.661639, 
+            lng: -8.628799
+        }],
+        type: 'coffee'
+    },
+        {
+        placeName: "Wildberry Café",
+        placeDescription: "Wildberry Café is a reasonably-priced coffee shop located at a busy crossroads in the middle of Limerick City. There is a lovely outdoor seating area with a great view of the city. Accessibility: Wheelchair-accessible toilet.",
+        LatLng: [{
+            lat: 52.661857, 
+            lng: -8.626671
+        }],
+        type: 'coffee'
+    },
+        {
+        placeName: "Story Café",
+        placeDescription: "A coffee shop located in the heart of Limerick on the famous Denmark Street known for great service and atmosphere. An outdoor seating area has been added recently. Accessibility: Wheelchair-accessible entrance.",
+        LatLng: [{
+            lat: 52.664052, 
+            lng: -8.624795
+        }],
+        type: 'coffee'
+    },
+        {
+        placeName: "Melt Chocolate & Coffee",
+        placeDescription: "Melt Chocolate & Coffee is a cosy coffee shop located on the Little Catherine Street, a pedestrain walkway in the middle of Limerick City. There is a seating area inside and outside the shop to enjoy our coffee and treat. Accessibility: Wheelchair-accessible entrance.",
+        LatLng: [{
+            lat: 52.662858,
+            lng: -8.625753
+        }],
+        type: 'coffee'
+    },
+        {
+        placeName: "Caffe Waffe",
+        placeDescription: "Caffe Waffe is a family-run café located on Lower Mallow Street. Frsehly baked scones, breads, pastries and waffles are available every morning. This reasonably-priced, cosy café is very popular among school students and young professionals working in the area. Amenities: Good for kids.",
+        LatLng: [{
+            lat: 52.660226,
+            lng: -8.630977
+        }],
+        type: 'coffee'
+    },
+        {
+        placeName: "Delish Café",
+        placeDescription: "Delish Café was originally founded in Limerick City April 2004. College friends, Lisa & Evelyn had a passion for making adventurous sandwiches & sensational salads with only the freshest yet wide variety of ingredients. Accessibility: Wheelchair-accessible entrance.",
+        LatLng: [{
+            lat: 52.667264,
+            lng: -8.575986
+        }],
+        type: 'coffee'
+    },
+        {
+        placeName: "Café Rose & Bistro",
+        placeDescription: "Caffe Waffe is a family-run café located on Lower Mallow Street. Frsehly baked scones, breads, pastries and waffles are available every morning. This reasonably-priced, cosy café is very popular among school students and young professionals working in the area. Amenities: Good for kids",
+        LatLng: [{
+            lat: 52.661750250196334,
+            lng: -8.626151801661749
+        }],
+        type: 'coffee'
+    },
 ];
 
 window.onload = function () {
