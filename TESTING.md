@@ -1,6 +1,6 @@
 # **TESTING.MD**
 
-This project was tested throughout the stages of development and deployment. The website was tested using preview, Chrome DevTools and manual testing. It was also deployed on GitHub Pages early on in it’s development to allow live testing after each commit was made.
+This project was tested throughout the stages of development and deployment. The website was tested using preview, Chrome DevTools and manual testing. It was also deployed on GitHub Pages early on in its development to allow live testing after each commit was made.
 
 
 ### Users:
@@ -38,7 +38,11 @@ I have recently become more active and adventurous. The website has been instrum
 
 ## Testing
 
-  
+
+Feature Testing
+
+![enter image description here](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/feature-testing-table.png?raw=true)
+
 
 - The website underwent testing routinely throughout the initial build. I found [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) to be extremely useful in the creation of this project. Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser. DevTools can help you edit pages on-the-fly and diagnose problems quickly, which ultimately helps you build better websites, faster.
 
@@ -84,7 +88,7 @@ This resolved my issue and allowed me to use a toggle for users to switch seamle
 
 `8000 – detecting...`
 
-- I experienced this issue for severals hours on February 5th & 6th. I learned more about the issue from Slack and after a few hours, the ports were open again. The issue was logged by another developer experiencing the same issues: https://github.com/gitpod-io/gitpod/issues/3118.
+- I experienced this issue for several hours on February 5th & 6th. I learned more about the issue from Slack and after a few hours, the ports were open again. The issue was logged by another developer experiencing the same issues: https://github.com/gitpod-io/gitpod/issues/3118.
 
   
 
@@ -266,6 +270,9 @@ This resolved my issue and allowed me to use a toggle for users to switch seamle
   
 
 I made this adjustment and tested again. The clickable cards are now functioning and allows the user to navigate directly to either of the 3 'Monthly Favourites' by clicking anywhere on the card.
+
+
+- I was having an issue with the info windows in Google Maps. Multiple info windows could stay open at the same time. This is a negative user experience. I identified the problem and reworked my JS code to resolve this bug. I was able to improve my Google Maps API code by adding extra markers to distinguish between attractions, activities and coffee spots.
 
   
 
