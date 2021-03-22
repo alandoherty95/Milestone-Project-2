@@ -1,6 +1,6 @@
 # **TESTING.MD**
 
-This project was tested throughout the stages of development and deployment. The website was tested using preview, Chrome DevTools and manual testing. It was also deployed on GitHub Pages early on in its development to allow live testing after each commit was made.
+This project was tested throughout the stages of development and deployment. The website was tested using GitPod preview in browser, Chrome DevTools and manual testing. It was also deployed on GitHub Pages early on in the development to allow live testing after each commit was pushed.
 
 
 ### Users:
@@ -8,15 +8,18 @@ This project was tested throughout the stages of development and deployment. The
 - As a visitor to Limerick, I want to find information about the many destinations so that I can organise my time efficiently in order to visit multiple destinations on the same day.
 - As a relatively inactive person, I want to use a website to learn more about the attractions in Limerick to encourage me to become more active by getting outdoors more often.
 ### Owner:
-- As the owner of this website I would like to provide images, descriptions and external links for each location selected.
+- As the owner of this website I would like to provide images, descriptions and external links for each location selected encouraging people to be more active.
 - As the owner, I want users to be able to effortlessly browse through the many selections and to choose their favourites.
 - As the owner, I want to promote certain destinations more favourably than others for the duration of a month. These selections will be updated every month to showcase new ones.
 - As the owner, I want to display all selected locations on a single map to allow users to plan their trips more efficiently.
+- 
 ### User Stories (Extra Detail)
 
 **Persona One:** 
 I am a user who lives in Limerick but there is a large part of the city I have not yet explored or visited. I feel there are so many sites to see and things to do, it can be difficult to decide on one. I am unsure which places are worth visiting in my free time. I usually spent more time deciding where to go and less time outside. 
-I like picking my favourite places and then formulating plans with my friends. There are so many places worth visiting in Limerick City so it is helpful to narrow down the best places in my area. I really like the 'Monthly Recommendations' provided on the main homepage and I am looking forward to seeing more attractions that I have not had the chance to see even though I have always lived in Limerick. This website allows me to focus my time and attention on the best locations to visit.
+I like picking my favourite places and then formulating plans with my friends. 
+
+There are so many places worth visiting in Limerick City so it is helpful to narrow down the best places in my area. I really like the 'Monthly Recommendations' provided on the main homepage and I am looking forward to seeing more attractions that I have not had the chance to see even though I have always lived in Limerick. This website allows me to focus my time and attention on the best locations to visit.
 
 
 **Persona Two:** 
@@ -44,41 +47,23 @@ Feature Testing
 ![enter image description here](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/feature-testing-table.png?raw=true)
 
 
-- The website underwent testing routinely throughout the initial build. I found [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) to be extremely useful in the creation of this project. Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser. DevTools can help you edit pages on-the-fly and diagnose problems quickly, which ultimately helps you build better websites, faster.
+- The website underwent testing routinely throughout the build. I found [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) to be extremely useful in the creation of this project. Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser. DevTools was useful for editing on-the-fly and for diagnosing problems quickly.
 
-  
-
-- I also found the Responsive Viewer Chrome Extension to be very useful in testing multiple screen sizes simultaneously. Responsive Viewer is a Chrome extension to show multiple screens in one view. The extension will help front-end developers to test multiple screens while developing responsive websites and applications.
-
-  
+- I found the Responsive Viewer Chrome Extension to be very useful in testing multiple screen sizes simultaneously. Responsive Viewer was used to test the responsiveness of the website on devices of small, medium and large size.
 
 - I validated all HTML pages using the [Markup Validator](https://validator.w3.org/#validate_by_input). The Markup Validator is a free service by W3C that helps check the validity of Web documents.
 
-  
-
 - I validated all CSS pages using the [Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input). The W3C CSS Validation Service is a free software created by the W3C to help Web designers and Web developers check Cascading Style Sheets (CSS).
 
-  
+- I used [JS Hint](https://jshint.com/) to ensure the JavaScript code complies with coding rules and to ensure there are no syntax errors. Minor syntax errors were detected and resolved during development.
 
-- I used [JS Hint](https://jshint.com/) to ensure the JavaScript code complies with coding rules and to ensure there are no syntax errors.
+- I reviewed all the selected locations in my Google Maps API individually to ensure all the ID's and markers were all working smoothly and were displaying in the correct locations on the map.
 
-  
-
-- I reviewed all the selected locations in my Google Maps API individually to ensure all the ID's and markers were all working smoothly and were showing up in the correct locations.
-
-  
-
-- I tested the Current Weather to ensure it was functioning as intended. In early stages, the temperature was displaying 0 instead of the correct figure. I rewrote the code and tested multiple times. I found a solution by adjusted the following line of code:
-
-  
+- I tested the Current Weather API feature to ensure it was functioning as intended. In early stages, the temperature was displaying 0 instead of the correct figure. I rewrote the code and tested multiple times. I found a solution by adjusting the following line of code:
 
 ` var temp = data.main.temp; ` in place of `var temp = Math.round(data.main.temp); `
 
-  
-
-This resolved my issue and allowed me to use a toggle for users to switch seamlessly between Celsius and Fahrenheit.
-
-  
+This resolved my issue and allowed me to use a toggle for users to switch the temperature seamlessly between Celsius and Fahrenheit depending on the users' preference.
 
 - One major bug I experienced was with GitHub. An issue affecting a number of developers, when trying to run a preview server ports were stuck on detecting and would not open a port. When I run command python3 -m http.server the terminal displays:
 
@@ -90,23 +75,13 @@ This resolved my issue and allowed me to use a toggle for users to switch seamle
 
 - I experienced this issue for several hours on February 5th & 6th. I learned more about the issue from Slack and after a few hours, the ports were open again. The issue was logged by another developer experiencing the same issues: https://github.com/gitpod-io/gitpod/issues/3118.
 
-  
+- I found Lighthouse to be very helpful. Lighthouse is an open-source, automated tool for improving the quality of web pages. I was able to test the responsiveness and load times of the website using Lighthouse. I could also test the performance and accessibility on mobile and desktop (including private browsers).
 
-- I found Lighthouse to be very helpful. Lighthouse is an open-source, automated tool for improving the quality of web pages. I was able to test the responsiveness and load times using Lighthouse. I used Lighthouse to test the performance and accessibility on mobile and desktop (including private browsers).
+- I faced some challenges in receiving feedback on my progress with the project due to social distancing measures in place. However, at different stages in the development of this website, I was able to gain valuable feedback from friends and family members. I used Microsoft Teams to video call friends and colleagues while sharing my screen. This allowed me to navigate throughout the website to show off some of the features. I received great feedback and was able to implement in a constructive way.
 
-  
-
-- I faced some challenges in receiving feedback on my progress with the project due to social distancing measures in place. However, at different stages in the development of this website, I was able to gain valuable feedback from friends and family members. I used Microsoft Teams to video call friends and colleagues while sharing my screen. This allowed me to navigate throughout the website to show off some of the features. I received great feedback and was able to implement updates in a constructive way.
-
-  
-
-- I also demonstrated the website to members of my family including parents. This feedback session was very helpful in identifying areas to improve upon. The font size and images were increased after receiving feedback. This helped ensure the website was more user-friendly.
-
-  
+- I demonstrated the website to members of my family. This feedback session was very helpful in identifying areas to improve upon. The font size and images were increased after receiving feedback. This helped ensure the website was more user-friendly and intuitive to people of all ages.
 
 - The recommended places were shuffling and refreshing too frequently. This was constructive feedback I received while demonstrating the website to family members. Consequently, I update the JS code to refresh the results every 30 seconds to resolve this.
-
-- I deployed my website again, checking all images, functionality, links were working correctly. 
   
 
 ### Testing - User Stories
@@ -275,16 +250,13 @@ I made this adjustment and tested again. The clickable cards are now functioning
 - I was having an issue with the info windows in Google Maps. Multiple info windows could stay open at the same time. This is a negative user experience. I identified the problem and reworked my JS code to resolve this bug. I was able to improve my Google Maps API code by adding extra markers to distinguish between attractions, activities and coffee spots.
 
 I added the following code to my Google Maps API to close previous info window when a new marker was clicked on:
-`
-function closeOtherInfo() {
+`function closeOtherInfo() {
     if( InfoObj.length > 0) {
         InfoObj[0].set("marker", null);
         InfoObj[0].close();
         InfoObj[0].length = 0;
     }
-}
-`
-
+}'
   
 
 ### Known Bugs
