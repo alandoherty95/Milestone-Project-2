@@ -102,5 +102,5 @@ function insertPopularSpots(){
         </div>`;
     }).join("")
   
-  document.getElementById("attractionsYouMayLike").innerHTML =  youMayLikeThisElement;
+  document.getElementById("attractionsYouMayLike").innerHTML = youMayLikeThisElement;
 }

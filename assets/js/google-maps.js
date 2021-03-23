@@ -1,6 +1,6 @@
 var map;
 var InfoObj = [];
-var centerCords = {
+var centerCoords = {
     lat: 52.6647,
     lng: -8.62306 
 };
@@ -273,7 +273,7 @@ function closeOtherInfo() {
 function initMap() {
     map = new google.maps.Map(document.getElementById('map'),{
         zoom: 15,
-        center: centerCords
+        center: centerCoords
     });
     addMarkerInfo();
 }
