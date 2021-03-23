@@ -51,6 +51,10 @@ Feature Testing
 
 - I found the Responsive Viewer Chrome Extension to be very useful in testing multiple screen sizes simultaneously. Responsive Viewer was used to test the responsiveness of the website on devices of small, medium and large size.
 
+![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/demo/responsive-design-demo.gif?raw=true)
+
+![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/demo/large-responsive-design-demo.gif?raw=true)
+
 - I validated all HTML pages using the [Markup Validator](https://validator.w3.org/#validate_by_input). The Markup Validator is a free service by W3C that helps check the validity of Web documents.
 
 - I validated all CSS pages using the [Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input). The W3C CSS Validation Service is a free software created by the W3C to help Web designers and Web developers check Cascading Style Sheets (CSS).
@@ -96,6 +100,8 @@ In order for this user to browse our selected locations:
 - Scroll down slightly to view ‘Our Monthly Favourites’.
 - View image and read description about the three selected locations.
 
+![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/demo/recommended-places-demo.gif?raw=true)
+
 **User Story 2:** As a visitor to Limerick, I want to find information about the many destinations so that I can organise my time efficiently in an attempt to visit multiple destinations on the same day.
 
 I can view all selected locations in the Google Maps section allowing me to plan my route efficiently. I can click on each marker to learn more information about each location. I like to visit several places in the same area and so, this feature is beneficial to me.
@@ -111,6 +117,8 @@ Or
 - Scroll down slightly to view the Google Maps section.
 - Click on any marker to view more information about each location.
 
+![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/demo/google-maps-api-demo.gif?raw=true)
+
 **User Story 3:** As a relatively inactive person, I want to use a website to learn more about the attractions in Limerick to encourage me to become more active by getting outdoors more often.
  
 I can navigate throughout the website to view all attractions, activities and coffee spots before deciding. Being able to see these attractions, motivates me to be more active and spend more time outdoors exploring. I like using the mobile version of the website because I can check it while moving around the city.
@@ -121,6 +129,7 @@ In order for this user to find a suitable destination:
 - Navigate to the desired tab: Attractions, Activities or Coffee.
 - View images and read descriptions about any of the destinations displayed.
 
+![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/demo/accordian-demo.gif?raw=true)
 
 ### Further Testing
 
@@ -234,7 +243,7 @@ iPhone 8, 7, 6S, 6
 
 This resolved my issue and allowed me to use a toggle for users to switch seamlessly between Celsius and Fahrenheit.
 
-  
+![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/demo/current-weather-demo.gif?raw=true)
 
 - I identified another bug in 'Our Monthly Favourites' section. I created a clickable card for each of our 3 'Monthly Favourites'. After rewriting code and testing, I found that the issue was simply a missing full stop in my JS code.
 
