@@ -25,8 +25,8 @@ $.getJSON("https://api.openweathermap.org/data/2.5/weather?q=Limerick,IE&units=m
 
     $('.icon').attr('src', icon);
     $('#temperature').html(Math.round(temp));
-    $(".feels_like").append(`Feels Like: ${feels_like}°C`);
-    $(".weather").append(main_weather + "; " + description_weather);
-    $(".wind").append("Wind Speed: " + wind_speed + " m/s");
-    $(".humidity").append("Humidity: " + humidity + " %");
+    $(".weather").append(`${main_weather}; ${description_weather}`);
+    $(".wind").append(`${wind_speed}m/s wind speed`);
+    $(".humidity").append(`${humidity}% humidity`);
+    $(".feels_like").append(`Feels like ${feels_like}°C`);
 });
