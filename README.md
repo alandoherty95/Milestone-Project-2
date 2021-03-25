@@ -1,15 +1,6 @@
-  
+  # **_[Discover Limerick](https://alandoherty95.github.io/Milestone-Project-2/)_**
 
-# **_[Discover Limerick](https://alandoherty95.github.io/Milestone-Project-2/)_**
-
-  
-  
-
----
-
-  
-
-![Responsive Design](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/responsive-design-devices.png?raw=true)
+![Multiple Devices Mockup](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/mockups/multiple-devices-mockup.png?raw=true)
 
   
 
@@ -29,7 +20,7 @@ Every month, 1 attraction, 1 activity and 1 coffee shop will be featured as part
 
   
 
-In preparation for this project, I conducted research online as well as surveyed friends and peers. From this research, I concluded that young people have become more health conscious in recent years and enjoy spending time outside away. Grabbing a takeaway coffee and going for a walk with friends is becoming increasingly popular. Discover Limerick makes it easy and convenient for people of all ages to get active while exploring the best attractions and activities this renowned city has to offer.
+In preparation for this project, I conducted research online and surveyed my peers. From this research, I concluded that young people have become more health conscious in recent years and enjoy spending time outside away. Grabbing a takeaway coffee and going for a walk with friends is becoming increasingly popular. Discover Limerick makes it easy and convenient for people of all ages to get active while exploring the best attractions and activities this renowned city has to offer.
 
   
 
@@ -43,23 +34,43 @@ In preparation for this project, I conducted research online as well as surveyed
 
 1. [**UX**](#ux)
 
+  
+
 2. [**Scope**](#scope)
+
+  
 
 3. [**Structure**](#structure)
 
+  
+
 4. [**Wireframe Mockups**](#wireframes)
+
+  
 
 5. [**Technologies**](#technologies)
 
+  
+
 6. [**Features**](#features)
+
+  
 
 7. [**Testing**](#testing)
 
+  
+
 8. [**Bugs**](#bugs)
+
+  
 
 9. [**Deployment**](#deployment)
 
+  
+
 10. [**Credits**](#credits)
+
+  
 
 11. [**Acknowledgements**](#acknowledgements)
 
@@ -67,12 +78,15 @@ In preparation for this project, I conducted research online as well as surveyed
 
 ---
 
+  
+
 <a name="ux"></a>
 
   
 
 ## User Experience (UX)
 
+  
   
 
 The website was designed to promote the best attractions, activities and coffee spots Limerick has to offer. This project was undertaken with a deep passion for Limerick City and is designed to be accessible on a range of devices. This allows users to access the website while on the move. It was created with three main objectives in mind:
@@ -114,19 +128,33 @@ All destinations have been marked on Google Maps displayed on the home page allo
 The home page displays current, up-to-date weather conditions for Limerick City, including the actual temperature, feels like temperature, wind speed and humidity. This allows users to plan and coordinate more effectively around the unpredictable weather conditions experienced in Ireland. We have added the option for users to toggle between viewing the temperature in Celsius or Fahrenheit.
 
   
+  
 
 ### User Stories
 
   
-As a local of Limerick City, I want to quickly identify places I'd like to visit so that I can spend more time exploring and less time deciding where to go.
 
-As a visitor to Limerick, I want to find information about the many destinations so that I can organise my time efficiently in an attempt to visit multiple destinations on the same day.
+### Users:
 
-As a relatively inactive person, I want to use a website to learn more about the attractions in Limerick so that it will encourage me to become more active by getting outdoors more often.
+- As a local of Limerick City, I want to quickly identify places I'd like to visit so that I can spend more time exploring and less time deciding where to go.
 
-Please see TESTING.md for more details about testing.
+- As a visitor to Limerick, I want to find information about the many destinations so that I can organise my time efficiently in order to visit multiple destinations on the same day.
 
+- As a relatively inactive person, I want to use a website to learn more about the attractions in Limerick to encourage me to become more active by getting outdoors more often.
 
+  
+
+### Owner:
+
+- As the owner of this website I would like to provide images, descriptions and external links for each location selected encouraging people to be more active.
+
+- As the owner, I want users to be able to effortlessly browse through the many selections and to choose their favourites.
+
+- As the owner, I want to promote certain destinations more favourably than others for the duration of a month. These selections will be updated every month to showcase new ones.
+
+- As the owner, I want to display all selected locations on a single map to allow users to plan their trips more efficiently.
+
+  
 
 ### Design
 
@@ -139,8 +167,9 @@ Please see TESTING.md for more details about testing.
 The colour scheme chosen for this website is pretty simplistic. The three colours used throughout the site are White (#FFFFFF), Nobel (#A0A0A0) and LightSeaGreen(#20B2AA).
 
   
+  
 
-![Light Sea Green](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/light-sea-green-font-colors.png?raw=true)
+![Light Sea Green Font](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/images/light-sea-green-font-colors.png?raw=true)
 
   
 
@@ -228,7 +257,7 @@ Below the cover image is a section showcasing 'Our Monthly Favourites'. This is 
 
   
 
-There is a full-width Google Map with 24 locations selected as recommendations. I have chosen to display 8 attractions, 8 activities and 8 coffee shops in and around Limerick City using Google Maps to help users identify and locate their desired destination. each marker can be clicked on to trigger an 'Info Window' containing more information about the sites.
+There is a full-width Google Map with 24 locations selected as recommendations. I have chosen to display 8 attractions, 8 activities and 8 coffee shops in and around Limerick City using Google Maps to help users identify and locate their desired destination. Each marker can be clicked on to trigger an 'Info Window' containing more information about the sites. The current info window will automatically close when a new marker is clicked on.
 
   
 
@@ -236,7 +265,7 @@ _Navigation Bar_
 
   
 
-The navigation bar includes tabs for Attractions, Activities, Coffee and About. Each tab focuses on 8 different locations. <br>
+The navigation bar includes tabs for Attractions, Activities and Coffee. Each tab focuses on 8 different locations. There is also an About tab containing interesting snippets of information about Limerick. <br>
 
   
 
@@ -244,7 +273,7 @@ _Footer_
 
   
 
-The footer also includes links to navigate to other tabs Attractions, Activities, Coffee and About. It also contains the coordinates of Limerick City Centre, a contact phone number and email. There are also details about the developer with links to LinkedIn and GitHub profiles. <br>
+The footer also includes links to navigate to other tabs Attractions, Activities, Coffee and About. It also contains the coordinates of Limerick City Centre, a contact phone number and a mailto email link. There are also details about the developer with links to LinkedIn and GitHub profiles. <br>
 
   
 
@@ -291,9 +320,6 @@ This tab will display more information such as the origin, history and interesti
 Wireframe, mockups and screenshots can be found in this [folder](https://github.com/alandoherty95/Milestone-Project-2/tree/master/assets/resources). I like to create wireframes on the web as well as on paper.
 
   
-
----
-
   
 
 ## Languages used
@@ -302,11 +328,7 @@ Wireframe, mockups and screenshots can be found in this [folder](https://github.
 
 - [HTML5](https://en.wikipedia.org/wiki/HTML)
 
-  
-
 - [CSS](https://en.wikipedia.org/wiki/CSS)
-
-  
 
 - [JavaScript](https://www.javascript.com/)
 
@@ -314,6 +336,7 @@ Wireframe, mockups and screenshots can be found in this [folder](https://github.
 
 <a name="technologies"></a>
 
+  
   
 
 ## Technologies
@@ -332,11 +355,11 @@ Wireframe, mockups and screenshots can be found in this [folder](https://github.
 
   
 
-- [Open Weather_Api](https://openweathermap.org/api) Open Weather API was used to display the current weather conditions in Limerick City on the home page.
+- [Open Weather API](https://openweathermap.org/api) Open Weather API was used to display the current weather conditions in Limerick City on the home page.
 
   
 
-- [Google Maps Api](https://cloud.google.com/maps-platform) Google Maps API was used to create the map on the home page.
+- [Google Maps API](https://cloud.google.com/maps-platform) Google Maps API was used to create the map on the home page.
 
   
 
@@ -362,13 +385,11 @@ Wireframe, mockups and screenshots can be found in this [folder](https://github.
 
 - [Google Fonts](https://fonts.google.com/) Google Fonts was used in making the website more beautiful, fast, and open through great typography.
 
-  
-
----
-
-  
+- [StackEdit](https://fonts.google.com/) StackEdit is a free, open-source Markdown editor used to create my README file.
 
 <a name="features"></a>
+
+  
 
   
 
@@ -376,23 +397,23 @@ Wireframe, mockups and screenshots can be found in this [folder](https://github.
 
   
 
-- **Google Maps**  <br>
+- **Google Maps** <br>
+
+
+A full-width Google Map on the home page displaying 24 selected locations in and around Limerick City. This feature allows users to identify and navigate to a desired location. For every selection, the info window will display the name and a brief description. There are 8 attractions, 8 activities and 8 coffee shops. Each location is shown with a marker on the map. Each marker can be clicked on to trigger an 'Info Window' containing more information about the sites. The current info window will automatically close when a new marker is clicked on.
 
   
-
-A full-width Google Map on the home page displaying 24 selected locations in and around Limerick City. This feature allows users to identify and navigate to a desired location. For every selection, it shows the location, a brief summary and a link to an external website or social media profile. There are 8 attractions, 8 activities and 8 coffee shops. Each location is shown with a marker on the map.
-
   
 
 - **Current Weather Conditions**<br>
 
   
 
-The homepage also displays the current weather conditions in Limerick City, including the actual temperature, feels like temperature, wind speed and humidity. This allows users to plan and coordinate more effectively around the unpredictable weather conditions experienced in Ireland.
+The homepage also displays the current weather conditions in Limerick City, including the actual temperature, feels like temperature, wind speed and humidity. This allows users to plan and coordinate more effectively around the unpredictable weather conditions experienced in Ireland. Users have the option to toggle the temperature display between'°C' and '°F'.
 
   
 
-- **Our Monthly Favourites**  <br>
+- **Our Monthly Favourites** <br>
 
   
 
@@ -400,7 +421,7 @@ Every month, 1 attraction, 1 activity and 1 coffee shop will be featured as part
 
   
 
-- **Recommended Places**  <br>
+- **Recommended Places** <br>
 
   
 
@@ -412,7 +433,7 @@ Each of the three tabs (Attractions, Activities & Coffee) display recommended pl
 
   
 
-- **Upcoming Events**  <br>
+- **Upcoming Events** <br>
 
   
 
@@ -420,7 +441,7 @@ We are implementing another feature which will display the upcoming events in an
 
   
 
-- **Hotels & Restaurants**  <br>
+- **Hotels & Restaurants** <br>
 
   
 
@@ -428,21 +449,98 @@ In the longer-term, we are hoping to implement a feature to include hotels & res
 
   
 
----
-
 <a name="testing"></a>
 
   
 
-## Testing
+## Feature Testing
 
   
 
-- The website underwent testing routinely throughout the initial build. I found [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) to be extremely useful in the creation of this project. Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser. DevTools can help you edit pages on-the-fly and diagnose problems quickly, which ultimately helps you build better websites, faster.
+| PAGE                                  | ACTION                                     | EXPECTED                                                       | RESULT |
+| ------------------------------------- | ------------------------------------------ | -------------------------------------------------------------- | ------ |
+| Navigation Bar                        | Click on 'Discover Limerick'               | Open 'Home' page                                               | PASS   |
+| Navigation Bar                        | Hover over 'Attractions'                   | Bounce to bottom effect                                        | PASS   |
+| Navigation Bar                        | Hover over 'Activities'                    | Bounce to bottom effect                                        | PASS   |
+| Navigation Bar                        | Hover over 'Coffee'                        | Bounce to bottom effect                                        | PASS   |
+| Navigation Bar                        | Hover over 'About'                         | Bounce to bottom effect                                        | PASS   |
+| Navigation Bar                        | Click on 'Attractions'                     | Open 'Attractions' page                                        | PASS   |
+| Navigation Bar                        | Click on 'Activities'                      | Open 'Activities' page                                         | PASS   |
+| Navigation Bar                        | Click on 'Coffee'                          | Open 'Coffee' page                                             | PASS   |
+| Navigation Bar                        | Click on 'About'                           | Open 'About' page                                              | PASS   |
+| Navigation Bar on Mobile Device       | Click on 'Navigation' menu                 | Open 'Navigation' options                                      | PASS   |
+| Home (Current Weather)                | Click on '°C' togggle button               | Toggle temperature display from '°F' to '°C'                   | PASS   |
+| Home (Current Weather)                | Click on '°F' togggle button               | Toggle temperature display from '°C' to '°F'                   | PASS   |
+| Home (Our Monthly Favourites)         | Hover over selected 'Attraction' card      | Expand image & underline title                                 | PASS   |
+| Home (Our Monthly Favourites)         | Hover over selected 'Activity' card        | Expand image & underline title                                 | PASS   |
+| Home (Our Monthly Favourites)         | Hover over selected 'Coffee' card          | Expand image & underline title                                 | PASS   |
+| Home (Our Monthly Favourites)         | Click on selected 'Attraction' card        | Open 'Attractions' page                                        | PASS   |
+| Home (Our Monthly Favourites)         | Click on selected 'Activity' card          | Open 'Activities' page                                         | PASS   |
+| Home (Our Monthly Favourites)         | Click on selected 'Coffee' card            | Open 'Coffee' page                                             | PASS   |
+| Home (Places We Know You Will Love)   | Click on 'View External Website'  button   | Open external website relating to selection in new tab         | PASS   |
+| Home (Places We Know You Will Love)   | Click on 'View On Maps'  button            | Opens Google Maps with location at center in new tab           | PASS   |
+| Home (Places We Know You Will Love)   | No action                                  | Selections will shuffle every 30 seconds                       | PASS   |
+| Home (More Recommended Locations)     | Click on any marker in Google Maps         | Open info window with the name and description of the location | PASS   |
+| Home (More Recommended Locations)     | Click on another marker in Google Maps     | Open new info window, close previous info window               | PASS   |
+| Home (More Recommended Locations)     | Click on +/- buttons in Google Maps        | Zoom in & out on map                                           | PASS   |
+| Home (More Recommended Locations)     | Click Map/Satellite buttons in Google Maps | Toggle map type                                                | PASS   |
+| Footer                                | Click on 'Discover Limerick'               | Open 'Home' page                                               | PASS   |
+| Footer                                | Hover over 'Attractions'                   | Bounce to top effect                                           | PASS   |
+| Footer                                | Hover over 'Activities'                    | Bounce to top effect                                           | PASS   |
+| Footer                                | Hover over 'Coffee'                        | Bounce to top effect                                           | PASS   |
+| Footer                                | Hover over 'About'                         | Bounce to top effect                                           | PASS   |
+| Footer                                | Click on 'Attractions'                     | Open 'Attractions' page                                        | PASS   |
+| Footer                                | Click on 'Activities'                      | Open 'Activities' page                                         | PASS   |
+| Footer                                | Click on 'Coffee'                          | Open 'Coffee' page                                             | PASS   |
+| Footer                                | Click on 'About'                           | Open 'About' page                                              | PASS   |
+| Footer                                | Click on 'alandoherty95@gmail.com'         | Open mailto:alandoherty95@gmail.com                            | PASS   |
+| Footer                                | Click on 'LinkedIn' icon                   | Open link to my LinkedIn profile                               | PASS   |
+| Footer                                | Click on 'GitHub' icon                     | Open link to my GitHub profile                                 | PASS   |
+| Attractions (Our Monthly Favourites)  | Click on 'View External Website'  button   | Open external website relating to selection in new tab         | PASS   |
+| Attractions (Our Monthly Favourites)  | Click on 'View On Maps'  button            | Opens Google Maps with location at center in new tab           | PASS   |
+| Attractions (Recommended Attractions) | No action                                  | Selections will shuffle every 30 seconds                       | PASS   |
+| Attractions (Recommended Attractions) | Click on 'View External Website'  button   | Open external website in new tab                               | PASS   |
+| Attractions (Recommended Attractions) | Click on 'View On Maps'  button            | Opens Google Maps with location at center in new tab           | PASS   |
+| Attractions (accordion)               | Click on + button (or name)                | Expand selection to show more detail                           | PASS   |
+| Attractions (accordion)               | Click on - button (or name)                | Expand selection to show less more detail                      | PASS   |
+| Attractions (accordion)               | Click on + button (or name)                | Expand selection to show more detail, close previous selection | PASS   |
+| Attractions (accordion)               | Click on 'View External Website'  button   | Open external website relating to selection                    | PASS   |
+| Activities (Our Monthly Favourites)   | Click on 'View External Website'  button   | Open external website relating to selection in new tab         | PASS   |
+| Activities (Our Monthly Favourites)   | Click on 'View On Maps'  button            | Opens Google Maps with location at center in new tab           | PASS   |
+| Activities (Recommended Activities)   | No action                                  | Selections will shuffle every 30 seconds                       | PASS   |
+| Activities (Recommended Activities)   | Click on 'View External Website'  button   | Open external website in new tab                               | PASS   |
+| Activities (Recommended Activities)   | Click on 'View On Maps'  button            | Opens Google Maps with location at center in new tab           | PASS   |
+| Activities (accordion)                | Click on + button (or name)                | Expand selection to show more detail                           | PASS   |
+| Activities (accordion)                | Click on - button (or name)                | Expand selection to show less more detail                      | PASS   |
+| Activities (accordion)                | Click on + button (or name)                | Expand selection to show more detail, close previous selection | PASS   |
+| Activities (accordion)                | Click on 'View External Website'  button   | Open external website relating to selection                    | PASS   |
+| Coffee (Our Monthly Favourites)       | Click on 'View External Website'  button   | Open external website relating to selection in new tab         | PASS   |
+| Coffee (Our Monthly Favourites)       | Click on 'View On Maps'  button            | Opens Google Maps with location at center in new tab           | PASS   |
+| Coffee (Recommended Coffee Spots)     | No action                                  | Selections will shuffle every 30 seconds                       | PASS   |
+| Coffee (Recommended Coffee Spots)     | Click on 'View External Website'  button   | Open external website in new tab                               | PASS   |
+| Coffee (Recommended Coffee Spots)     | Click on 'View On Maps'  button            | Opens Google Maps with location at center in new tab           | PASS   |
+| Coffee (accordion)                    | Click on + button (or name)                | Expand selection to show more detail                           | PASS   |
+| Coffee (accordion)                    | Click on - button (or name)                | Expand selection to show less more detail                      | PASS   |
+| Coffee (accordion)                    | Click on + button (or name)                | Expand selection to show more detail, close previous selection | PASS   |
+| Coffee (accordion)                    | Click on 'View External Website'  button   | Open external website relating to selection                    | PASS   |
+| About (accordion)                     | Click on + button (or name)                | Expand selection to show more detail                           | PASS   |
+| About (accordion)                     | Click on - button (or name)                | Expand selection to show less more detail                      | PASS   |
+| About (accordion)                     | Click on + button (or name)                | Expand selection to show more detail, close previous selection | PASS   |
+| About (accordion)                     | Click on 'View External Website'  button   | Open external website relating to selection                    | PASS   |
+
+  
+  
+  
+
+- The website underwent testing routinely throughout the build. I found [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) to be extremely useful in the creation of this project. Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser. DevTools was useful for editing on-the-fly and for diagnosing problems quickly.
 
   
 
-- I also found the Responsive Viewer Chrome Extension to be very useful in testing multiple screen sizes simultaneously. Responsive Viewer is a Chrome extension to show multiple screens in one view. The extension will help front-end developers to test multiple screens while developing responsive websites and applications.
+- I found the Responsive Viewer Chrome Extension to be very useful in testing multiple screen sizes simultaneously. Responsive Viewer was used to test the responsiveness of the website on devices of small, medium and large size.
+
+  
+
+![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/demo/multiple-devices-demo.gif)
 
   
 
@@ -454,15 +552,15 @@ In the longer-term, we are hoping to implement a feature to include hotels & res
 
   
 
-- I used [JS Hint](https://jshint.com/) to ensure the JavaScript code complies with coding rules and to ensure there are no syntax errors.
+- I used [JS Hint](https://jshint.com/) to ensure the JavaScript code complies with coding rules and to ensure there are no syntax errors. Minor syntax errors were detected and resolved during development.
 
   
 
-- I reviewed all the selected locations in my Google Maps API individually to ensure all the ID's and markers were all working smoothly and were showing up in the correct locations.
+- I reviewed all the selected locations in my Google Maps API individually to ensure all the ID's and markers were all working smoothly and were displaying in the correct locations on the map.
 
   
 
-- I tested the Current Weather to ensure it was functioning as intended. In early stages, the temperature was displaying 0 instead of the correct figure. I rewrote the code and tested multiple times. I found a solution by adjusted the following line of code:
+- I tested the Current Weather API feature to ensure it was functioning as intended. In early stages, the temperature was displaying 0 instead of the correct figure. I rewrote the code and tested multiple times. I found a solution by adjusting the following line of code:
 
   
 
@@ -470,47 +568,129 @@ In the longer-term, we are hoping to implement a feature to include hotels & res
 
   
 
-This resolved my issue and allowed me to use a toggle for users to switch seamlessly between Celsius and Fahrenheit.
+This resolved my issue and allowed me to use a toggle for users to switch the temperature seamlessly between Celsius and Fahrenheit depending on the users' preference.
+
+  
+
+![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/demo/current-weather-api-demo.gif?raw=true)
 
   
 
 - One major bug I experienced was with GitHub. An issue affecting a number of developers, when trying to run a preview server ports were stuck on detecting and would not open a port. When I run command python3 -m http.server the terminal displays:
 
+  
+
 `33060 – detecting...`
+
+  
 
 `3306 – detecting...`
 
+  
+
 `8000 – detecting...`
 
-- I experienced this issue for severals hours on February 5th & 6th. I learned more about the issue from Slack and after a few hours, the ports were open again. The issue was logged by another developer experiencing the same issues: https://github.com/gitpod-io/gitpod/issues/3118.
+  
+
+- I experienced this issue for several hours on February 5th & 6th. I learned more about the issue from Slack and after a few hours, the ports were open again. The issue was logged by another developer experiencing the same issues: https://github.com/gitpod-io/gitpod/issues/3118.
 
   
 
-- I found Lighthouse to be very helpful. Lighthouse is an open-source, automated tool for improving the quality of web pages. I was able to test the responsiveness and load times using Lighthouse. I used Lighthouse to test the performance and accessibility on mobile and desktop (including private browsers).
+- I found Lighthouse to be very helpful. Lighthouse is an open-source, automated tool for improving the quality of web pages. I was able to test the responsiveness and load times of the website using Lighthouse. I could also test the performance and accessibility on mobile and desktop (including private browsers).
 
   
 
-- I faced some challenges in receiving feedback on my progress with the project due to social distancing measures in place. However, at different stages in the development of this website, I was able to gain valuable feedback from friends and family members. I used Microsoft Teams to video call friends and colleagues while sharing my screen. This allowed me to navigate throughout the website to show off some of the features. I received great feedback and was able to implement updates in a constructive way.
+- I faced some challenges in receiving feedback on my progress with the project due to social distancing measures in place. However, at different stages in the development of this website, I was able to gain valuable feedback from friends and family members. I used Microsoft Teams to video call friends and colleagues while sharing my screen. This allowed me to navigate throughout the website to show off some of the features. I received great feedback and was able to implement in a constructive way.
 
   
 
-- I also demonstrated the website to members of my family including parents. This feedback session was very helpful in identifying areas to improve upon. The font size and images were increased after receiving feedback. This helped ensure the website was more user-friendly.
+- I demonstrated the website to members of my family. This feedback session was very helpful in identifying areas to improve upon. The font size and images were increased after receiving feedback. This helped ensure the website was more user-friendly and intuitive to people of all ages.
 
   
 
 - The recommended places were shuffling and refreshing too frequently. This was constructive feedback I received while demonstrating the website to family members. Consequently, I update the JS code to refresh the results every 30 seconds to resolve this.
 
-- I deployed my website again, checking all images, functionality, links were working correctly. 
-  
-
 ### Testing - User Stories
 
+  
+  
 
-Persona One: I can open the main homepage and scroll down to quickly view ‘Our Monthly Favourites’. I am able to click on each selection to find out more information as well as related locations that I might be interested in.
+**User Story 1:** As a local of Limerick City, I want to quickly identify places I'd like to visit so that I can spend more time exploring and less time deciding where to go.
 
-Persona Two: I can view all selected locations in the Google Maps section allowing me to plan my route efficiently. I can click on each marker to learn more information about each location. I like to visit several places in the same area and so, this feature is beneficial to me.
- 
-Persona Three: I can navigate throughout the website to view all attractions, activities and coffee spots before deciding. Being able to see these attractions, motivates me to be more active and spend more time outdoors exploring. I like using the mobile version of the website because I can check it while moving around the city.
+  
+
+I can open the main homepage and scroll down to quickly view ‘Our Monthly Favourites’. I am able to click on each selection to find out more information as well as related locations that I might be interested in.
+
+  
+
+In order for this user to browse our selected locations:
+
+- Open homepage of website.
+
+- Scroll down slightly to view ‘Our Monthly Favourites’.
+
+- View image and read description about the three selected locations.
+
+  
+
+![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/demo/recommended-places-demo.gif?raw=true)
+
+  
+
+**User Story 2:** As a visitor to Limerick, I want to find information about the many destinations so that I can organise my time efficiently in an attempt to visit multiple destinations on the same day.
+
+  
+
+I can view all selected locations in the Google Maps section allowing me to plan my route efficiently. I can click on each marker to learn more information about each location. I like to visit several places in the same area and so, this feature is beneficial to me.
+
+  
+
+In order for this user to browse all locations:
+
+- Open homepage of website.
+
+- View navigation bar at the top of the page.
+
+- Navigate to the desired tab: Attractions, Activities or Coffee.
+
+- View images and read descriptions about any of the destinations displayed.
+
+  
+
+Or
+
+- Open homepage of website.
+
+- Scroll down slightly to view the Google Maps section.
+
+- Click on any marker to view more information about each location.
+
+  
+
+![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/demo/google-map-api-demo.gif?raw=true)
+
+  
+
+**User Story 3:** As a relatively inactive person, I want to use a website to learn more about the attractions in Limerick to encourage me to become more active by getting outdoors more often.
+
+I can navigate throughout the website to view all attractions, activities and coffee spots before deciding. Being able to see these attractions, motivates me to be more active and spend more time outdoors exploring. I like using the mobile version of the website because I can check it while moving around the city.
+
+  
+
+In order for this user to find a suitable destination:
+
+- Open homepage of website.
+
+- View navigation bar at the top of the page.
+
+- Navigate to the desired tab: Attractions, Activities or Coffee.
+
+- View images and read descriptions about any of the destinations displayed.
+
+  
+  
+  
+  
 
 ### Further Testing
 
@@ -586,21 +766,9 @@ iPhone 8, 7, 6S, 6
 
   
 
----
-
-  
-
 <a name="bugs"></a>
 
-  
-
 ## Bugs
-
-  
-
-
-
-  
 
 - I had an issue with the Accordion jumping to the top of the page every time I clicked on it. I was able to resolve this by adding this detail to each < a > tag.
 
@@ -626,6 +794,10 @@ This resolved my issue and allowed me to use a toggle for users to switch seamle
 
   
 
+![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/demo/current-weather-demo.gif?raw=true)
+
+  
+
 - I identified another bug in 'Our Monthly Favourites' section. I created a clickable card for each of our 3 'Monthly Favourites'. After rewriting code and testing, I found that the issue was simply a missing full stop in my JS code.
 
   
@@ -638,255 +810,28 @@ I made this adjustment and tested again. The clickable cards are now functioning
 
   
 
+![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/demo/monthly-picks-coffee-demo.gif?raw=true)
+
+  
+
+- I was having an issue with the info windows in Google Maps. Multiple info windows could stay open at the same time. This is a negative user experience. I identified the problem and reworked my JS code to resolve this bug. I was able to improve my Google Maps API code by adding extra markers to distinguish between attractions, activities and coffee spots.
+
+  
+
+I added the following code to my Google Maps API to close previous info window when a new marker was clicked on:
+
+`function closeOtherInfo() {`
+
+`if( InfoObj.length > 0) {`
+
+`InfoObj[0].set("marker", null);`
+
+`InfoObj[0].close();`
+
+`InfoObj[0].length = 0;`
+
+`}`
+
+`}`
+
 ### Known Bugs
-
-  
-
-<a name="deployment"></a>
-
-  
-
-## Deployment
-
-  
-
-I used [GitHub Pages](https://pages.github.com/) to deploy my interactive front-end website. GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.
-
-  
-
-The steps I followed to deploy the website on GitHub Pages were as follows:
-
-  
-
-<ol>
-
-  
-
-<li>Open my repository on GitHub</li>
-
-  
-
-<li>Click on 'Settings'</li>
-
-  
-
-<li>Scroll down as far as GitHub Pages</li>
-
-  
-
-<li>Select 'Branch: master' and click 'Save'</li>
-
-  
-
-<li>GitHub Pages will notify you that 'Your site is ready to be published at...'</li>
-
-  
-
-<li>Refresh the page</li>
-
-  
-
-<li>GitHub Pages will now notify you that 'Your site is published at...'</li>
-
-  
-
-<li>Click on the link included in the notification</li>
-
-  
-
-<li>The website will open</li>
-
-  
-
-</ol>
-
-  
-
----
-
-  
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-  
-
-A blue button should appear to click: _Make Public_,
-
-  
-
-Another blue button should appear to click: _Open Browser_.
-
-  
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-  
-
-A blue button should appear to click: _Make Public_,
-
-  
-
-Another blue button should appear to click: _Open Browser_.
-
-  
-
-### Forking the GitHub Repository
-
-  
-
-By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
-
-  
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-
-  
-
-2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
-
-  
-
-3. You should now have a copy of the original repository in your GitHub account.
-
-  
-
-### Making a Local Clone
-
-  
-
-1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
-
-  
-
-2. Under the repository name, click "Clone or download".
-
-  
-
-3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
-
-  
-
-4. Open Git Bash
-
-  
-
-5. Change the current working directory to the location where you want the cloned directory to be made.
-
-  
-
-6. Type `git clone`, and then paste the URL you copied in Step 3.
-
-  
-
-```
-
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-
-  
-
-```
-
-  
-
-7. Press Enter. Your local clone will be created.
-
-  
-
-```
-
-  
-
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-
-  
-
-> Cloning into `CI-Clone`...
-
-  
-
-> remote: Counting objects: 10, done.
-
-  
-
-> remote: Compressing objects: 100% (8/8), done.
-
-  
-
-> remove: Total 10 (delta 1), reused 10 (delta 1)
-
-  
-
-> Unpacking objects: 100% (10/10), done.
-
-  
-
-```
-
-  
-
-<a name="credits"></a>
-
-  
-
-## Credits
-
-  
-
-- [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) for breaking down the features and possibilities that come with the Google Maps API.
-
-  
-
-- [Open Weather API](https://openweathermap.org/current) for the features and possibilities that come with the Open Weather API and the supporting documentation.
-
-  
-
-- [W3Schools](https://www.w3schools.com/) for providing a wealth of information about HTML, CSS and JavaScript. It was a very informative and beneficial resource.
-
-  
-
-- [GitHub](https://github.com/) for hosting for software development and version control.
-
-  
-
-- [Google Fonts](https://fonts.google.com/) for making the web more beautiful, fast, and open through great typography. A resource that is very easy to use.
-
-  
-
-- [Slack](https://app.slack.com/client/T0L30B202/C016NG69WG3) community is always helpful and motivating. It is great for asking questions and discussing challenges.
-
-  
-
-- [Pixabay](https://pixabay.com/) for providing a large collection of high quality images.
-
-  
-
-- [Pexels](https://www.pexels.com/) for providing striking, high resolution images.
-
-
-- [Google Images](https://www.pexels.com/) for providing other pictures.
-
-  
-
-<a name="acknowledgements"></a>
-
-  
-
-### Acknowledgements
-
-  
-
-- My Code Institute Mentor [Nishant Kumar](https://github.com/nishant8BITS/) for his continuous help and guidance during this project from inception to submission.
-
-  
-
-- The Code Institute team for being available to answer any questions or queries I may have.
-
-  
-
-- My friends for giving me their time to demonstrate the website and offering constructive feedback.
-
-  
-
-- My family for allowing me to spend so much time invested in this project and for offering ideas and feedback along the way.
