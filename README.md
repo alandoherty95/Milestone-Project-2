@@ -309,7 +309,7 @@ This tab will display more information such as the origin, history and interesti
 
   
 
-<a name="structure"></a>
+<a name="wireframes"></a>
 
   
 
@@ -387,6 +387,11 @@ Wireframe, mockups and screenshots can be found in this [folder](https://github.
 
 - [StackEdit](https://fonts.google.com/) StackEdit is a free, open-source Markdown editor used to create my README file.
 
+- [Responsive Viewer](https://chrome.google.com/webstore/detail/responsive-viewer/inmopeiepgfljkpkidclfgbgbmfcennb?hl=en) A Google Chrome extension to show multiple screens in one view.
+
+
+- [QuickTime Player](https://support.apple.com/downloads/quicktime) QuickTime Player is an extensible multimedia framework developed by Apple Inc., capable of handling various formats of digital video, picture, sound, panoramic images, and interactivity.
+
 <a name="features"></a>
 
   
@@ -452,8 +457,8 @@ In the longer-term, we are hoping to implement a feature to include hotels & res
 <a name="testing"></a>
 
   
-
-## Feature Testing
+## Testing
+### Feature Testing Table
 
   
 
@@ -540,7 +545,7 @@ In the longer-term, we are hoping to implement a feature to include hotels & res
 
   
 
-![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/demo/multiple-devices-demo.gif)
+![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/multiple-devices.jpg)
 
   
 
@@ -633,7 +638,7 @@ In order for this user to browse our selected locations:
 
   
 
-![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/demo/recommended-places-demo.gif?raw=true)
+![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/demo/monthly-picks-coffee-demo.gif?raw=true)
 
   
 
@@ -688,7 +693,7 @@ In order for this user to find a suitable destination:
 - View images and read descriptions about any of the destinations displayed.
 
   
-  
+  ![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/demo/shuffle-selections-demo.gif?raw=true)
   
   
 
@@ -792,9 +797,6 @@ iPhone 8, 7, 6S, 6
 
 This resolved my issue and allowed me to use a toggle for users to switch seamlessly between Celsius and Fahrenheit.
 
-  
-
-![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/demo/current-weather-demo.gif?raw=true)
 
   
 
@@ -807,12 +809,6 @@ This resolved my issue and allowed me to use a toggle for users to switch seamle
   
 
 I made this adjustment and tested again. The clickable cards are now functioning and allows the user to navigate directly to either of the 3 'Monthly Favourites' by clicking anywhere on the card.
-
-  
-
-![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/demo/monthly-picks-coffee-demo.gif?raw=true)
-
-  
 
 - I was having an issue with the info windows in Google Maps. Multiple info windows could stay open at the same time. This is a negative user experience. I identified the problem and reworked my JS code to resolve this bug. I was able to improve my Google Maps API code by adding extra markers to distinguish between attractions, activities and coffee spots.
 
@@ -834,4 +830,125 @@ I added the following code to my Google Maps API to close previous info window w
 
 `}`
 
+- I was experiencing an issue with the Google Maps API loading until I reorder the script files on the page. This allowed the section to load more efficiently. I also removed any unnecessary script files from other pages on the website.
+
+
+
 ### Known Bugs
+
+- The load time and efficiency of the website can be improved significantly. 
+
+<a name="deployment"></a>
+
+## Deployment
+
+I used [GitHub Pages](https://pages.github.com/) to deploy my interactive front-end website. GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.
+
+The steps I followed to deploy the website on GitHub Pages were as follows:
+
+<ol>
+<li>Open my repository on GitHub</li>
+<li>Click on 'Settings'</li>
+<li>Scroll down as far as GitHub Pages</li>
+<li>Select 'Branch: master' and click 'Save'</li>
+<li>GitHub Pages will notify you that 'Your site is ready to be published at...'</li>
+<li>Refresh the page</li>
+<li>GitHub Pages will now notify you that 'Your site is published at...'</li>
+<li>Click on the link included in the notification</li>
+<li>The website will open</li>
+</ol>
+
+---
+To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+
+`python3 -m http.server`
+
+A blue button should appear to click: _Make Public_,
+
+Another blue button should appear to click: _Open Browser_.
+
+To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+
+A blue button should appear to click: _Make Public_.  
+
+Another blue button should appear to click: _Open Browser_.
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+
+3. You should now have a copy of the original repository in your GitHub account.  
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)  
+
+2. Under the repository name, click "Clone or download".
+
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+
+4. Open Git Bash
+
+5. Change the current working directory to the location where you want the cloned directory to be made.
+
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+7. Press Enter. Your local clone will be created.
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+Cloning into `CI-Clone`...  
+
+remote: Counting objects: 10, done.
+
+remote: Compressing objects: 100% (8/8), done.
+
+remove: Total 10 (delta 1), reused 10 (delta 1)
+
+Unpacking objects: 100% (10/10), done.
+
+```  
+
+<a name="credits"></a>
+
+## Credits  
+
+- [Google Maps API](https://developers.google.com/maps/documentation/javascript/overview) for breaking down the features and possibilities that come with the Google Maps API.
+
+- [Open Weather API](https://openweathermap.org/current) for the features and possibilities that come with the Open Weather API and the supporting documentation.  
+
+- [W3Schools](https://www.w3schools.com/) for providing a wealth of information about HTML, CSS and JavaScript. It was a very informative and beneficial resource.
+
+- [GitHub](https://github.com/) for hosting for software development and version control.  
+
+- [Google Fonts](https://fonts.google.com/) for making the web more beautiful, fast, and open through great typography. A resource that is very easy to use.
+
+- [Slack](https://app.slack.com/client/T0L30B202/C016NG69WG3) community is always helpful and motivating. It is great for asking questions and discussing challenges.  
+
+- [Pixabay](https://pixabay.com/) for providing a large collection of high quality images.
+
+- [Pexels](https://www.pexels.com/) for providing striking, high resolution images.
+
+- [Google Images](https://www.pexels.com/) for providing other pictures.
+
+- [Stack Overflow](https://stackoverflow.com/) for providing a platform for questions and answers by professional and enthusiast programmers.
+
+<a name="acknowledgements"></a>
+
+### Acknowledgements
+
+- My Code Institute Mentor [Nishant Kumar](https://github.com/nishant8BITS/) for his continuous help and guidance during this project from inception to submission.
+
+- The Code Institute team for being available to answer any questions or queries I may have.
+
+- My friends for giving me their time to demonstrate the website and offering constructive feedback.  
+
+- My family for allowing me to spend so much time invested in this project and for offering ideas and feedback along the way.
+
+
+>[**Table of Contents**](#toc)
