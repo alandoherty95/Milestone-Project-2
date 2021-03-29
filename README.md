@@ -545,7 +545,7 @@ In the longer-term, we are hoping to implement a feature to include hotels & res
 
   
 
-![picture](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/multiple-devices.jpg)
+![Multiple Devices](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/multiple-devices.jpg?raw=true)
 
   
 
@@ -709,9 +709,11 @@ In order for this user to find a suitable destination:
 
   
 
-- More testing was completed to ensure that all pages were linking correctly.
+- More testing was completed using Chrome DevTools. I used Lighthouse to generate a report on my website using two different tabs - the Main homepage and the Coffee tab. 
 
-  
+![Index.html Lighthouse Report](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/index-lighthouse.png?raw=true)
+
+![Index.html Lighthouse Report](https://github.com/alandoherty95/Milestone-Project-2/blob/master/assets/resources/coffee-lighthouse.png?raw=true)
 
 ### Devices Tested
 
@@ -832,17 +834,19 @@ I added the following code to my Google Maps API to close previous info window w
 
 - I was experiencing an issue with the Google Maps API loading until I reorder the script files on the page. This allowed the section to load more efficiently. I also removed any unnecessary script files from other pages on the website.
 
+- I received an email from Google Cloud Platform informing me "There are still seven days until your trial expires. Upgrade your account now to enable automatic billing and prevent loss of service when your trial expires." I was reassured by this [knowledge base](https://cloud.google.com/free/docs/gcp-free-tier?utm_source=free-trial-2&utm_medium=email&utm_campaign=2018-FTON-Milestone-7days-en&utm_content=ft-en) it would not affect my Google Maps API feature.
 
 
 ### Known Bugs
 
-- The load time and efficiency of the website can be improved significantly. 
+- The load time and efficiency of the website can be improved significantly by reducing the number and size of images. Improvements to speed can also be made as some JS scripts do not need to be loaded while off screen.
+- Minor issue: Cross-Origin Read Blocking (CORB) blocked cross-origin response https://api.openweathermap.org/data/2.5/weather?q=Limerick,IE&units=metric&appid=253ef60d5eabe6c9178c95bf3a787705 with MIME type application/json. See https://www.chromestatus.com/feature/5629709824032768 for more details.
 
 <a name="deployment"></a>
 
 ## Deployment
 
-I used [GitHub Pages](https://pages.github.com/) to deploy my interactive front-end website. GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.
+I used [GitHub](https://github.com/) from the project's inception for version control. I used [GitHub Pages](https://pages.github.com/) to deploy my interactive front-end website. GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.
 
 The steps I followed to deploy the website on GitHub Pages were as follows:
 
@@ -913,6 +917,7 @@ remove: Total 10 (delta 1), reused 10 (delta 1)
 Unpacking objects: 100% (10/10), done.
 
 ```  
+- The deployment of the website showed some minor issues which are described above in the testing section and bugs section. Once these minor inconveniences were rectified, I deployed the website for a second time ensuring all features, links, images etc were functioning correctly. 
 
 <a name="credits"></a>
 
@@ -949,6 +954,3 @@ Unpacking objects: 100% (10/10), done.
 - My friends for giving me their time to demonstrate the website and offering constructive feedback.  
 
 - My family for allowing me to spend so much time invested in this project and for offering ideas and feedback along the way.
-
-
->[**Table of Contents**](#toc)
