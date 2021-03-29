@@ -371,9 +371,9 @@ Wireframe, mockups and screenshots can be found in this [folder](https://github.
 
   
 
-- [JS Hint](https://jigsaw.w3.org/css-validator/) JS Hint was used for ensuring JavaScript code complies with coding rules.
+- [JS Hint](https://jshint.com/) JS Hint was used for ensuring JavaScript code complies with coding rules.
 
-  
+ - [Favicon.io](https://favicon.io/) Favicon was used to choose an emoji to use as my favicon.
 
 - [Gmail](https://www.gmail.com/) Gmail was used as my inbox and for signing into different accounts.
 
@@ -614,6 +614,8 @@ This resolved my issue and allowed me to use a toggle for users to switch the te
   
 
 - The recommended places were shuffling and refreshing too frequently. This was constructive feedback I received while demonstrating the website to family members. Consequently, I update the JS code to refresh the results every 30 seconds to resolve this.
+
+- A Favicon error message was displaying in the console: "Failed to load resource: the server responded with a status of 404 (Not Found)". To avoid seeing this message, I create a favicon and added the link to the top of each tab to display an icon in the browser.
 
 ### Testing - User Stories
 
